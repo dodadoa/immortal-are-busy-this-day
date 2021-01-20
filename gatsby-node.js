@@ -4,7 +4,11 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /bad-module/,
+            test: /force-graph/,
+            use: loaders.null(),
+          },
+          {
+            test: /react-force-graph-2d/,
             use: loaders.null(),
           },
         ],

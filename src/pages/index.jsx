@@ -27,32 +27,35 @@ const addedColorLinkGraphData = {
 const IndexPage = () => (
   <main style={pageStyles}>
     <title>Immortal are busy this day</title>
-    <ForceGraph2D
-      onNodeClick={handleClickNode}
-      graphData={addedColorLinkGraphData}
-      nodeCanvasObject={(node, ctx, globalScale) => {
-        const label = node.id
-        const fontSize = 14 / globalScale
-        ctx.font = `${fontSize}px Sans-Serif`
-        const textWidth = ctx.measureText(label).width
-        const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5) // some padding
+    {
+      typeof window !== 'undefined' && (
+        <ForceGraph2D
+          onNodeClick={handleClickNode}
+          graphData={addedColorLinkGraphData}
+          nodeCanvasObject={(node, ctx, globalScale) => {
+            const label = node.id
+            const fontSize = 14 / globalScale
+            ctx.font = `${fontSize}px Sans-Serif`
+            const textWidth = ctx.measureText(label).width
+            const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
+            ctx.shadowColor = 'rgba(255, 255, 255, 1)'
+            ctx.shadowBlur = 15
+            ctx.fillStyle = 'rgba(255, 255, 255, 1)'
+            ctx.fillRect(
+              node.x - bckgDimensions[0] / 2,
+              node.y - bckgDimensions[1] / 2,
+              ...bckgDimensions,
+            )
 
-        ctx.shadowColor = 'rgba(255, 255, 255, 1)'
-        ctx.shadowBlur = 15
-        ctx.fillStyle = 'rgba(255, 255, 255, 1)'
-        ctx.fillRect(
-          node.x - bckgDimensions[0] / 2,
-          node.y - bckgDimensions[1] / 2,
-          ...bckgDimensions,
-        )
-
-        ctx.shadowBlur = 0
-        ctx.textAlign = 'center'
-        ctx.textBaseline = 'middle'
-        ctx.fillStyle = 'rgba(0, 0, 0, 1)'
-        ctx.fillText(label, node.x, node.y)
-      }}
-    />
+            ctx.shadowBlur = 0
+            ctx.textAlign = 'center'
+            ctx.textBaseline = 'middle'
+            ctx.fillStyle = 'rgba(0, 0, 0, 1)'
+            ctx.fillText(label, node.x, node.y)
+          }}
+        />
+      )
+    }
   </main>
 )
 
