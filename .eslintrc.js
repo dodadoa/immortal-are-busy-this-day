@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    'jest/globals': true,
   },
   extends: [
     'plugin:react/recommended',
@@ -16,8 +17,12 @@ module.exports = {
   },
   plugins: [
     'react',
+    'jest',
   ],
   rules: {
     semi: ['error', 'never'],
+    'jest/no-identical-title': 'error',
+    'jest/prefer-to-have-length': 'warn',
+    'jest/valid-expect': 'error',
   },
 }
