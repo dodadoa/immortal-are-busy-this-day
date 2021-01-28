@@ -4,6 +4,7 @@
   "private": true,
   "description": "immortal-are-busy-this-day",
   "author": "wsomno",
+  "type": "module",
   "keywords": [
     "gatsby"
   ],
@@ -13,7 +14,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest"
+    "test": "jest",
+    "run-graph": "node --harmony --experimental-json-modules ./src/transform/roam-to-force-graph.js"
   },
   "license": "0BSD",
   "dependencies": {
@@ -23,6 +25,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-force-graph-2d": "^1.18.1",
+    "react-force-graph-3d": "^1.18.8",
     "three": "^0.124.0",
     "three-spritetext": "^1.5.3"
   },

@@ -1,0 +1,857 @@
+[
+  {
+    "title": "#4",
+    "children": [
+      {
+        "string": "Elephant mon in star wars",
+        "uid": "SByyCfWcf",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh5.googleusercontent.com/aDNUdeDclwQ-IqprXTXxdn41jBTnpD5lh1vW9anLdZ2adZUGGLxOB2rLXjCRuOr9Sp4uUyFI2UUSWRJkEyyxHl4UoSWaTdmlgQXqy0yphGX-MiFjbjvB_8rf1VVZcKRZY4sGfa8V)",
+        "uid": "39YWnfxbQ",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "https://jedibusiness.com/figureDetails.aspx?id=1460",
+        "uid": "2yUKMtVYX",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "เอเลี่ยนหน้าตาเหมือนช้าง ลิ่วล้อของ Jabba ใน Starwars 6",
+        "uid": "kz46nArGA",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "Elephant mon ดูเหมือนตัวประกอบที่ทำให้ที่แห่งนั้นรู้สึกดูครบกลายเป็น party แต่เป็นตัวประกอบที่ทำให้องค์รวมเกิดความหลากหลาย คงด้วยความใหญ่และประหลาดของมัน",
+        "uid": "Cl07JfN9U",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "พอมาเป็นของเล่น มันทำหน้าที่นั้นอย่างสมบูรณ์ แต่สำหรับผมความเป็น sidekick ของมันทำให้มันสวยมาก",
+        "uid": "QM7jkCf0W",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Supporting-role ",
+        "refs": [{"uid": "vGilgvD9B"}],
+        "uid": "OU4H1kw71",
+        "edit-time": 1607238115537,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "vGilgvD9B"}]
+      },
+      {
+        "string": "DELETE Assemblage",
+        "uid": "MG23et0ta",
+        "edit-time": 1611754260338,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Function-of-supporting-role",
+        "refs": [{"uid": "Gu0XaCCtt"}],
+        "uid": "347FC17_J",
+        "edit-time": 1607238123868,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "Gu0XaCCtt"}]
+      },
+      {
+        "string": "#Sidekick",
+        "refs": [{"uid": "XjQdRUmwT"}],
+        "uid": "z5h6jKCuF",
+        "edit-time": 1607238036459,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "XjQdRUmwT"}]
+      }
+    ],
+    "uid": "2RPNAo88l",
+    "edit-time": 1607237974980,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238036456,
+    "title": "Sidekick",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757019970,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "Ag5DNFn_e",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "XjQdRUmwT",
+    "edit-time": 1607238036459,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238115539,
+    "title": "Supporting-role",
+    "uid": "vGilgvD9B",
+    "edit-time": 1607238115540,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238123869,
+    "title": "Function-of-supporting-role",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757134679,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "qrlOrrrZ0",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "Gu0XaCCtt",
+    "edit-time": 1607238123869,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#5",
+    "children": [
+      {
+        "string": "Street Fighter - Sagat 1/3 Thai Guardian Statue Set",
+        "uid": "GgZwYMv3p",
+        "edit-time": 1607238145162,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh3.googleusercontent.com/uljG5ZR419ZseCEDNg7r_KoFFx7YF2ZY3J1pPiXiVFQ7XQhJ6uornRAXKcv_umxl3w58T9-B3xv1OxlkI6lgbgH2hlp0uyFvoJovV2SrZFqMRTi8patEU_Gn9tJQrfi5Mn0G8aqr)",
+        "uid": "n1mx6JeZH",
+        "edit-time": 1607238145161,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "https://www.sideshow.com/collectibles/street-fighter-sagat-thai-guardian-set-pop-culture-shock-903244",
+        "uid": "UE_DmDhWL",
+        "edit-time": 1607238145161,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "โมเดลสิงโตศิลปะไทยโบราณที่ถูกผลิตโดนบริษัท Sideshow เพื่อเอาไว้ตกแต่งกับ Sagat ตัวละครนักมวยไทยใน Street Fighter ,งานชิ้นนี้เป็นประวัติศาสตร์โดยตรงวิธีที่เขาลอกเลียน วัสดุและวิธีการผลิต เปลี่ยนไปจากต้นฉบับการแกะสลักหินแน่นอน มันน่าจะเป็นหลักฐานสำคัญ มันในฐานะประตูที่ดีที่จะเข้าไปเข้าใจประวัติศาสตร์ในโลก Fiction",
+        "uid": "jRR-9mHIS",
+        "edit-time": 1607238145161,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#[[8 THEME = Context of Production]]",
+        "refs": [{"uid": "sfWbAruFi"}],
+        "uid": "FIjEYRTex",
+        "edit-time": 1611651269893,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "sfWbAruFi"}]
+      },
+      {
+        "string": "#[[Fictionalised historical artefacts]]",
+        "refs": [{"uid": "JOJgPDC-c"}],
+        "uid": "sE2dxTt2u",
+        "edit-time": 1611738326927,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "JOJgPDC-c"}]
+      },
+      {
+        "string": "DELETE Remixing",
+        "uid": "hRu0FLQc3",
+        "edit-time": 1611754260338,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#[[Making Sense of History: Fictional Reconstruction of the Historical]]",
+        "refs": [{"uid": "b7VRvVJfi"}],
+        "uid": "C9QEiIsDt",
+        "edit-time": 1611660872775,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "b7VRvVJfi"}]
+      },
+      {
+        "string": "#[[Replicas of ancient figures]]",
+        "refs": [{"uid": "56E3zHokE"}],
+        "uid": "YUob-QeX_",
+        "edit-time": 1611738209316,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "56E3zHokE"}]
+      }
+    ],
+    "uid": "vEvjZM5Be",
+    "edit-time": 1607238134410,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#6",
+    "children": [
+      {
+        "string": "Journey of Archmage Antonidas",
+        "uid": "ROKSsWg0j",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh4.googleusercontent.com/QmJAW01x2v_vyr9PLTyJdU14ST8ydN__Jn97tPPWo6YVrEJ0iq9Z2o1meddQ0uVfU8UM8c5tEVeu1tBtm5Qhz9zBiiD9ods03Nn6RYTSuzJMkjXEQCIcnTPlBEM_vfn4BdAqZHBP)",
+        "uid": "V3jfk86h4",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "digital file [Warcraft] This object can be found in Dalaran",
+        "uid": "LgwGh18Zc",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "หนังสือในเกมมีอยู่เยอะ ส่วนมากมันจะถูกใช้ใส่ที่แทนอาวุธ อย่างเช่นเพื่อเพิ่มค่าเวทมนท์ แต่ไม่เคยคิดว่าสิ่งที่อยู่ในนั้นคืออะไร หนังสือเล่มนี้เป็นหนังสือของจอมเวทมนย์คนดังใน Warcraft มันดูมีค่า มันดูมีความลับ เราลองถอยออกมาและกลับเข้าไปใหม่ในรูปของมันและฐานะ file ของมัน มันคงจะมีคำตอบอะไรให้เราเข้าใจ ความรู้ และ Object",
+        "uid": "g8iQjPMSY",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Book",
+        "refs": [{"uid": "jfQ6aJmLx"}],
+        "uid": "7jtJDVf3-",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "jfQ6aJmLx"}]
+      },
+      {
+        "string": "#Function-of-book",
+        "refs": [{"uid": "XsK6Vxxfc"}],
+        "uid": "aao7z4rbU",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "XsK6Vxxfc"}]
+      },
+      {
+        "string": "#Perception-of-book",
+        "refs": [{"uid": "F5NjO38j3"}],
+        "uid": "cbtoagl7g",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "F5NjO38j3"}]
+      },
+      {
+        "string": "#Detaching-oneself",
+        "refs": [{"uid": "b43_3_EsV"}],
+        "uid": "5r4grg8G1",
+        "edit-time": 1607238162034,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "b43_3_EsV"}]
+      }
+    ],
+    "uid": "YOxrCTe3M",
+    "edit-time": 1607238159463,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238162031,
+    "title": "Book",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757186219,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "QnHvooCDb",
+        "edit-time": 1611757236370,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "jfQ6aJmLx",
+    "edit-time": 1607238162034,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238162031,
+    "title": "Function-of-book",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757141087,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "AO5El-iRL",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "XsK6Vxxfc",
+    "edit-time": 1607238162034,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238162031,
+    "title": "Perception-of-book",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757047846,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "kEh_fa5O1",
+        "edit-time": 1611757236372,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "F5NjO38j3",
+    "edit-time": 1607238162034,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238162031,
+    "title": "Detaching-oneself",
+    "uid": "b43_3_EsV",
+    "edit-time": 1607238162034,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#7",
+    "children": [
+      {
+        "string": "Picture of Black lamb name Simulacra",
+        "uid": "-GzoCyDV9",
+        "edit-time": 1607238191473,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh3.googleusercontent.com/23fZbLs5ZVmr9hRIhgps0C3zuPQ--DbSjDLpygpFmP8gVesF9S8ce1m8BBOS0gOGoQDJp1SXJOBIHVpMDYmCvTprPE1w1c5onCy7dc4-ElwVfrDhXF8_G3OypFpz6SZCL_g2z1b1)",
+        "uid": "mYRcld7v9",
+        "edit-time": 1607238191472,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "screen capture from game,Pet of my avatar in World of Warcraft",
+        "uid": "L567JI-Up",
+        "edit-time": 1607238191472,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "แกะสีดำตัวนี้เป็นสัตว์เลี้ยงของตัวละครหนึ่งใน Warcraft ที่ผมสร้าง",
+        "uid": "Jz75BMKo_",
+        "edit-time": 1607238191472,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "ด้วยความประหลาดของมัน มันถูกตั้งชื่อให้ว่า Simulacra ,",
+        "uid": "i-HtXTkYH",
+        "edit-time": 1607238191472,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "พอถึงเวลานี้เลยกลับไปเห็นมัน คิดว่าแกะดำตัวนี้น่าจะเป็นหลักฐานที่ดีและเป็นการผลิตของตัวเองด้วย แต่แน่นอนมันมีที่มาที่ไปของมันในบท Warcraft อยู่แล้ว แต่ผมไม่รู้ แต่การรู้อยู่ว่ามันมีที่มาที่ไปในบทละครก็น่าสนใจเหมือนกัน",
+        "uid": "baA5sDHUX",
+        "edit-time": 1607238191472,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "DELETE Simulacra",
+        "uid": "s_EngzGui",
+        "edit-time": 1611754260338,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#[[8 THEME = Context of Production]]",
+        "refs": [{"uid": "sfWbAruFi"}],
+        "uid": "tU0-BTxXi",
+        "edit-time": 1611651269893,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "sfWbAruFi"}]
+      },
+      {
+        "string": "#Rationalizing-game-character-in-game-text",
+        "refs": [{"uid": "rQya-TqpE"}],
+        "uid": "NfoFHVYCx",
+        "edit-time": 1607238191473,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "rQya-TqpE"}]
+      },
+      {
+        "string": "#Game-text",
+        "refs": [{"uid": "yajgHCdw1"}],
+        "uid": "kZMD2JHRz",
+        "edit-time": 1607238191473,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "yajgHCdw1"}]
+      },
+      {
+        "string": "#Game-text-dynamics",
+        "refs": [{"uid": "8giN_em9p"}],
+        "uid": "l7WU1rCzg",
+        "edit-time": 1607238191473,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "8giN_em9p"}]
+      }
+    ],
+    "uid": "wNn9gTVSP",
+    "edit-time": 1607238189667,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238191469,
+    "title": "Rationalizing-game-character-in-game-text",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757029610,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "snCxyOLl4",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "rQya-TqpE",
+    "edit-time": 1607238191473,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238191469,
+    "title": "Game-text",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757105702,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "HcuhTyHde",
+        "edit-time": 1611757236372,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "yajgHCdw1",
+    "edit-time": 1607238191473,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238191469,
+    "title": "Game-text-dynamics",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757103976,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "cQpHgECRB",
+        "edit-time": 1611757236372,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "8giN_em9p",
+    "edit-time": 1607238191473,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#8",
+    "children": [
+      {
+        "string": "Juxtapose of a Roblox’s toy’ with serial code",
+        "uid": "iUjiecePX",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh3.googleusercontent.com/pOshxZuD0ZUjV448pqgfX7LHiO_IWc7vqZ4nzzVakx1YWJnthhFo0dQ8lZ5DCHyZEWdEVcLkQ9qwxRD42WKPI0BEUvq-PrQMfW5Scz9ZpGQ7f6ik0iIbibvKf7o8wLrVj-kwPVhG)",
+        "uid": "T_feBqWbI",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "mixed of Roblox toy serie’s",
+        "uid": "z3ke_hAQH",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "ของเล่น Roblox จากหลายชิ้นส่วนของหลายตัวมาผสมกัน พร้อมกับโค้ดที่เอาไว้เปิดรับของฟรีที่ Roblox สุ่มให้จากในเกม, แต่ของเล่นชนิดนี้ถูกผลิตมาให้ผู้เล่นได้ custom มันเพื่อสร้างความ unique เป็นความน่าตื่นเต้นของของเล่น surprise box ,ในตัวเกม Roblox ก็เป็นตัวแทนของโลกจำลองของเด็กรุ่นใหม่ 7-12 ปี (ในปี 2020) ที่มีวัฒนธรรมการละเล่นใหม่เกิดขึ้นมากมาย ภายใต้ server sandbox ของ Roblox",
+        "uid": "Y8Tt-vWeR",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "DELETE Remixing",
+        "uid": "dEBExUIKa",
+        "edit-time": 1611754260338,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Player",
+        "refs": [{"uid": "RQb3keDCt"}],
+        "uid": "s0IOhYT_A",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "RQb3keDCt"}]
+      },
+      {
+        "string": "#Player-interaction",
+        "refs": [{"uid": "zXl61lcW7"}],
+        "uid": "pVxURFT6x",
+        "edit-time": 1607238205602,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "zXl61lcW7"}]
+      },
+      {
+        "string": "#Game-culture",
+        "refs": [{"uid": "62kD1KpLJ"}],
+        "uid": "8UdiaE7CW",
+        "edit-time": 1607238429068,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "62kD1KpLJ"}]
+      }
+    ],
+    "uid": "c2elN3Vi0",
+    "edit-time": 1607238203704,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238205599,
+    "title": "Player",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757046170,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "957NBsq9s",
+        "edit-time": 1611757236372,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "RQb3keDCt",
+    "edit-time": 1607238205602,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238205599,
+    "title": "Player-interaction",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757036208,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "sYDVpdECk",
+        "edit-time": 1611757236372,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "zXl61lcW7",
+    "edit-time": 1607238205602,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238205599,
+    "title": "Game-culture",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757117508,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "UFdhtuOEN",
+        "edit-time": 1611757236370,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "62kD1KpLJ",
+    "edit-time": 1607238205602,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#9",
+    "children": [
+      {
+        "string": "[Book] World of Warcraft: War Crimes by Christie Golden",
+        "uid": "lPnQGVHNq",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh4.googleusercontent.com/LCo_5Or6DNfGGliF2_5JSbiBvtV9e6gO6RsnrKsTFeprbxp893YPuApqI-73xFaiqFVBipOaFRm6x7Af9KZkbWMQwpVxHV6QGkbKr6_wopxnfr0jn3eBJxPAtkULJzAQUhiQrMvk)",
+        "uid": "RnnXCkxN1",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "© 2015 Blizzard Entertainment, Inc",
+        "uid": "UGx1lQkt2",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "หนังสือเล่มนี้เล่าเรื่องนิยายของ Warcraft มันเป็นความจริงที่สุดในการที่จะอ่านเนื้อเรื่องของ Warcraft ในทางอื่นมี เล่นตัวเกม และ Conspiracy ต่างๆที่ youtuber เล่าให้ฟัง ,มันคงทำหน้าที่ในฐานะหนังสือที่ดี?",
+        "uid": "f5bQiOOpI",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Book",
+        "refs": [{"uid": "jfQ6aJmLx"}],
+        "uid": "RHcHXPGIu",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "jfQ6aJmLx"}]
+      },
+      {
+        "string": "#Function-of-book",
+        "refs": [{"uid": "XsK6Vxxfc"}],
+        "uid": "pvYUF7eiS",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "XsK6Vxxfc"}]
+      },
+      {
+        "string": "#Game-culture",
+        "refs": [{"uid": "62kD1KpLJ"}],
+        "uid": "A7ttVsmoM",
+        "edit-time": 1607238223665,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "62kD1KpLJ"}]
+      }
+    ],
+    "uid": "24_2esRrz",
+    "edit-time": 1607238221613,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#10",
+    "children": [
+      {
+        "string": "[Photo] tiny Hok-Lok-Siw  in front of the big version",
+        "uid": "F4SC4X8tF",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh6.googleusercontent.com/xDvygHDH1zd5vf51Y9wY-xnz7HIW-eBxBXns7Hk_m8l6PMBXrY7_eQt3LycyMLCoKOdbXlf7X2uihDdDyjQxMvqL7M1tYLq32fpYpO0_E8IuLvCce_9gv18vz7BUlSs8Tl8tSOOQ)",
+        "uid": "jMdxXJyIo",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "Don’t know where it come from ,appear randomly",
+        "uid": "NckgNYDNu",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "สี่ สู่ เอี๊ยะ ตัวเล็ก สามตัวนี้ทุกคนรู้ว่ามันไม่มีวิญญาณหรือสิ่งสักศิทธ์ แต่เป็นสัญลักษณ์ในการทบทวน รูปปั้นปัญหาเชา พอมันเล็กลงและดูน่ารัก ปัญหาเชาพวกนั้นก็ดูยากขึ้น และ น่ารักด้วยหรอ?",
+        "uid": "eM1JnlnRB",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Function-of-statue",
+        "refs": [{"uid": "JNupb5KkF"}],
+        "uid": "xkEtof7hw",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "JNupb5KkF"}]
+      },
+      {
+        "string": "#Perception-of-statue",
+        "refs": [{"uid": "d4AnOuo1Z"}],
+        "uid": "OXAj59Qc0",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "d4AnOuo1Z"}]
+      },
+      {
+        "string": "#Statue-size",
+        "refs": [{"uid": "kPc4DYOlm"}],
+        "uid": "EPOrwm0JH",
+        "edit-time": 1607238241670,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "kPc4DYOlm"}]
+      }
+    ],
+    "uid": "UycDpryLc",
+    "edit-time": 1607238239042,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238241668,
+    "title": "Function-of-statue",
+    "uid": "JNupb5KkF",
+    "edit-time": 1607238241670,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238241668,
+    "title": "Perception-of-statue",
+    "uid": "d4AnOuo1Z",
+    "edit-time": 1607238241670,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607238241668,
+    "title": "Statue-size",
+    "uid": "kPc4DYOlm",
+    "edit-time": 1607238241670,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "December 6th, 2020",
+    "uid": "12-06-2020",
+    "edit-time": 1607238432149,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607239243984,
+    "title": "Japanese-trash",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757081603,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "fsDnHw2bg",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "xE1-Gbg8I",
+    "edit-time": 1607239243985,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "title": "#11",
+    "children": [
+      {
+        "string": "Hand and Smoke",
+        "uid": "ZXbkFKBFa",
+        "edit-time": 1607239262725,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "![](https://lh5.googleusercontent.com/cSlR3x4fQPEzYubj98mjvC0ee-Lub2UCIcLEC-Cy-Z26kXE8TnaDOYxMxbhjSum5-2_wjgIs0-TV3POibCoGD1IPaovT6Syfgjo4kjdfqqa7L2CIOhg3CwIYQXxFEy_J6Eph15E1)",
+        "uid": "7HoDms4bM",
+        "edit-time": 1607239262725,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "made by me, from Japanese second-hand shop",
+        "uid": "bVzRIFCpB",
+        "edit-time": 1607239262725,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "เป็นสองชิ้นประกอบด้วยกาว เอามาจากโกดังญี่ปุ่นมือสอง มาจาก policy การกำจัดขยะของญี่ปุ่น การทิ้งของน่าจะมาจาก cargo ของ charity ต่างๆ เช่น บริจาคให้น้ำท่วมไทย แทนสนใจตัวละครในการหยุดเวลาของหมอก หมอกเป็นเอฟเฟค เอฟเฟคพัฒนาไปเรื่อยๆ เป็น special effect รู้สึกว่ามันคือ threshold มันว่าด้วยเรื่องการสื่อสาร คิดถึงเรื่องถุงมือสีดำและความจำเป็นที่ต้องสีดำเพราะเทคโนโลยีฉากหลัง ควันก็เป็นส่วนหนึ่งของเทคโนโลยีแบบนั้น สน threshold เพราะเรื่อง retroactive continuity (ที่มาจากไบเบิล ตอนนี้มาเกิดขึ้นใน comics ใน Warcraft ก็เช่นกัน ด้วยเหตุผลเรื่อง production) คิดว่าของชิ้นนี้เล่าถึงเรื่องแบบนี้ และกระบวนการเขียนบท",
+        "uid": "aNoqIbvPU",
+        "edit-time": 1607239262725,
+        "edit-email": "kritti.tan@gmail.com"
+      },
+      {
+        "string": "#Japanese-trash ",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1607239267741,
+        "refs": [{"uid": "xE1-Gbg8I"}],
+        "uid": "jnrBmciGQ",
+        "edit-time": 1607239272227,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "xE1-Gbg8I"}]
+      },
+      {
+        "string": "#Donated-object",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1607239273348,
+        "refs": [{"uid": "KwaxnEZUa"}],
+        "uid": "x0l1HsHZM",
+        "edit-time": 1607239299440,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "KwaxnEZUa"}]
+      },
+      {
+        "string": "#[[Trait: Evidence of manipulation]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1607239301515,
+        "refs": [{"uid": "4rB2CripS"}],
+        "uid": "pZL_VFYI7",
+        "edit-time": 1611647862391,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "4rB2CripS"}]
+      },
+      {
+        "string": "#[[8 THEME = Context of Production]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1607239331297,
+        "refs": [{"uid": "sfWbAruFi"}],
+        "uid": "WY-CpxlEn",
+        "edit-time": 1611651269893,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "sfWbAruFi"}]
+      },
+      {
+        "string": "#[[Virtual Aesthetic-as-materially/technologically-contingent]] #aesthetic-as-materially-mediated",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1607239372430,
+        "refs": [{"uid": "nnpoX4bji"}, {"uid": "CYZtRff3B"}],
+        "uid": "Qj3ifNZAU",
+        "edit-time": 1611753621960,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [
+          {":block/uid": "nnpoX4bji"},
+          {":block/uid": "CYZtRff3B"}
+        ]
+      }
+    ],
+    "uid": "kV3ku0_Sj",
+    "edit-time": 1607239261335,
+    "edit-email": "kritti.tan@gmail.com"
+  },
+  {
+    "create-email": "kritti.tan@gmail.com",
+    "create-time": 1607239299441,
+    "title": "Donated-object",
+    "children": [
+      {
+        "string": "[[7 THEME = OBJECT POLITICS/GAME CULTURE]]",
+        "create-email": "kritti.tan@gmail.com",
+        "create-time": 1611757158480,
+        "refs": [{"uid": "a2RdlUlx7"}],
+        "uid": "0F9vZuEDW",
+        "edit-time": 1611757236371,
+        "edit-email": "kritti.tan@gmail.com",
+        ":block/refs": [{":block/uid": "a2RdlUlx7"}]
+      }
+    ],
+    "uid": "KwaxnEZUa",
+    "edit-time": 1607239299441,
+    "edit-email": "kritti.tan@gmail.com"
+  }
+]

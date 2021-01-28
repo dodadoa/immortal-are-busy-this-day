@@ -11,6 +11,10 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             test: /react-force-graph-2d/,
             use: loaders.null(),
           },
+          {
+            test: /react-force-graph-3d/,
+            use: loaders.null(),
+          },
         ],
       },
     })

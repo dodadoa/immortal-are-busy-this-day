@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-filename-extension */
 import React, { useState } from 'react'
 import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
+import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
 import data from '../dataset/index.json'
 import bg from '../images/bg.jpg'
@@ -19,11 +21,12 @@ const drawerContentContainerStyle = {
   padding: '6px',
 }
 const drawerBodyStyle = {
-  backgroundColor: 'white',
   color: 'black',
+  backgroundColor: 'rgba(0, 0, 0, 0.8)',
+  background: 'linear-gradient(0deg, rgba(40,40,40,0.85) 0%, rgba(203,203,203,0.7) 100%)',
 }
 const drawerStyle = {
-  width: '400px',
+  backgroundColor: 'rgba(255,255,255,0)',
 }
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
@@ -36,6 +39,14 @@ const addedColorLinkGraphData = {
 const IndexPage = () => {
   const [visible, setVisible] = useState(false)
   const [dataNode, setDataNode] = useState({})
+
+  const style = visible
+    ? {
+      width: '400px',
+    }
+    : {
+      display: 'none',
+    }
 
   const handleClickNode = (x) => {
     setVisible(true)
@@ -51,18 +62,30 @@ const IndexPage = () => {
         placement="right"
         onClose={handleCloseDrawer}
         mask={false}
-        style={drawerStyle}
+        style={style}
+        drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
       >
         <div style={drawerContentContainerStyle}>
-          {JSON.stringify(dataNode)}
+          <div style={{ width: '300px', height: '300px' }} />
+          <p style={{ fontSize: '30px', color: 'white', textAlign: 'center' }}>
+            {dataNode.id}
+          </p>
+          <p>{dataNode.group}</p>
         </div>
       </Drawer>
+      <div id="iamge1" />
       {
         typeof window !== 'undefined' && (
           <ForceGraph2D
             onNodeClick={handleClickNode}
             graphData={addedColorLinkGraphData}
+            onNodeDragEnd={(node) => {
+              // eslint-disable-next-line
+              node.fx = node.x
+              // eslint-disable-next-line
+              node.fy = node.y
+            }}
             nodeCanvasObject={(node, ctx, globalScale) => {
               const label = node.id
               const fontSize = 16 / globalScale
