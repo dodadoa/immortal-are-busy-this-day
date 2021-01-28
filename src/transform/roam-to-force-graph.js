@@ -19,11 +19,6 @@ const extractLinks = (links, {
         ...children.flatMap((child) => extractLinks(links, child)),
       ]
     }
-
-    // page that no contents
-    // if (!children) {
-    //   return links
-    // }
     return links
   }
 
@@ -53,10 +48,6 @@ const extractLinks = (links, {
         ...children.flatMap((child) => extractLinks(links, child)),
       ]
     }
-    // block that has contents end itself
-    // if (!refs && !children) {
-    //   return links
-    // }
     return links
   }
 
@@ -67,10 +58,10 @@ const transform = (x) => {
   if (x.length === 0) return []
 
   const links = x.reduce(extractLinks, [])
-  // const nodes = x.map((n) => ({ id: n.uid }))
+  const nodes = x.map((n) => ({ id: n.uid }))
   return {
     links,
-    // nodes,
+    nodes,
   }
 }
 
