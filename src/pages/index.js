@@ -3,7 +3,7 @@ import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
-import data from '../dataset/Graph.json'
+import data from '../dataset/Graph_theme_1.json'
 import bg from '../images/bg.jpg'
 
 const pageStyles = {
@@ -40,7 +40,15 @@ const IndexPage = () => {
   const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
 
-  const style = nodeDrawerVisible || statementDrawerVisible
+  const nodeDrawerStyle = nodeDrawerVisible
+    ? {
+      width: '400px',
+    }
+    : {
+      display: 'none',
+    }
+
+  const statementDrawerStyle = statementDrawerVisible
     ? {
       width: '400px',
     }
@@ -68,14 +76,14 @@ const IndexPage = () => {
         placement="right"
         onClose={handleCloseNodeDrawer}
         mask={false}
-        style={style}
+        style={nodeDrawerStyle}
         drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
       >
         <div style={drawerContentContainerStyle}>
           <div style={{ width: '300px', height: '300px' }} />
           <p style={{ fontSize: '30px', color: 'white', textAlign: 'right' }}>
-            {dataNode.id}
+            {dataNode.title ? dataNode.title : dataNode.id}
           </p>
           <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
             {dataNode.content}
@@ -92,7 +100,7 @@ const IndexPage = () => {
         placement="right"
         onClose={handleCloseStatementDrawer}
         mask={false}
-        style={style}
+        style={statementDrawerStyle}
         drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
       >
@@ -126,7 +134,7 @@ const IndexPage = () => {
               node.fy = node.y
             }}
             nodeCanvasObject={(node, ctx, globalScale) => {
-              const label = node.id
+              const label = node.title ? node.title : node.id
               const fontSize = 16 / globalScale
               ctx.font = `${fontSize}px Sans-Serif`
               const textWidth = ctx.measureText(label).width
