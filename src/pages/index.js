@@ -3,7 +3,6 @@ import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
-// import data from '../dataset/index.json'
 import data from '../dataset/Graph.json'
 import bg from '../images/bg.jpg'
 
