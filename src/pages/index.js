@@ -22,7 +22,7 @@ const drawerContentContainerStyle = {
 const drawerBodyStyle = {
   color: 'black',
   backgroundColor: 'rgba(0, 0, 0, 0.8)',
-  background: 'linear-gradient(0deg, rgba(40,40,40,0.9) 0%, rgba(200,200,200,0.65) 100%)',
+  background: 'linear-gradient(0deg, rgba(40,40,40,0.9) 0%, rgba(200,200,200,0.7) 100%)',
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
@@ -85,6 +85,14 @@ const IndexPage = () => {
           <p style={{ fontSize: '30px', color: 'white', textAlign: 'right' }}>
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
+          <div>
+            <p>
+            {dataNode.childLinks && dataNode.childLinks.map(link => {
+              const node = data.nodes.find((d) => d.id === link)
+              return <p> {node.content} </p>
+            })}
+            </p>
+          </div>
           <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
             {dataNode.content}
           </p>
