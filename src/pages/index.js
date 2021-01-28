@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Drawer } from 'antd'
+import { Drawer, Modal } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
@@ -37,10 +37,11 @@ const addedColorLinkGraphData = {
 }
 
 const IndexPage = () => {
-  const [visible, setVisible] = useState(false)
+  const [nodeDrawerVisible, setNodeDrawerVisible] = useState(false)
+  const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
 
-  const style = visible
+  const style = nodeDrawerVisible || statementDrawerVisible
     ? {
       width: '400px',
     }
@@ -49,18 +50,24 @@ const IndexPage = () => {
     }
 
   const handleClickNode = (x) => {
-    setVisible(true)
+    setStatementDrawerVisible(false)
+    setNodeDrawerVisible(true)
     setDataNode(x)
   }
-  const handleCloseDrawer = () => setVisible(false)
+  const handleClickStatement = () => {
+    setNodeDrawerVisible(false)
+    setStatementDrawerVisible(true)
+  }
 
-  return (
-    <main style={pageStyles}>
-      <title>Immortal are busy this day</title>
+  const handleCloseNodeDrawer = () => setNodeDrawerVisible(false)
+  const handleCloseStatementDrawer = () => setStatementDrawerVisible(false)
+
+  const renderNodeDrawer = () => {
+    return (
       <Drawer
-        visible={visible}
+        visible={nodeDrawerVisible}
         placement="right"
-        onClose={handleCloseDrawer}
+        onClose={handleCloseNodeDrawer}
         mask={false}
         style={style}
         drawerStyle={drawerStyle}
@@ -68,7 +75,7 @@ const IndexPage = () => {
       >
         <div style={drawerContentContainerStyle}>
           <div style={{ width: '300px', height: '300px' }} />
-          <p style={{ fontSize: '30px', color: 'white', textAlign: 'center' }}>
+          <p style={{ fontSize: '30px', color: 'white', textAlign: 'right' }}>
             {dataNode.id}
           </p>
           <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
@@ -76,7 +83,40 @@ const IndexPage = () => {
           </p>
         </div>
       </Drawer>
-      <div id="iamge1" />
+    )
+  }
+
+  const statementDrawer = () => {
+    return (
+      <Drawer
+        visible={statementDrawerVisible}
+        placement="right"
+        onClose={handleCloseStatementDrawer}
+        mask={false}
+        style={style}
+        drawerStyle={drawerStyle}
+        bodyStyle={drawerBodyStyle}
+      >
+        <div style={drawerContentContainerStyle}>
+          <p style={{ fontSize: '30px', lineHeight: '40px', color: 'white', textAlign: 'right', textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)' }}>
+            {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
+          </p>
+          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
+            {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet id felis id dignissim. Aenean et sapien felis. Duis rhoncus euismod ligula et pulvinar. Praesent justo sem, feugiat volutpat quam quis, rhoncus volutpat turpis.'}
+          </p>
+        </div>
+      </Drawer>
+    )
+  }
+
+  return (
+    <main style={pageStyles}>
+      <title>Immortal are busy this day</title>
+      {renderNodeDrawer()}
+      {statementDrawer()}
+      <div style={{ position: 'absolute', bottom: '10px', left: '20px', zIndex: '999' }}>
+        <p onClick={handleClickStatement} style={{ fontSize: '20px', color: 'white' }}>Statement</p>
+      </div>
       {
         typeof window !== 'undefined' && (
           <ForceGraph2D
