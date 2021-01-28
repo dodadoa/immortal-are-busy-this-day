@@ -1,9 +1,7 @@
-/* eslint-disable react/jsx-filename-extension */
 import React, { useEffect, useRef } from 'react'
-// import THREE from 'three'
 import 'antd/dist/antd.css'
 import ForceGraph3D from 'react-force-graph-3d'
-import data from '../dataset/index.json'
+import data from '../dataset/Graph.json'
 import bg from '../images/bg.jpg'
 
 const pageStyles = {
@@ -23,7 +21,6 @@ const ShowPage = () => {
   useEffect(() => {
     fgRef.current.cameraPosition({ z: distance })
 
-    // camera orbit
     let angle = 0
     setInterval(() => {
       fgRef.current.cameraPosition({
@@ -31,7 +28,7 @@ const ShowPage = () => {
         z: distance * Math.cos(angle),
       })
       angle += Math.PI / 300
-    }, 10)
+    }, 50)
   }, [])
 
   return (

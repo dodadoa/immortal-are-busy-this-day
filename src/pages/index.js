@@ -1,10 +1,10 @@
-/* eslint-disable react/jsx-filename-extension */
 import React, { useState } from 'react'
 import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
-import data from '../dataset/index.json'
+// import data from '../dataset/index.json'
+import data from '../dataset/Graph.json'
 import bg from '../images/bg.jpg'
 
 const pageStyles = {
@@ -18,12 +18,12 @@ const pageStyles = {
 }
 const drawerContentContainerStyle = {
   marginTop: '24px',
-  padding: '6px',
+  padding: '10px',
 }
 const drawerBodyStyle = {
   color: 'black',
   backgroundColor: 'rgba(0, 0, 0, 0.8)',
-  background: 'linear-gradient(0deg, rgba(40,40,40,0.85) 0%, rgba(203,203,203,0.7) 100%)',
+  background: 'linear-gradient(0deg, rgba(40,40,40,0.9) 0%, rgba(200,200,200,0.65) 100%)',
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
@@ -71,7 +71,9 @@ const IndexPage = () => {
           <p style={{ fontSize: '30px', color: 'white', textAlign: 'center' }}>
             {dataNode.id}
           </p>
-          <p>{dataNode.group}</p>
+          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
+            {dataNode.content}
+          </p>
         </div>
       </Drawer>
       <div id="iamge1" />
@@ -81,9 +83,7 @@ const IndexPage = () => {
             onNodeClick={handleClickNode}
             graphData={addedColorLinkGraphData}
             onNodeDragEnd={(node) => {
-              // eslint-disable-next-line
               node.fx = node.x
-              // eslint-disable-next-line
               node.fy = node.y
             }}
             nodeCanvasObject={(node, ctx, globalScale) => {
