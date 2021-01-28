@@ -34,13 +34,17 @@ const ShowPage = () => {
   return (
     <main style={pageStyles}>
       <title>Immortal are busy this day</title>
-      <ForceGraph3D
-        ref={fgRef}
-        graphData={data}
-        enableNodeDrag={false}
-        enableNavigationControls={false}
-        showNavInfo={false}
-      />
+      {
+        typeof window !== 'undefined' && (
+          <ForceGraph3D
+            ref={fgRef}
+            graphData={data}
+            enableNodeDrag={false}
+            enableNavigationControls={false}
+            showNavInfo={false}
+          />
+        )
+      }
     </main>
   )
 }
