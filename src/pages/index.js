@@ -3,8 +3,11 @@ import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
-import data from '../dataset/Graph_theme_1.json'
+import data from '../dataset/Graph_theme_2.json'
 import bg from '../images/bg.jpg'
+
+const fontFamily = 'Playfair Display'
+const fontThaiFamily = 'Maitree'
 
 const pageStyles = {
   color: '#232129',
@@ -30,10 +33,28 @@ const drawerStyle = {
   width: '400px',
 }
 
+const getColorFromGroup = (nodeGroup) => {
+  return {
+    '1-Dark': '#193820',
+    '1-Med': '#3b824a',
+    '1-Light': '#72c083',
+    '2-Dark': '#2f5560',
+    '2-Med': '#4a8696',
+    '2-Light': '#76adbc',
+    '3-Dark': '#694611',
+    '3-Med': '#af751d',
+    '3-Light': '#e2a850'
+  }[nodeGroup]
+}
+
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
+const groupedColorNode = data.nodes.map((node) => ({ 
+  ...node, 
+  color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+}))
 
 const addedColorLinkGraphData = {
-  nodes: data.nodes,
+  nodes: groupedColorNode,
   links: addedColorLinks,
 }
 
@@ -100,7 +121,13 @@ const IndexPage = () => {
             })}
             </p>
           </div>
-          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
+          <p style={{
+            fontFamily: fontThaiFamily,
+            fontSize: '18px',
+            color: 'white',
+            textAlign: 'right',
+            letterSpacing: '0.5px'
+          }}>
             {dataNode.content}
           </p>
         </div>
@@ -120,7 +147,7 @@ const IndexPage = () => {
         bodyStyle={drawerBodyStyle}
       >
         <div style={drawerContentContainerStyle}>
-          <p style={{ fontSize: '30px', lineHeight: '40px', color: 'white', textAlign: 'right', textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)' }}>
+          <p style={{ fontFamily: fontFamily, fontSize: '30px', lineHeight: '40px', color: 'white', textAlign: 'right', textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)' }}>
             {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
           </p>
           <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
@@ -152,7 +179,7 @@ const IndexPage = () => {
               nodeCanvasObject={(node, ctx, globalScale) => {
                 const label = node.title ? node.title : node.id
                 const fontSize = 16 / globalScale
-                ctx.font = `${fontSize}px Sans-Serif`
+                ctx.font = `${fontSize}px ${fontFamily}`
                 const textWidth = ctx.measureText(label).width
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                 ctx.shadowColor = 'rgba(255, 255, 255, 1)'
@@ -167,7 +194,7 @@ const IndexPage = () => {
                 ctx.shadowBlur = 0
                 ctx.textAlign = 'center'
                 ctx.textBaseline = 'middle'
-                ctx.fillStyle = 'rgba(0, 0, 0, 1)'
+                ctx.fillStyle = node.color
                 ctx.fillText(label, node.x, node.y)
               }}
             />
