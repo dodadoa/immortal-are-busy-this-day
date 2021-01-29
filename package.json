@@ -18,6 +18,8 @@
   "license": "0BSD",
   "dependencies": {
     "3d-force-graph-vr": "^1.35.2",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
     "antd": "^4.10.3",
     "gatsby": "^2.26.1",
     "react": "^16.13.1",

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react'
-import { Drawer } from 'antd'
+import { Drawer, Image } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
-import data from '../dataset/Graph_theme_2.json'
+import data from '../dataset/Graph_theme_3.json'
 import bg from '../images/bg.jpg'
+import styled from '@emotion/styled'
+import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
 
 const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
@@ -117,7 +119,8 @@ const IndexPage = () => {
             textAlign: 'right',
             fontFamily: fontHeader,
             fontWeight: '600',
-            lineHeight: '40px'
+            lineHeight: '40px',
+            letterSpacing: '1.5px'
           }}>
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
@@ -159,16 +162,34 @@ const IndexPage = () => {
         drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
       >
+        <div style={{
+          // display: 'flex',
+          // flexDirection: 'column',
+          position: 'absolute',
+          width: '100px',
+          left: '-20px',
+          top: '0px',
+          overflow: 'hidden',
+          backgroundImage: 'url("../images/treeframe/4x/Asset 1@4x.png")'
+        }}>
+        {
+          // [1, 2, 3, 4].map((ele) => (
+          //   <img style={{
+          //     width: '100px'
+          //   }} src={treeframeImage} />
+          // ))
+        }
+        </div>
         <div style={drawerContentContainerStyle}>
           <p style={{
             fontFamily: fontHeader,
             fontSize: '30px',
             lineHeight: '40px',
-            color: 'white',
+            color: 'black',
             letterSpacing: '2px',
             textAlign: 'right',
-            fontWeight: '800',
-            textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)'
+            fontWeight: '600',
+            textShadow: '1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1)'
           }}>
             {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
           </p>
@@ -191,8 +212,22 @@ const IndexPage = () => {
         <title>Immortal are busy this day</title>
         {renderNodeDrawer()}
         {statementDrawer()}
-        <div style={{ position: 'absolute', bottom: '10px', left: '20px', zIndex: '999' }}>
-          <p onClick={handleClickStatement} style={{ fontSize: '20px', color: 'white' }}>Statement</p>
+        <div style={{
+          position: 'absolute',
+          bottom: '10px',
+          left: '20px',
+          zIndex: '999'
+        }}>
+          <p
+            onClick={handleClickStatement}
+            style={{
+              fontSize: '20px',
+              color: 'white',
+              '&:hover': {
+                cursor: 'pointer',
+              }
+            }}
+          >Statement</p>
         </div>
         {
           typeof window !== 'undefined' && (
