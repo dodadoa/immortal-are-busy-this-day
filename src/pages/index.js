@@ -37,6 +37,14 @@ const drawerStyle = {
 }
 
 const getColorFromGroup = (nodeGroup) => {
+  if (typeof nodeGroup === 'number') {
+    return '#f24'
+  }
+
+  if (nodeGroup.startsWith('7')) {
+    return '#22d'
+  }
+
   return {
     '1-Dark': '#193820',
     '1-Med': '#3b824a',
