@@ -6,8 +6,9 @@ import ForceGraph2D from 'react-force-graph-2d'
 import data from '../dataset/Graph_theme_2.json'
 import bg from '../images/bg.jpg'
 
-const fontFamily = 'Playfair Display'
+const fontFamily = 'Source Serif Pro'
 const fontThaiFamily = 'Maitree'
+const fontMonoFamily = 'JetBrains Mono'
 
 const pageStyles = {
   color: '#232129',
@@ -114,12 +115,17 @@ const IndexPage = () => {
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
           <div>
-            <p>
+            <div>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
               const node = data.nodes.find((d) => d.id === link)
-              return <p> {node.content} </p>
+              return (
+                <div key={node.id}>
+                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontFamily, fontSize: 18 }}>{node.title}</p>
+                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
+                </div>
+              )
             })}
-            </p>
+            </div>
           </div>
           <p style={{
             fontFamily: fontThaiFamily,
@@ -150,7 +156,7 @@ const IndexPage = () => {
           <p style={{ fontFamily: fontFamily, fontSize: '30px', lineHeight: '40px', color: 'white', textAlign: 'right', textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)' }}>
             {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
           </p>
-          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right' }}>
+          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right', fontFamily: fontFamily }}>
             {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet id felis id dignissim. Aenean et sapien felis. Duis rhoncus euismod ligula et pulvinar. Praesent justo sem, feugiat volutpat quam quis, rhoncus volutpat turpis.'}
           </p>
         </div>
@@ -179,7 +185,7 @@ const IndexPage = () => {
               nodeCanvasObject={(node, ctx, globalScale) => {
                 const label = node.title ? node.title : node.id
                 const fontSize = 16 / globalScale
-                ctx.font = `${fontSize}px ${fontFamily}`
+                ctx.font = `${fontSize}px ${fontMonoFamily}`
                 const textWidth = ctx.measureText(label).width
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                 ctx.shadowColor = 'rgba(255, 255, 255, 1)'

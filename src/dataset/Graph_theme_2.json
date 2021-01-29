@@ -755,14 +755,14 @@
       "title": "Historical Inquiry",
       "Constellation Description": "XXX",
       "group": "1-Dark",
-      "content": "XXX",
+
       "childLinks": ["1.1", "1.2", "1.3", "1.4", "1.5"]
     },
     {
       "id": "1.1",
       "title": "Modes of Inquiry",
       "group": "1-Med",
-      "content": "XXX",
+
       "childLinks": [
         "1.1.1",
         "1.1.2",
@@ -787,7 +787,7 @@
       "id": "1.2",
       "title": "Locating the Ancient",
       "group": "1-Med",
-      "content": "XXX",
+
       "childLinks": [
         "1.2.1",
         "1.2.2",
@@ -805,7 +805,7 @@
       "id": "1.3",
       "title": "Manifestations of the Historical",
       "group": "1-Med",
-      "content": "XXX",
+
       "childLinks": [
         "1.3.1",
         "1.3.2",
@@ -822,42 +822,42 @@
       "id": "1.4",
       "title": "Talking to Trees",
       "group": "1-Med",
-      "content": "XXX",
+
       "childLinks": ["1.4.1", "1.4.2", "1.4.3", "1.4.4", "1.4.5", "1.1.6"]
     },
     {
       "id": "1.5",
       "title": "Defining History",
       "group": "1-Med",
-      "content": "XXX",
+
       "childLinks": ["1.1.1", "1.5.1", "1.5.2", "1.5.3", "1.5.4"]
     },
     {
       "id": "1.1.1",
       "title": "Sensing history in everyday objects",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 2", "Object 20", "Object 60"]
     },
     {
       "id": "1.1.2",
       "title": "Framing oneself as an explorer",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 72"]
     },
     {
       "id": "1.1.3",
       "title": "Cultural history of science",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 80"]
     },
     {
       "id": "1.1.4",
       "title": "Perceived characteristics of archaeology",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 73", "Object 3"]
     },
     {
@@ -870,91 +870,91 @@
       "id": "1.1.6",
       "title": "Testimonies from trees",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 71", "Object 48"]
     },
     {
       "id": "1.1.7",
       "title": "Knowledge seeking",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 2"]
     },
     {
       "id": "1.1.8",
       "title": "Renewed interest in history through games",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 14"]
     },
     {
       "id": "1.1.9",
       "title": "Comprehensibility is not an issue",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 73"]
     },
     {
       "id": "1.1.10",
       "title": "Recreating canonical artworks",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 79"]
     },
     {
       "id": "1.1.11",
       "title": "Tracing game characters in history",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 84"]
     },
     {
       "id": "1.1.13",
       "title": "Not expecting much",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 39"]
     },
     {
       "id": "1.1.14",
       "title": "Personal affinity",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 22"]
     },
     {
       "id": "1.1.15",
       "title": "Employing historical figures",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 20"]
     },
     {
       "id": "1.1.16",
       "title": "Feeling 'the historical'",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 20"]
     },
     {
       "id": "1.1.17",
       "title": "Excavation",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 2"]
     },
     {
       "id": "1.2.1",
       "title": "Meanings of Gold",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 146"]
     },
     {
       "id": "1.2.2",
       "title": "Materialising matters",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": [
         "Object 123",
         "Object 102",
@@ -971,70 +971,69 @@
       "id": "1.2.3",
       "title": "Ancientness and market availability ",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 59", "Object 43", "Object 42"]
     },
     {
       "id": "1.2.4",
       "title": "Sacred ancient objects",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 75", "Object 44"]
     },
     {
       "id": "1.2.5",
       "title": "Replicas of ancient objects",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 41"]
     },
     {
       "id": "1.2.7",
       "title": "Circulation of ancient figures and myths in games",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 141", "Object 132", "Object 19"]
     },
     {
       "id": "1.2.8",
       "title": "Visual markers of ancientness in games",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 12"]
     },
     {
       "id": "1.2.9",
       "title": "Ancientness is technologically contingent",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 59", "Object 43", "Object 42"]
     },
     {
       "id": "1.2.10",
       "title": "Manufacturing sacred objects",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 75"]
     },
     {
       "id": "1.2.11",
       "title": "Looking for the ancient in internet data ",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 123"]
     },
     {
       "id": "1.3.1",
       "title": "Fictionalised historical artefacts",
       "group": "1-Light",
-      "content": "XXX",
       "childLinks": ["Object 75", "Object 74", "Object 5"]
     },
     {
       "id": "1.3.2",
       "title": "Reenactments of historical scenes",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": [
         "Object 79",
         "Object 57",
@@ -1049,14 +1048,14 @@
       "id": "1.3.3",
       "title": "Displaying objects sacredly",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 44"]
     },
     {
       "id": "1.3.4",
       "title": "Freezing historical narratives",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": [
         "Object 57",
         "Object 56",
@@ -1070,105 +1069,105 @@
       "id": "1.3.5",
       "title": "Internet blogs",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 137"]
     },
     {
       "id": "1.3.6",
       "title": "History as reimagined in games",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 110"]
     },
     {
       "id": "1.3.7",
       "title": "Fictional Historical Figures",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 127"]
     },
     {
       "id": "1.3.8",
       "title": "Reconstructing history in games",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 122", "Object 23", "Object 19"]
     },
     {
       "id": "1.4.1",
       "title": "Trees as portal",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 71", "Object 61"]
     },
     {
       "id": "1.4.2",
       "title": "Ability to recount history as beyond the virtual/physical binary ",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 48"]
     },
     {
       "id": "1.4.3",
       "title": "How history is absorbed by trees ",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 71", "Object 51", "Object 50", "Object 49"]
     },
     {
       "id": "1.4.4",
       "title": "Moral patch updates",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 71"]
     },
     {
       "id": "1.4.5",
       "title": "Interacting with in-game threes ",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 78"]
     },
     {
       "id": "1.5.1",
       "title": "Historical/Disciplinary practice",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 39"]
     },
     {
       "id": "1.5.2",
       "title": "Semantic plurality",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 58"]
     },
     {
       "id": "1.5.3",
       "title": "History is spontaneous",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 39"]
     },
     {
       "id": "1.5.4",
       "title": "History is inseparable from fables",
       "group": "1-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 70", "Object 71"]
     },
     {
       "id": "2",
       "title": "Threshold",
       "group": "2-Dark",
-      "content": "XXX",
+
       "childLinks": ["2.1", "2.2"]
     },
     {
       "id": "2.1",
       "title": "",
       "group": "2-Med",
-      "content": "XXX",
+
       "childLinks": [
         "2.1.1",
         "2.1.2",
@@ -1194,154 +1193,154 @@
       "id": "2.1.1",
       "title": "Dimension Species",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 149"]
     },
     {
       "id": "2.1.2",
       "title": "Embracing semantic tradition",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 146"]
     },
     {
       "id": "2.1.3",
       "title": "Pop-up windows",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 142"]
     },
     {
       "id": "2.1.4",
       "title": "Material replacement",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 106"]
     },
     {
       "id": "2.1.5",
       "title": "Life simulation",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 103"]
     },
     {
       "id": "2.1.6",
       "title": "One-way relationship",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 100"]
     },
     {
       "id": "2.1.7",
       "title": "Gamified marketplace",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 97"]
     },
     {
       "id": "2.1.8",
       "title": "Evidence fabrication",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 94"]
     },
     {
       "id": "2.1.9",
       "title": "Evidence of manipulation",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 142", "Object 94", "Object 11"]
     },
     {
       "id": "2.1.10",
       "title": "Visual differentiation",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 136", "Object 92", "Object 91", "Object 85"]
     },
     {
       "id": "2.1.11",
       "title": "Signage between games and players",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 85"]
     },
     {
       "id": "2.1.12",
       "title": "Explanatory tendency",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 77"]
     },
     {
       "id": "2.1.13",
       "title": "Space before entering the digital",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 63"]
     },
     {
       "id": "2.1.14",
       "title": "Visible to whom?",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 92", "Object 91", "Object 46"]
     },
     {
       "id": "2.1.15",
       "title": "Space before entering gameplay",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 46"]
     },
     {
       "id": "2.1.16",
       "title": "Console simulation in manuals",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 46"]
     },
     {
       "id": "2.1.17",
       "title": "Conditions of convergence",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 13"]
     },
     {
       "id": "2.1.18",
       "title": "Trapped digital files",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 1"]
     },
     {
       "id": "2.2",
       "title": "Threshold Containers",
       "group": "2-Med",
-      "content": "XXX",
+
       "childLinks": ["2.2.1"]
     },
     {
       "id": "2.2.1",
       "title": "Game Manuals",
       "group": "2-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 77"]
     },
     {
       "id": "3",
       "title": "Meaning Making, Sense Making",
       "group": "3-Dark",
-      "content": "XXX",
+
       "childLinks": ["3.1", "3.2", "3.3", "3.4", "3.5", "1.2.1"]
     },
     {
       "id": "3.1",
       "title": "Making Sense of History",
       "group": "3-Med",
-      "content": "XXX",
+
       "childLinks": [
         "3.1.1",
         "3.1.2",
@@ -1363,7 +1362,7 @@
       "id": "3.2",
       "title": "Making Sense of Games",
       "group": "3-Med",
-      "content": "XXX",
+
       "childLinks": [
         "3.2.1",
         "3.2.2",
@@ -1378,903 +1377,1034 @@
       "id": "3.3",
       "title": "Making Sense of Threshold",
       "group": "3-Med",
-      "content": "XXX",
+
       "childLinks": ["3.3.1", "3.3.2", "3.3.3"]
     },
     {
       "id": "3.4",
       "title": "Making Sense of Virtuality",
       "group": "3-Med",
-      "content": "XXX",
+
       "childLinks": ["3.4.1", "3.4.2", "3.4.3"]
     },
     {
       "id": "3.5",
       "title": "Making Sense of Trees",
       "group": "3-Med",
-      "content": "XXX",
+
       "childLinks": ["3.5.1"]
     },
     {
       "id": "3.1.1",
       "title": "Fictional reconstruction of the historical",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 14", "Object 5", "Object"]
     },
     {
       "id": "3.1.2",
       "title": "Presence of artefacts",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 73"]
     },
     {
       "id": "3.1.3",
       "title": "Co-existing with historical objects",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 60"]
     },
     {
       "id": "3.1.4",
       "title": "Collecting second-hand objects",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 58"]
     },
     {
       "id": "3.1.5",
       "title": "Through game development ",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 45", "Object 40"]
     },
     {
       "id": "3.1.6",
       "title": "Through game design",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 40"]
     },
     {
       "id": "3.1.7",
       "title": "Through gameplay",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 39"]
     },
     {
       "id": "3.1.8",
       "title": "Experience with game packaging ",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 27"]
     },
     {
       "id": "3.1.9",
       "title": "History of Science",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 80"]
     },
     {
       "id": "3.1.10",
       "title": "Visual clues for the supposedly ancient",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 105"]
     },
     {
       "id": "3.1.11",
       "title": "Game controversies",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 119"]
     },
     {
       "id": "3.1.12",
       "title": "Playing historical games",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 110"]
     },
     {
       "id": "3.1.13",
       "title": "Through Thai Literature",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 71", "Object 70", "1.3.1"]
     },
     {
       "id": "3.1.14",
       "title": "Through traces of technology",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 36", "Object 35"]
     },
     {
       "id": "3.2.1",
       "title": " Intertextual reading",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 37"]
     },
     {
       "id": "3.2.2",
       "title": "Loading screen description",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 120"]
     },
     {
       "id": "3.2.3",
       "title": "Significance of packaging",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 30", "Object 28", "Object 27"]
     },
     {
       "id": "3.2.4",
       "title": "Situating game characters in game texts",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 7"]
     },
     {
       "id": "3.2.5",
       "title": "Through traces of production",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 45"]
     },
     {
       "id": "3.2.6",
       "title": "Through game characters",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 83", "Object 82"]
     },
     {
       "id": "3.2.7",
       "title": "Through visual communication",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 126"]
     },
     {
       "id": "3.3.1",
       "title": "Comic culture",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 94"]
     },
     {
       "id": "3.3.2",
       "title": "Referring to manuals",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 77"]
     },
     {
       "id": "3.3.3",
       "title": "Visualisation",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 94"]
     },
     {
       "id": "3.4.1",
       "title": "Animation principles",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 131"]
     },
     {
       "id": "3.4.2",
       "title": "Engaging with in-game tools",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 129"]
     },
     {
       "id": "3.4.3",
       "title": "Aesthetic appreciation",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 99", "Object 90"]
     },
     {
       "id": "3.5.1",
       "title": "Gaming experience",
       "group": "3-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 78"]
     },
     {
       "id": "4",
       "title": "",
       "group": "4-Dark",
-      "content": "XXX",
+
       "childLinks": ["4.1", "4.2", "4.3", "4.4"]
     },
     {
       "id": "4.1",
       "title": "",
       "group": "4-Med",
-      "content": "XXX",
-      "childLinks": ["4.1.1", "4.1.2", "4.1.3", "4.1.4", "4.1.5", "4.1.6", "4.1.7", "4.1.8", "4.1.9"]
+
+      "childLinks": [
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5",
+        "4.1.6",
+        "4.1.7",
+        "4.1.8",
+        "4.1.9"
+      ]
     },
     {
       "id": "4.2",
       "title": "",
       "group": "4-Med",
-      "content": "XXX",
-      "childLinks": ["4.2.1", "4.2.2", "4.2.3", "4.2.4", "4.2.5", "4.2.6", "4.2.7", "1.4.2"]
+
+      "childLinks": [
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4",
+        "4.2.5",
+        "4.2.6",
+        "4.2.7",
+        "1.4.2"
+      ]
     },
     {
       "id": "4.3",
       "title": "",
       "group": "4-Med",
-      "content": "XXX",
-      "childLinks": ["4.3.1", "4.3.2", "4.3.3", "4.3.4", "4.3.5", "4.3.6", "4.2.5", "1.2.2"]
+
+      "childLinks": [
+        "4.3.1",
+        "4.3.2",
+        "4.3.3",
+        "4.3.4",
+        "4.3.5",
+        "4.3.6",
+        "4.2.5",
+        "1.2.2"
+      ]
     },
     {
       "id": "4.4",
       "title": "",
       "group": "4-Med",
-      "content": "XXX",
-      "childLinks": ["4.4.1", "4.4.2", "4.4.3", "4.4.4", "4.4.5", "4.4.6", "4.4.7"]
+
+      "childLinks": [
+        "4.4.1",
+        "4.4.2",
+        "4.4.3",
+        "4.4.4",
+        "4.4.5",
+        "4.4.6",
+        "4.4.7"
+      ]
     },
     {
       "id": "4.1.1",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 36", "Object 35"]
     },
     {
       "id": "4.1.2",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 76", "Object 99", "Object 100"]
     },
     {
       "id": "4.1.3",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 87"]
     },
     {
       "id": "4.1.4",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 74", "Object 75"]
     },
     {
       "id": "4.1.5",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 63"]
     },
     {
       "id": "4.1.6",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 63"]
     },
     {
       "id": "4.1.7",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Objecct 29"]
     },
     {
       "id": "4.1.8",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 29", "Objecct 39", "Objecct 46"]
     },
     {
       "id": "4.1.9",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 29", "Object 39"]
     },
     {
       "id": "4.2.1",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 11", "Object 23", "Object 90", "Object 101"]
     },
     {
       "id": "4.2.2",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 26", "Object 31"]
     },
     {
       "id": "4.2.3",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
-      "childLinks": ["Object 14", "Object 16", "Object 17", "Object 23", "Object 26", "Object 41", "Object 48", "Object 128"]
+
+      "childLinks": [
+        "Object 14",
+        "Object 16",
+        "Object 17",
+        "Object 23",
+        "Object 26",
+        "Object 41",
+        "Object 48",
+        "Object 128"
+      ]
     },
     {
       "id": "4.2.4",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 139"]
     },
     {
       "id": "4.2.5",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 95"]
     },
     {
       "id": "4.2.6",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 128"]
     },
     {
       "id": "4.2.7",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 74", "Object 75"]
     },
     {
       "id": "4.3.1",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 88", "Object 90"]
     },
     {
       "id": "4.3.2",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 15", "Object 95", "Object 144"]
     },
     {
       "id": "4.3.3",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 90", "Object 95"]
     },
     {
       "id": "4.3.4",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 74", "Object 75"]
     },
     {
       "id": "4.3.5",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 33", "Object 34"]
     },
     {
       "id": "4.3.6",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 144"]
     },
     {
       "id": "4.4.1",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 103", "Object 110", "Object 148"]
     },
     {
       "id": "4.4.2",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
-      "childLinks": ["Object 1", "Object 40", "Object 64", "Object 110", "Object 124"]
+
+      "childLinks": [
+        "Object 1",
+        "Object 40",
+        "Object 64",
+        "Object 110",
+        "Object 124"
+      ]
     },
     {
       "id": "4.4.3",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
-      "childLinks": ["Object 37", "Object 40", "Object 78", "Object 141", "5.5.3"]
+
+      "childLinks": [
+        "Object 37",
+        "Object 40",
+        "Object 78",
+        "Object 141",
+        "5.5.3"
+      ]
     },
     {
       "id": "4.4.4",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 103"]
     },
     {
       "id": "4.4.5",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 131"]
     },
     {
       "id": "4.4.6",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 143"]
     },
     {
       "id": "4.4.7",
       "title": "",
       "group": "4-Light",
-      "content": "XXX",
-      "childLinks": ["Object 85", "Object 91", "Object 92", "Object 96", "Object 115", "Object 116", "Object 129"]
+
+      "childLinks": [
+        "Object 85",
+        "Object 91",
+        "Object 92",
+        "Object 96",
+        "Object 115",
+        "Object 116",
+        "Object 129"
+      ]
     },
     {
       "id": "5",
       "title": "",
       "group": "5-Dark",
-      "content": "XXX",
-      "childLinks": ["5.1", "5.2", "5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9"]
+
+      "childLinks": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.9"
+      ]
     },
     {
       "id": "5.1",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.1.1", "5.1.2", "5.1.3"]
     },
     {
       "id": "5.2",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.2.1"]
     },
     {
       "id": "5.3",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.3.1", "5.3.2", "5.3.3", "5.3.4", "5.3.5"]
     },
     {
       "id": "5.5",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.5.1", "5.5.2", "5.5.3"]
     },
     {
       "id": "5.6",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.6.1", "5.6.2"]
     },
     {
       "id": "5.7",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.7.1"]
     },
     {
       "id": "5.8",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.8.1", "5.8.2", "5.8.3", "5.8.4", "5.8.5"]
     },
     {
       "id": "5.9",
       "title": "",
       "group": "5-Med",
-      "content": "XXX",
+
       "childLinks": ["5.9.1", "5.9.2", "5.9.3", "5.9.4", "5.9.5"]
     },
     {
       "id": "5.1.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 73", "Object 93", "Object 130", "Object 140"]
     },
     {
       "id": "5.1.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 12", "Object 74", "Object 75"]
     },
     {
       "id": "5.1.3",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 6", "Object 130"]
     },
     {
       "id": "5.2.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 110"]
     },
     {
       "id": "5.3.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3"]
     },
     {
       "id": "5.3.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 52", "Object 53", "Object 54", "Object 55"]
     },
     {
       "id": "5.3.3",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 23"]
     },
     {
       "id": "5.3.4",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 8", "Object 24", "Object 104"]
     },
     {
       "id": "5.3.5",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
-      "childLinks": ["Object 52", "Object 53", "Object 54", "Object 55", "Object 56", "Object 57", "Object 78", "Object 96"]
+
+      "childLinks": [
+        "Object 52",
+        "Object 53",
+        "Object 54",
+        "Object 55",
+        "Object 56",
+        "Object 57",
+        "Object 78",
+        "Object 96"
+      ]
     },
     {
       "id": "5.5.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
-      "childLinks": ["Object 32", "Object 38", "Object 70", "Object 71", "Object 134"]
+
+      "childLinks": [
+        "Object 32",
+        "Object 38",
+        "Object 70",
+        "Object 71",
+        "Object 134"
+      ]
     },
     {
       "id": "5.5.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 70", "Object 71", "Object 122", "Object 134"]
     },
     {
       "id": "5.5.3",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 19", "Object 47", "Object 62", "Object 64"]
     },
     {
       "id": "5.6.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 109"]
     },
     {
       "id": "5.6.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 4"]
     },
     {
       "id": "5.7.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 65", "Object 66", "Object 67", "Object 68"]
     },
     {
       "id": "5.8.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 29"]
     },
     {
       "id": "5.8.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 31"]
     },
     {
       "id": "5.8.3",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 37", "Object 66"]
     },
     {
       "id": "5.8.4",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 62"]
     },
     {
       "id": "5.8.5",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 125"]
     },
     {
       "id": "5.9.1",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 32"]
     },
     {
       "id": "5.9.2",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 25", "Object 32"]
     },
     {
       "id": "5.9.3",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 122", "Object 135"]
     },
     {
       "id": "5.9.4",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 9"]
     },
     {
       "id": "5.9.5",
       "title": "",
       "group": "5-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 89", "Object 119"]
     },
     {
       "id": "6",
       "title": "",
       "group": "6-Dark",
-      "content": "XXX",
+
       "childLinks": ["6.1", "6.2", "6.3", "6.4"]
     },
     {
       "id": "6.1",
       "title": "",
       "group": "6-Med",
-      "content": "XXX",
+
       "childLinks": ["6.1.1", "6.1.2", "6.1.3", "6.1.4", "6.1.5"]
     },
     {
       "id": "6.2",
       "title": "",
       "group": "6-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 21", "Object 28"]
     },
     {
       "id": "6.3",
       "title": "",
       "group": "6-Med",
-      "content": "XXX",
+
       "childLinks": ["6.3.1", "6.3.2", "6.3.3", "6.3.4", "6.3.5", "6.3.6"]
     },
     {
       "id": "6.4",
       "title": "",
       "group": "6-Med",
-      "content": "XXX",
+
       "childLinks": ["6.4.1", "6.4.2", "6.4.3", "6.4.4", "1.2.3"]
     },
     {
       "id": "6.1.1",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 145"]
     },
     {
       "id": "6.1.2",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
-      "childLinks": ["Object 88", "Object 89" ,"Object 90", "Object 112", "Object 133", "Object 137", "Object 139", "Object 143", "Object 145", "Object 147"]
+
+      "childLinks": [
+        "Object 88",
+        "Object 89",
+        "Object 90",
+        "Object 112",
+        "Object 133",
+        "Object 137",
+        "Object 139",
+        "Object 143",
+        "Object 145",
+        "Object 147"
+      ]
     },
     {
       "id": "6.1.3",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
-      "childLinks": ["Object 58", "Object 65", "Object 66", "Object 67", "Object 68", "Object 139"]
+
+      "childLinks": [
+        "Object 58",
+        "Object 65",
+        "Object 66",
+        "Object 67",
+        "Object 68",
+        "Object 139"
+      ]
     },
     {
       "id": "6.1.4",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 74", "Object 75"]
     },
     {
       "id": "6.1.5",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 21", "Object 27", "Object 38", "58"]
     },
     {
       "id": "6.3.1",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 16", "Object 18", "Object 41"]
     },
     {
       "id": "6.3.2",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 19"]
     },
     {
       "id": "6.3.3",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 30"]
     },
     {
       "id": "6.3.4",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 38"]
     },
     {
       "id": "6.3.5",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 5", "Object 41"]
     },
     {
       "id": "6.3.6",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
-      "childLinks": ["Object 7", "Object 11", "Object 12", "Object 28", "Object 69"]
+
+      "childLinks": [
+        "Object 7",
+        "Object 11",
+        "Object 12",
+        "Object 28",
+        "Object 69"
+      ]
     },
     {
       "id": "6.4.1",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 25"]
     },
     {
       "id": "6.4.2",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 132"]
     },
     {
       "id": "6.4.3",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 11"]
     },
     {
       "id": "6.4.4",
       "title": "",
       "group": "6-Light",
-      "content": "XXX",
+
       "childLinks": ["Object 3", "Object 21", "Object 38", "Object 139"]
     },
     {
       "id": "7",
       "title": "",
       "group": "7-Dark",
-      "content": "XXX",
-      "childLinks": ["7.1", "7.2", "7.3", "7.4", "7.5", "7.6", "7.7", "7.8", "7.9"]
+
+      "childLinks": [
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5",
+        "7.6",
+        "7.7",
+        "7.8",
+        "7.9"
+      ]
     },
     {
       "id": "7.1",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 4"]
     },
     {
       "id": "7.2",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 2", "Object 20", "Object 22", "Object 98"]
     },
     {
       "id": "7.3",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 6"]
     },
     {
       "id": "7.4",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 10"]
     },
     {
       "id": "7.5",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
-      "childLinks": ["Object 20", "Object 79", "Object 107", "Object 108", "Object 125", "Object 149"]
+
+      "childLinks": [
+        "Object 20",
+        "Object 79",
+        "Object 107",
+        "Object 108",
+        "Object 125",
+        "Object 149"
+      ]
     },
     {
       "id": "7.6",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 22"]
     },
     {
       "id": "7.7",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 72"]
     },
     {
       "id": "7.8",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 138"]
     },
     {
       "id": "7.9",
       "title": "",
       "group": "7-Med",
-      "content": "XXX",
+
       "childLinks": ["Object 79"]
     }
   ],
