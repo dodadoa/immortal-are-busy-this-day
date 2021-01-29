@@ -12,7 +12,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;400;600;700&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>

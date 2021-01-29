@@ -1165,9 +1165,8 @@
     },
     {
       "id": "2.1",
-      "title": "",
+      "title": "Traits of Threshold",
       "group": "2-Med",
-
       "childLinks": [
         "2.1.1",
         "2.1.2",
@@ -1399,7 +1398,7 @@
       "title": "Fictional reconstruction of the historical",
       "group": "3-Light",
 
-      "childLinks": ["Object 14", "Object 5", "Object"]
+      "childLinks": ["Object 14", "Object 5"]
     },
     {
       "id": "3.1.2",

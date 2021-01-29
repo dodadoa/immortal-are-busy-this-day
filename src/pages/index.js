@@ -6,7 +6,7 @@ import ForceGraph2D from 'react-force-graph-2d'
 import data from '../dataset/Graph_theme_2.json'
 import bg from '../images/bg.jpg'
 
-const fontFamily = 'Source Serif Pro'
+const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
 const fontMonoFamily = 'JetBrains Mono'
 
@@ -111,7 +111,14 @@ const IndexPage = () => {
       >
         <div style={drawerContentContainerStyle}>
           <div style={{ width: '300px', height: '300px' }} />
-          <p style={{ fontSize: '30px', color: 'white', textAlign: 'right' }}>
+          <p style={{
+            fontSize: '30px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontHeader,
+            fontWeight: '600',
+            lineHeight: '40px'
+          }}>
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
           <div>
@@ -120,7 +127,7 @@ const IndexPage = () => {
               const node = data.nodes.find((d) => d.id === link)
               return (
                 <div key={node.id}>
-                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontFamily, fontSize: 18 }}>#{node.title}</p>
+                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18 }}>#{node.title}</p>
                   <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
                 </div>
               )
@@ -154,17 +161,23 @@ const IndexPage = () => {
       >
         <div style={drawerContentContainerStyle}>
           <p style={{
-            fontFamily: fontFamily,
+            fontFamily: fontHeader,
             fontSize: '30px',
             lineHeight: '40px',
             color: 'white',
             letterSpacing: '2px',
             textAlign: 'right',
+            fontWeight: '800',
             textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)'
           }}>
             {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
           </p>
-          <p style={{ fontSize: '18px', color: 'white', textAlign: 'right', fontFamily: fontFamily }}>
+          <p style={{
+            fontSize: '18px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontHeader,
+          }}>
             {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet id felis id dignissim. Aenean et sapien felis. Duis rhoncus euismod ligula et pulvinar. Praesent justo sem, feugiat volutpat quam quis, rhoncus volutpat turpis.'}
           </p>
         </div>
