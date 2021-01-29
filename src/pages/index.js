@@ -21,11 +21,13 @@ const drawerContentContainerStyle = {
 }
 const drawerBodyStyle = {
   color: 'black',
+  idth: '400px',
   backgroundColor: 'rgba(0, 0, 0, 0.8)',
   background: 'linear-gradient(0deg, rgba(40,40,40,0.9) 0%, rgba(200,200,200,0.7) 100%)',
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
+  idth: '400px',
 }
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
