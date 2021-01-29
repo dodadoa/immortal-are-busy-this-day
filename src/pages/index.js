@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Drawer } from 'antd'
 import 'antd/dist/antd.css'
 import '../styles.css'
@@ -38,9 +38,14 @@ const addedColorLinkGraphData = {
 }
 
 const IndexPage = () => {
+  const [isClient, setIsClient] = useState(false)
   const [nodeDrawerVisible, setNodeDrawerVisible] = useState(false)
   const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
 
   const nodeDrawerStyle = nodeDrawerVisible
     ? {
@@ -127,47 +132,49 @@ const IndexPage = () => {
   }
 
   return (
-    <main style={pageStyles}>
-      <title>Immortal are busy this day</title>
-      {renderNodeDrawer()}
-      {statementDrawer()}
-      <div style={{ position: 'absolute', bottom: '10px', left: '20px', zIndex: '999' }}>
-        <p onClick={handleClickStatement} style={{ fontSize: '20px', color: 'white' }}>Statement</p>
-      </div>
-      {
-        typeof window !== 'undefined' && (
-          <ForceGraph2D
-            onNodeClick={handleClickNode}
-            graphData={addedColorLinkGraphData}
-            onNodeDragEnd={(node) => {
-              node.fx = node.x
-              node.fy = node.y
-            }}
-            nodeCanvasObject={(node, ctx, globalScale) => {
-              const label = node.title ? node.title : node.id
-              const fontSize = 16 / globalScale
-              ctx.font = `${fontSize}px Sans-Serif`
-              const textWidth = ctx.measureText(label).width
-              const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
-              ctx.shadowColor = 'rgba(255, 255, 255, 1)'
-              ctx.shadowBlur = 15
-              ctx.fillStyle = 'rgba(255, 255, 255, 1)'
-              ctx.fillRect(
-                node.x - bckgDimensions[0] / 2,
-                node.y - bckgDimensions[1] / 2,
-                ...bckgDimensions,
-              )
+    <React.Fragment key={isClient}>
+      <main style={pageStyles}>
+        <title>Immortal are busy this day</title>
+        {renderNodeDrawer()}
+        {statementDrawer()}
+        <div style={{ position: 'absolute', bottom: '10px', left: '20px', zIndex: '999' }}>
+          <p onClick={handleClickStatement} style={{ fontSize: '20px', color: 'white' }}>Statement</p>
+        </div>
+        {
+          typeof window !== 'undefined' && (
+            <ForceGraph2D
+              onNodeClick={handleClickNode}
+              graphData={addedColorLinkGraphData}
+              onNodeDragEnd={(node) => {
+                node.fx = node.x
+                node.fy = node.y
+              }}
+              nodeCanvasObject={(node, ctx, globalScale) => {
+                const label = node.title ? node.title : node.id
+                const fontSize = 16 / globalScale
+                ctx.font = `${fontSize}px Sans-Serif`
+                const textWidth = ctx.measureText(label).width
+                const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
+                ctx.shadowColor = 'rgba(255, 255, 255, 1)'
+                ctx.shadowBlur = 15
+                ctx.fillStyle = 'rgba(255, 255, 255, 1)'
+                ctx.fillRect(
+                  node.x - bckgDimensions[0] / 2,
+                  node.y - bckgDimensions[1] / 2,
+                  ...bckgDimensions,
+                )
 
-              ctx.shadowBlur = 0
-              ctx.textAlign = 'center'
-              ctx.textBaseline = 'middle'
-              ctx.fillStyle = 'rgba(0, 0, 0, 1)'
-              ctx.fillText(label, node.x, node.y)
-            }}
-          />
-        )
-      }
-    </main>
+                ctx.shadowBlur = 0
+                ctx.textAlign = 'center'
+                ctx.textBaseline = 'middle'
+                ctx.fillStyle = 'rgba(0, 0, 0, 1)'
+                ctx.fillText(label, node.x, node.y)
+              }}
+            />
+          )
+        }
+      </main>
+    </React.Fragment>
   )
 }
 
