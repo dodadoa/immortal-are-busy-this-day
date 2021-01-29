@@ -120,7 +120,7 @@ const IndexPage = () => {
               const node = data.nodes.find((d) => d.id === link)
               return (
                 <div key={node.id}>
-                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontFamily, fontSize: 18 }}>{node.title}</p>
+                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontFamily, fontSize: 18 }}>#{node.title}</p>
                   <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
                 </div>
               )
@@ -153,7 +153,15 @@ const IndexPage = () => {
         bodyStyle={drawerBodyStyle}
       >
         <div style={drawerContentContainerStyle}>
-          <p style={{ fontFamily: fontFamily, fontSize: '30px', lineHeight: '40px', color: 'white', textAlign: 'right', textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)' }}>
+          <p style={{
+            fontFamily: fontFamily,
+            fontSize: '30px',
+            lineHeight: '40px',
+            color: 'white',
+            letterSpacing: '2px',
+            textAlign: 'right',
+            textShadow: '1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1), 1px 1px 18px rgba(0, 0, 0, 1)'
+          }}>
             {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
           </p>
           <p style={{ fontSize: '18px', color: 'white', textAlign: 'right', fontFamily: fontFamily }}>

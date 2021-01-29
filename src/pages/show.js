@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import 'antd/dist/antd.css'
 import ForceGraph3D from 'react-force-graph-3d'
-import data from '../dataset/Graph.json'
+import data from '../dataset/Graph_theme_2.json'
 import bg from '../images/bg.jpg'
 
 const pageStyles = {
