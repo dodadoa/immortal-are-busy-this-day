@@ -27,7 +27,7 @@ const drawerBodyStyle = {
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
-  idth: '400px',
+  width: '400px',
 }
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
