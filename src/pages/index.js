@@ -186,6 +186,15 @@ const IndexPage = () => {
                     <div style={{ width: '100%', borderBottom: '1px solid white', marginBottom: '24px' }} />
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
+                    {
+                      node.image && (
+                      <div style={{ margin: '20px' }}>
+                        <Image 
+                          width={300}
+                          src={`/photo_webgraph/${node.image}`}
+                        />
+                      </div> )
+                    }
                   </React.Fragment>
                 )
                 : null
