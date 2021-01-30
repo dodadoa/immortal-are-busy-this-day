@@ -27,9 +27,11 @@
     "gatsby-plugin-manifest": "^2.11.0",
     "gatsby-plugin-react-helmet": "^3.9.0",
     "react": "^16.13.1",
+    "react-device-detect": "^1.15.0",
     "react-dom": "^16.13.1",
     "react-force-graph-2d": "^1.18.1",
     "react-force-graph-3d": "^1.18.8",
+    "react-force-graph-ar": "^1.4.5",
     "react-helmet": "^6.1.0",
     "three": "^0.124.0",
     "three-spritetext": "^1.5.3"

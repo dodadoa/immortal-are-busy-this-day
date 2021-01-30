@@ -7,9 +7,11 @@ import data from '../dataset/Graph_theme_3.json'
 import bg from '../images/bg.jpg'
 import '../styles.css'
 import styled from '@emotion/styled'
-import { Helmet } from "react-helmet"
-import facebookSharePic from "../images/for-share.png"
+import { Helmet } from 'react-helmet'
+import facebookSharePic from '../images/for-share.png'
 import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
+import { isMobile } from 'react-device-detect';
+
 
 const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
@@ -284,7 +286,7 @@ const IndexPage = () => {
           typeof window !== 'undefined' && (
             <ForceGraph2D
               onNodeClick={handleClickNode}
-              nodeRelSize={10}
+              nodeRelSize={isMobile ? 5 : 15 }
               graphData={addedColorLinkGraphData}
               onNodeDragEnd={(node) => {
                 node.fx = node.x
