@@ -204,7 +204,7 @@ const IndexPage = () => {
             fontFamily: fontHeader,
             fontSize: '30px',
             lineHeight: '40px',
-            color: 'black',
+            color: 'white',
             letterSpacing: '2px',
             textAlign: 'right',
             fontWeight: '600',
