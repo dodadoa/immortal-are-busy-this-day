@@ -17,6 +17,8 @@ export default function HTML(props) {
         <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@200;400;600;700&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

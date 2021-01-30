@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Drawer, Image } from 'antd'
+import { CloseOutlined } from '@ant-design/icons'
 import ForceGraph2D from 'react-force-graph-2d'
 import 'antd/dist/antd.css'
 import data from '../dataset/Graph_theme_3.json'
@@ -13,6 +14,7 @@ import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
 const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
 const fontMonoFamily = 'JetBrains Mono'
+const fontMenuOrEngText = 'Manrope'
 
 const pageStyles = {
   color: '#232129',
@@ -48,7 +50,6 @@ const getColorFromGroup = (nodeGroup) => {
   // }
 
   // return {
-  //   '1-Dark': '#193220',
   //   '1-Med': '#192cc0',
   //   '1-Light': '#72c083',
   //   '2-Dark': '#2f5560',
@@ -65,11 +66,23 @@ const getColorFromGroup = (nodeGroup) => {
 const TextLink = styled.p`
   font-size: 20px;
   color: white;
+  font-family: ${fontMenuOrEngText};
   &:hover {
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
   }
 `
+const TreeFrameLeft = styled.div`
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  left: -20px;
+  top: 0px;
+  background-repeat: repeat;
+  background: url("${treeframeImage}");
+`
+
+const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
 const groupedColorNode = data.nodes.map((node) => ({ 
@@ -124,7 +137,7 @@ const IndexPage = () => {
   const renderNodeDrawer = () => {
     return (
       <Drawer
-        closeIcon={<span style={{ color: 'white' }}>x</span>}
+        closeIcon={WhiteClosedOutline}
         visible={nodeDrawerVisible}
         placement="right"
         onClose={handleCloseNodeDrawer}
@@ -150,23 +163,22 @@ const IndexPage = () => {
             fontFamily: fontHeader,
             fontWeight: '600',
             lineHeight: '40px',
-            letterSpacing: '1.5px'
+            letterSpacing: '0.5px',
           }}>
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
           <div>
-            <div>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
               const node = data.nodes.find((d) => d.id === link)
               return node.id  
-                ? ( <div key={node.id}>
+                ? ( <React.Fragment key={node.id}>
+                    <div style={{ width: '100%', borderBottom: '1px solid white', marginBottom: '24px' }} />
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
-                  </div>
+                  </React.Fragment>
                 )
                 : null
             })}
-            </div>
           </div>
           <p style={{
             fontFamily: fontThaiFamily,
@@ -192,26 +204,10 @@ const IndexPage = () => {
         style={statementDrawerStyle}
         drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
+        closeIcon={WhiteClosedOutline}
       >
-        <div style={{
-          // display: 'flex',
-          // flexDirection: 'column',
-          position: 'absolute',
-          width: '100px',
-          left: '-20px',
-          top: '0px',
-          overflow: 'hidden',
-          backgroundImage: 'url("../images/treeframe/4x/Asset 1@4x.png")'
-        }}>
-        {
-          // [1, 2, 3, 4].map((ele) => (
-          //   <img style={{
-          //     width: '100px'
-          //   }} src={treeframeImage} />
-          // ))
-        }
-        </div>
         <div style={drawerContentContainerStyle}>
+          <TreeFrameLeft />
           <p style={{
             fontFamily: fontHeader,
             fontSize: '30px',
@@ -229,7 +225,8 @@ const IndexPage = () => {
             fontSize: '18px',
             color: 'white',
             textAlign: 'right',
-            fontFamily: fontThaiFamily,
+            fontFamily: fontMenuOrEngText,
+            letterSpacing: '1px'
           }}>
             {'Object Management is a visual overview of selected artefacts featured in The Immortals Are Quite Busy These Days. It claims neither comprehensiveness nor clarity. Instead, what it contains is the act of looking for comprehension, of looking for clarity. Anything is data, and everything can be analysed, or so they say. Key to this is classification, which in itself is a form of violence. Think of this overview as an overrated guide book. Think of it as a rigid and uninspiring how-to book. The content itself might not lead to much, but we encourage you to engage with how content is arranged, how things are classified, how certain things are so blatantly discarded. So that perhaps everything is data after all.'}
           </p>
@@ -243,6 +240,7 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
+        <meta name="description" content="NAWIN NUTHONG - THE IMMORTALS ARE QUITE BUSY THESE DAYS - 30.01 - 21.03.2021"/>
         <link rel="canonical" href="https://busyimmortal.com/" />
         <meta property="og:url" content="https://busyimmortal.com/" />
         <meta property="og:type" content="website" />
@@ -266,7 +264,7 @@ const IndexPage = () => {
           typeof window !== 'undefined' && (
             <ForceGraph2D
               onNodeClick={handleClickNode}
-              nodeRelSize={15}
+              nodeRelSize={10}
               graphData={addedColorLinkGraphData}
               onNodeDragEnd={(node) => {
                 node.fx = node.x

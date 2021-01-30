@@ -1045,8 +1045,8 @@
       "content": "XXX"
     },
     {
-      "id": "T1",
-      "title": "Historical Inquiry",
+      "id": "1",
+      "title": "[1] Historical Inquiry",
       "Constellation Description": "XXX",
       "group": "1-Dark",
 
@@ -1452,7 +1452,7 @@
     },
     {
       "id": "2",
-      "title": "Threshold",
+      "title": "[2] Threshold",
       "group": "2-Dark",
 
       "childLinks": ["2.1", "2.2"]
@@ -1624,7 +1624,7 @@
     },
     {
       "id": "3",
-      "title": "Meaning Making, Sense Making",
+      "title": "[3] Meaning Making, Sense Making",
       "group": "3-Dark",
 
       "childLinks": ["3.1", "3.2", "3.3", "3.4", "3.5", "1.2.1"]
@@ -1885,7 +1885,7 @@
     },
     {
       "id": "4",
-      "title": "World-Building",
+      "title": "[4] World-Building",
       "group": "4-Dark",
 
       "childLinks": ["4.1", "4.2", "4.3", "4.4"]
@@ -2190,7 +2190,7 @@
     },
     {
       "id": "5",
-      "title": "Game/Play Culture",
+      "title": "[5] Game/Play Culture",
       "group": "5-Dark",
 
       "childLinks": [
@@ -2452,7 +2452,7 @@
     },
     {
       "id": "6",
-      "title": "Object and its contexts",
+      "title": "[6] Object and its contexts",
       "group": "6-Dark",
 
       "childLinks": ["6.1", "6.2", "6.3", "6.4"]
@@ -2615,7 +2615,7 @@
     },
     {
       "id": "7",
-      "title": "Unclassified ",
+      "title": "[7] Unclassified ",
       "group": "7-Dark",
 
       "childLinks": [
@@ -2699,32 +2699,32 @@
   ],
   "links": [
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.1",
       "value": 1
     },
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.1",
       "value": 1
     },
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.2",
       "value": 1
     },
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.3",
       "value": 1
     },
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.4",
       "value": 1
     },
     {
-      "source": "T1",
+      "source": "1",
       "target": "1.5",
       "value": 1
     },
