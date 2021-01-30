@@ -6,6 +6,7 @@ import data from '../dataset/Graph_theme_3.json'
 import bg from '../images/bg.jpg'
 import '../styles.css'
 import styled from '@emotion/styled'
+import { Helmet } from "react-helmet"
 import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
 
 const fontHeader = 'Cinzel'
@@ -63,8 +64,9 @@ const getColorFromGroup = (nodeGroup) => {
 const TextLink = styled.p`
   font-size: 20px;
   color: white;
-  &:hover: {
+  &:hover {
     cursor: pointer;
+    text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
   }
 `
 
@@ -121,6 +123,7 @@ const IndexPage = () => {
   const renderNodeDrawer = () => {
     return (
       <Drawer
+        closeIcon={<span style={{ color: white }}>x</span>}
         visible={nodeDrawerVisible}
         placement="right"
         onClose={handleCloseNodeDrawer}
