@@ -46,8 +46,8 @@ const getColorFromGroup = (nodeGroup) => {
   }
 
   return {
-    '1-Dark': '#193820',
-    '1-Med': '#3b824a',
+    '1-Dark': '#193220',
+    '1-Med': '#192cc0',
     '1-Light': '#72c083',
     '2-Dark': '#2f5560',
     '2-Med': '#4a8696',
@@ -199,15 +199,15 @@ const IndexPage = () => {
             fontWeight: '600',
             textShadow: '1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1)'
           }}>
-            {'CONTENTS OF "TEXT" OF EVERY ARTIFACT [IN] IMMORTAL ARE QUITE BUSY THESE DAY'}
+            {'CONTENT OF ARTIFACT [IN] THE IMMORTALS ARE QUITE BUSY THESE DAYS'}
           </p>
           <p style={{
             fontSize: '18px',
             color: 'white',
             textAlign: 'right',
-            fontFamily: fontHeader,
+            fontFamily: fontThaiFamily,
           }}>
-            {'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet id felis id dignissim. Aenean et sapien felis. Duis rhoncus euismod ligula et pulvinar. Praesent justo sem, feugiat volutpat quam quis, rhoncus volutpat turpis.'}
+            {'Object Management is a visual overview of selected artefacts featured in The Immortals Are Quite Busy These Days. It claims neither comprehensiveness nor clarity. Instead, what it contains is the act of looking for comprehension, of looking for clarity. Anything is data, and everything can be analysed, or so they say. Key to this is classification, which in itself is a form of violence. Think of this overview as an overrated guide book. Think of it as a rigid and uninspiring how-to book. The content itself might not lead to much, but we encourage you to engage with how content is arranged, how things are classified, how certain things are so blatantly discarded. So that perhaps everything is data after all.'}
           </p>
         </div>
       </Drawer>
