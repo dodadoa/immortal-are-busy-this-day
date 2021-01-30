@@ -49,18 +49,29 @@ const getColorFromGroup = (nodeGroup) => {
   //   return '#22d'
   // }
 
-  // return {
-  //   '1-Med': '#192cc0',
-  //   '1-Light': '#72c083',
-  //   '2-Dark': '#2f5560',
-  //   '2-Med': '#4a8696',
-  //   '2-Light': '#76adbc',
-  //   '3-Dark': '#694611',
-  //   '3-Med': '#af751d',
-  //   '3-Light': '#e2a850'
-  // }[nodeGroup]
-
-  return '#22d'
+  return {
+    '1-Dark': '#00ad5f',
+    '1-Med': '#00ad5f',
+    '1-Light': '#00ad5f',
+    '2-Dark': '#9b00d9',
+    '2-Med': '#9b00d9',
+    '2-Light': '#9b00d9',
+    '3-Dark': '#615b55',
+    '3-Med': '#615b55',
+    '3-Light': '#615b55',
+    '4-Dark': '#fa5914',
+    '4-Med': '#fa5914',
+    '4-Light': '#fa5914',
+    '5-Dark': '#087585',
+    '5-Med': '#087585',
+    '5-Light': '#087585',
+    '6-Dark': '#889949',
+    '6-Med': '#889949',
+    '6-Light': '#889949',
+    '7-Dark': '#22d',
+    '7-Med': '#22d',
+    '7-Light': '#22d',
+  }[nodeGroup]
 }
 
 const TextLink = styled.p`
@@ -276,19 +287,18 @@ const IndexPage = () => {
                 ctx.font = `${fontSize}px ${fontMonoFamily}`
                 const textWidth = ctx.measureText(label).width
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
-                ctx.shadowColor = 'rgba(255, 255, 255, 1)'
+                ctx.shadowColor = node.color
                 ctx.shadowBlur = 15
-                ctx.fillStyle = 'rgba(255, 255, 255, 1)'
+                ctx.fillStyle = node.color
                 ctx.fillRect(
                   node.x - bckgDimensions[0] / 2,
                   node.y - bckgDimensions[1] / 2,
                   ...bckgDimensions,
                 )
-
                 ctx.shadowBlur = 0
                 ctx.textAlign = 'center'
                 ctx.textBaseline = 'middle'
-                ctx.fillStyle = node.color
+                ctx.fillStyle = 'rgba(255, 255, 255, 1)'
                 ctx.fillText(label, node.x, node.y)
               }}
             />
