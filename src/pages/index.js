@@ -37,25 +37,27 @@ const drawerStyle = {
 }
 
 const getColorFromGroup = (nodeGroup) => {
-  if (typeof nodeGroup === 'number') {
+  if (nodeGroup === 'object') {
     return '#f24'
   }
 
-  if (nodeGroup.startsWith('7')) {
-    return '#22d'
-  }
+  // if (nodeGroup.startsWith('7')) {
+  //   return '#22d'
+  // }
 
-  return {
-    '1-Dark': '#193220',
-    '1-Med': '#192cc0',
-    '1-Light': '#72c083',
-    '2-Dark': '#2f5560',
-    '2-Med': '#4a8696',
-    '2-Light': '#76adbc',
-    '3-Dark': '#694611',
-    '3-Med': '#af751d',
-    '3-Light': '#e2a850'
-  }[nodeGroup]
+  // return {
+  //   '1-Dark': '#193220',
+  //   '1-Med': '#192cc0',
+  //   '1-Light': '#72c083',
+  //   '2-Dark': '#2f5560',
+  //   '2-Med': '#4a8696',
+  //   '2-Light': '#76adbc',
+  //   '3-Dark': '#694611',
+  //   '3-Med': '#af751d',
+  //   '3-Light': '#e2a850'
+  // }[nodeGroup]
+
+  return '#22d'
 }
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
