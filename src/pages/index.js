@@ -253,6 +253,7 @@ const IndexPage = () => {
           typeof window !== 'undefined' && (
             <ForceGraph2D
               onNodeClick={handleClickNode}
+              nodeRelSize={15}
               graphData={addedColorLinkGraphData}
               onNodeDragEnd={(node) => {
                 node.fx = node.x
