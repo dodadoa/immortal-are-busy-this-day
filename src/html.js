@@ -19,8 +19,6 @@ export default function HTML(props) {
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
-        <script src="//aframe.io/releases/0.9.2/aframe.min.js"></script>
-        <script src="//unpkg.com/ar.js/aframe/build/aframe-ar.min.js"></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
