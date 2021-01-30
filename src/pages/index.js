@@ -60,6 +60,14 @@ const getColorFromGroup = (nodeGroup) => {
   return '#22d'
 }
 
+const TextLink = styled.p`
+  font-size: 20px;
+  color: white;
+  &:hover: {
+    cursor: pointer;
+  }
+`
+
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
 const groupedColorNode = data.nodes.map((node) => ({ 
   ...node, 
@@ -208,6 +216,7 @@ const IndexPage = () => {
             letterSpacing: '2px',
             textAlign: 'right',
             fontWeight: '600',
+            wordBreak: 'break-word',
             textShadow: '1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1)'
           }}>
             {'CONTENT OF ARTIFACT [IN] THE IMMORTALS ARE QUITE BUSY THESE DAYS'}
@@ -237,16 +246,7 @@ const IndexPage = () => {
           left: '20px',
           zIndex: '999'
         }}>
-          <p
-            onClick={handleClickStatement}
-            style={{
-              fontSize: '20px',
-              color: 'white',
-              '&:hover': {
-                cursor: 'pointer',
-              }
-            }}
-          >Statement</p>
+          <TextLink onClick={handleClickStatement}>Statement</TextLink>
         </div>
         {
           typeof window !== 'undefined' && (
