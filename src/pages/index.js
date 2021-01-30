@@ -147,10 +147,12 @@ const IndexPage = () => {
             {dataNode.childLinks && dataNode.childLinks.map(link => {
               const node = data.nodes.find((d) => d.id === link)
               return (
-                <div key={node.id}>
-                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
-                  <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
-                </div>
+               node.id 
+                ? <div key={node.id}>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
+                  </div>
+                : null
               )
             })}
             </div>
