@@ -29,7 +29,7 @@ const drawerBodyStyle = {
   color: 'black',
   idth: '400px',
   backgroundColor: 'rgba(0, 0, 0, 0.8)',
-  background: 'linear-gradient(0deg, rgba(40,40,40,0.9) 0%, rgba(200,200,200,0.7) 100%)',
+  background: 'linear-gradient(0deg, rgba(10,10,10,0.9) 0%, rgba(100,100,100,0.8) 100%)',
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
@@ -228,7 +228,7 @@ const IndexPage = () => {
   return (
     <React.Fragment key={isClient}>
       <main style={pageStyles}>
-        <title>Immortal are busy this day</title>
+        <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
         {renderNodeDrawer()}
         {statementDrawer()}
         <div style={{
