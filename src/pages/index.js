@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Drawer, Image } from 'antd'
-import 'antd/dist/antd.css'
-import '../styles.css'
 import ForceGraph2D from 'react-force-graph-2d'
+import 'antd/dist/antd.css'
 import data from '../dataset/Graph_theme_3.json'
 import bg from '../images/bg.jpg'
+import '../styles.css'
 import styled from '@emotion/styled'
 import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
 
@@ -122,7 +122,15 @@ const IndexPage = () => {
         bodyStyle={drawerBodyStyle}
       >
         <div style={drawerContentContainerStyle}>
-          <div style={{ width: '300px', height: '300px' }} />
+          {
+            dataNode.image && 
+            <div style={{ margin: '20px' }}>
+              <Image 
+                width={300}
+                src={`/photo_webgraph/${dataNode.image}`}
+              />
+            </div>
+          }
           <p style={{
             fontSize: '30px',
             color: 'white',
