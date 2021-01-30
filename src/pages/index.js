@@ -124,7 +124,7 @@ const IndexPage = () => {
   const renderNodeDrawer = () => {
     return (
       <Drawer
-        closeIcon={<span style={{ color: white }}>x</span>}
+        closeIcon={<span style={{ color: 'white' }}>x</span>}
         visible={nodeDrawerVisible}
         placement="right"
         onClose={handleCloseNodeDrawer}
