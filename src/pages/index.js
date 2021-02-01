@@ -3,7 +3,7 @@ import { Drawer, Image as PreviewableImage } from 'antd'
 import { CloseOutlined } from '@ant-design/icons'
 import ForceGraph2D from 'react-force-graph-2d'
 import 'antd/dist/antd.css'
-import data from '../dataset/Graph_theme_3.json'
+import data from '../dataset/Graph_theme_4.json'
 import bg from '../images/bg.jpg'
 import '../styles.css'
 import styled from '@emotion/styled'
@@ -317,11 +317,13 @@ const IndexPage = () => {
                   node.y - bckgDimensions[1] / 2,
                   ...bckgDimensions,
                 )
-                if (node.image) {
-                  const img = new Image()
-                  img.src = `/photo_webgraph/${node.image}`
-                  ctx.drawImage(img, 12, 12, 12, 12)
-                }
+                // if (node.image) {
+                //   const img = new Image()
+                //   img.src = `/photo_webgraph/${node.image}`
+                //   ctx.drawImage(img, node.x, node.y, 30, 30)
+                // } else {
+
+                // }
                 ctx.shadowBlur = 0
                 ctx.textAlign = 'center'
                 ctx.textBaseline = 'middle'
