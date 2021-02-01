@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Drawer, Image } from 'antd'
+import React, { useState, useEffect, useRef } from 'react'
+import { Drawer, Image as PreviewableImage } from 'antd'
 import { CloseOutlined } from '@ant-design/icons'
 import ForceGraph2D from 'react-force-graph-2d'
 import 'antd/dist/antd.css'
@@ -109,14 +109,24 @@ const addedColorLinkGraphData = {
 }
 
 const IndexPage = () => {
+  const canvasRef = useRef(null)
+
   const [isClient, setIsClient] = useState(false)
   const [nodeDrawerVisible, setNodeDrawerVisible] = useState(false)
   const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
+  const [canvas, setCanvas] = useState(null)
 
   useEffect(() => {
     setIsClient(true)
   }, [])
+  
+  useEffect(() => {
+    const currentCanvas = canvasRef.current
+    setCanvas(currentCanvas)
+  }, [])
+
+  console.log(canvas)
 
   const nodeDrawerStyle = nodeDrawerVisible
     ? {
@@ -163,7 +173,7 @@ const IndexPage = () => {
           {
             dataNode.image && 
             <div style={{ margin: '20px' }}>
-              <Image 
+              <PreviewableImage 
                 width={300}
                 src={`/photo_webgraph/${dataNode.image}`}
               />
@@ -183,7 +193,7 @@ const IndexPage = () => {
           <div>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
               const node = data.nodes.find((d) => d.id === link)
-              return node.id  
+              return node
                 ? ( <React.Fragment key={node.id}>
                     <div style={{ width: '100%', borderBottom: '1px solid white', marginBottom: '24px' }} />
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
@@ -191,7 +201,7 @@ const IndexPage = () => {
                     {
                       node.image && (
                       <div style={{ margin: '20px' }}>
-                        <Image 
+                        <PreviewableImage 
                           width={300}
                           src={`/photo_webgraph/${node.image}`}
                         />
@@ -285,6 +295,7 @@ const IndexPage = () => {
         {
           typeof window !== 'undefined' && (
             <ForceGraph2D
+              ref={canvasRef}
               onNodeClick={handleClickNode}
               nodeRelSize={isMobile ? 5 : 15 }
               graphData={addedColorLinkGraphData}
@@ -306,6 +317,11 @@ const IndexPage = () => {
                   node.y - bckgDimensions[1] / 2,
                   ...bckgDimensions,
                 )
+                if (node.image) {
+                  const img = new Image()
+                  img.src = `/photo_webgraph/${node.image}`
+                  ctx.drawImage(img, 12, 12, 12, 12)
+                }
                 ctx.shadowBlur = 0
                 ctx.textAlign = 'center'
                 ctx.textBaseline = 'middle'
