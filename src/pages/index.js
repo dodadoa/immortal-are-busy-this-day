@@ -295,6 +295,7 @@ const IndexPage = () => {
         {
           typeof window !== 'undefined' && (
             <ForceGraph2D
+              warmupTicks={10}
               ref={canvasRef}
               onNodeClick={handleClickNode}
               nodeRelSize={isMobile ? 5 : 15 }
@@ -311,24 +312,23 @@ const IndexPage = () => {
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                 ctx.shadowColor = node.color
                 ctx.shadowBlur = 15
-                ctx.fillStyle = node.color
-                ctx.fillRect(
-                  node.x - bckgDimensions[0] / 2,
-                  node.y - bckgDimensions[1] / 2,
-                  ...bckgDimensions,
-                )
-                // if (node.image) {
-                //   const img = new Image()
-                //   img.src = `/photo_webgraph/${node.image}`
-                //   ctx.drawImage(img, node.x, node.y, 30, 30)
-                // } else {
-
-                // }
-                ctx.shadowBlur = 0
-                ctx.textAlign = 'center'
-                ctx.textBaseline = 'middle'
-                ctx.fillStyle = 'rgba(255, 255, 255, 1)'
-                ctx.fillText(label, node.x, node.y)
+                if (node.image) {
+                  const img = new Image()
+                  img.src = `/thumbnail/${node.image}`
+                  ctx.drawImage(img, 10 - node.x, 10 - node.y, 30, 30)
+                } else {
+                  ctx.fillStyle = node.color
+                  ctx.fillRect(
+                    node.x - bckgDimensions[0] / 2,
+                    node.y - bckgDimensions[1] / 2,
+                    ...bckgDimensions,
+                  )
+                  ctx.shadowBlur = 0
+                  ctx.textAlign = 'center'
+                  ctx.textBaseline = 'middle'
+                  ctx.fillStyle = 'rgba(255, 255, 255, 1)'
+                  ctx.fillText(label, node.x, node.y)
+                }
               }}
             />
           )
