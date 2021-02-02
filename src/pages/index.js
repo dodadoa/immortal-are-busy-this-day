@@ -13,7 +13,7 @@ import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
 import { isMobile } from 'react-device-detect'
 import theme from '../constants/theme'
 import colorTheme from '../constants/colorTheme'
-import { getThemeFromGroup, getColorFromGroup } from './utils'
+import { getThemeFromGroup, getColorFromGroup } from '../utils/utils'
 
 
 const fontHeader = 'Cinzel'
