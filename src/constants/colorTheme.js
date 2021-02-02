@@ -1,4 +1,4 @@
-const ONE = '#00ad5f'
+const ONE = '#159c00'
 const TWO = '#9b00d9'
 const THREE = '#615b55'
 const FOUR = '#fa5914'

@@ -54,6 +54,19 @@ const TextLink = styled.p`
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
   }
 `
+
+const TitleTextLink = styled.p`
+  text-align: right;
+  color: white;
+  font-family: ${fontHeader};
+  font-size: 20px;
+  font-weight: 600;
+  &:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
+  }
+`
+
 const TreeFrameLeft = styled.div`
   position: absolute;
   width: 100px;
@@ -66,6 +79,24 @@ const TreeFrameLeft = styled.div`
 
 const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
 
+const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
+const groupedColorWithObjectImagesNode = data.nodes.map((node) => 
+  {
+    const img = new Image();
+    img.src = `/thumbnail/${node.image}`
+    return { 
+      ...node, 
+      img: img,
+      color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+    }
+  }
+)
+
+const addedColorLinkGraphData = {
+  nodes: groupedColorWithObjectImagesNode,
+  links: addedColorLinks,
+}
+
 const IndexPage = () => {
   const canvasRef = useRef(null)
 
@@ -74,19 +105,8 @@ const IndexPage = () => {
   const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
   const [canvas, setCanvas] = useState(null)
-  const [graphData, setGraphData] = useState(data)
-  const [graphConstantsData, setGraphConstantsData] = useState(data)
-
-  const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
-  const groupedColorNode = data.nodes.map((node) => ({ 
-    ...node, 
-    color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
-  }))
-
-  const addedColorLinkGraphData = {
-    nodes: groupedColorNode,
-    links: addedColorLinks,
-  }
+  const [graphData, setGraphData] = useState(addedColorLinkGraphData)
+  const [graphConstantsData, setGraphConstantsData] = useState(addedColorLinkGraphData)
 
   useEffect(() => {
     setGraphData(addedColorLinkGraphData)
@@ -165,6 +185,12 @@ const IndexPage = () => {
   const handleCloseNodeDrawer = () => setNodeDrawerVisible(false)
   const handleCloseStatementDrawer = () => setStatementDrawerVisible(false)
 
+  const handleClickTitleToGenerateNewNode = (node) => {
+    setNodeDrawerVisible(false)
+    setNodeDrawerVisible(true)
+    setDataNode(node)
+  }
+
   const renderNodeDrawer = () => {
     return (
       <Drawer
@@ -200,18 +226,22 @@ const IndexPage = () => {
           </p>
           <div>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
-              const node = data.nodes.find((d) => d.id === link)
-              return node
-                ? ( <React.Fragment key={node.id}>
+              const childNode = data.nodes.find((d) => d.id === link)
+              return childNode
+                ? ( <React.Fragment key={childNode.id}>
                     <div style={{ width: '100%', borderBottom: '1px solid white', marginBottom: '24px' }} />
-                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontHeader, fontSize: 18, fontWeight: '600' }}>#{node.title}</p>
-                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!node.content && node.content}</p>
+                    <TitleTextLink
+                      onClick={() => handleClickTitleToGenerateNewNode(childNode)}
+                    >
+                      #{childNode.title}
+                    </TitleTextLink>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!childNode.content && childNode.content}</p>
                     {
-                      node.image && (
+                      childNode.image && (
                       <div style={{ margin: '20px' }}>
                         <PreviewableImage 
                           width={300}
-                          src={`/photo_webgraph/${node.image}`}
+                          src={`/photo_webgraph/${childNode.image}`}
                         />
                       </div> )
                     }
@@ -329,6 +359,7 @@ const IndexPage = () => {
           <Select
             mode="multiple"
             showArrow
+            placeholder="Filter themes"
             tagRender={tagRender}
             style={{ width: '200px' }}
             options={options}
@@ -365,9 +396,7 @@ const IndexPage = () => {
                 ctx.shadowColor = node.color
                 ctx.shadowBlur = 15
                 // if (node.image) {
-                //   const img = new Image()
-                //   img.src = `/thumbnail/${node.image}`
-                //   ctx.drawImage(img, node.x, node.y, 30, 30)
+                //   ctx.drawImage(node.img, node.x, node.y, 30, 30)
                 // } else {
                   ctx.fillStyle = node.color
                   ctx.fillRect(
