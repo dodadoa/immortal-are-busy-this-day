@@ -81,6 +81,7 @@ const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rg
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
 const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
+  if (typeof window === 'undefined') return
   if (node.group === 'object') {
     const img = new Image();
     const foundIndex = thumbnails.findIndex(thumbnail => thumbnail.includes(`/${nIndex + 1}-`))
