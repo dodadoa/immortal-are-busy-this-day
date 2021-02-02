@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Drawer, Image as PreviewableImage } from 'antd'
+import { Drawer, Image as PreviewableImage, Select, Tag } from 'antd'
 import { CloseOutlined } from '@ant-design/icons'
 import ForceGraph2D from 'react-force-graph-2d'
 import 'antd/dist/antd.css'
@@ -10,7 +10,10 @@ import styled from '@emotion/styled'
 import { Helmet } from 'react-helmet'
 import facebookSharePic from '../images/for-share.png'
 import treeframeImage from '../images/treeframe/4x/Asset 1@4x.png'
-import { isMobile } from 'react-device-detect';
+import { isMobile } from 'react-device-detect'
+import theme from '../constants/theme'
+import colorTheme from '../constants/colorTheme'
+import { getThemeFromGroup, getColorFromGroup } from './utils'
 
 
 const fontHeader = 'Cinzel'
@@ -42,40 +45,6 @@ const drawerStyle = {
   width: '400px',
 }
 
-const getColorFromGroup = (nodeGroup) => {
-  if (nodeGroup === 'object') {
-    return '#f24'
-  }
-
-  // if (nodeGroup.startsWith('7')) {
-  //   return '#22d'
-  // }
-
-  return {
-    '1-Dark': '#00ad5f',
-    '1-Med': '#00ad5f',
-    '1-Light': '#00ad5f',
-    '2-Dark': '#9b00d9',
-    '2-Med': '#9b00d9',
-    '2-Light': '#9b00d9',
-    '3-Dark': '#615b55',
-    '3-Med': '#615b55',
-    '3-Light': '#615b55',
-    '4-Dark': '#fa5914',
-    '4-Med': '#fa5914',
-    '4-Light': '#fa5914',
-    '5-Dark': '#087585',
-    '5-Med': '#087585',
-    '5-Light': '#087585',
-    '6-Dark': '#889949',
-    '6-Med': '#889949',
-    '6-Light': '#889949',
-    '7-Dark': '#22d',
-    '7-Med': '#22d',
-    '7-Light': '#22d',
-  }[nodeGroup]
-}
-
 const TextLink = styled.p`
   font-size: 20px;
   color: white;
@@ -97,17 +66,6 @@ const TreeFrameLeft = styled.div`
 
 const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
 
-const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
-const groupedColorNode = data.nodes.map((node) => ({ 
-  ...node, 
-  color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
-}))
-
-const addedColorLinkGraphData = {
-  nodes: groupedColorNode,
-  links: addedColorLinks,
-}
-
 const IndexPage = () => {
   const canvasRef = useRef(null)
 
@@ -116,6 +74,24 @@ const IndexPage = () => {
   const [statementDrawerVisible, setStatementDrawerVisible] = useState(true)
   const [dataNode, setDataNode] = useState({})
   const [canvas, setCanvas] = useState(null)
+  const [graphData, setGraphData] = useState(data)
+  const [graphConstantsData, setGraphConstantsData] = useState(data)
+
+  const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
+  const groupedColorNode = data.nodes.map((node) => ({ 
+    ...node, 
+    color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+  }))
+
+  const addedColorLinkGraphData = {
+    nodes: groupedColorNode,
+    links: addedColorLinks,
+  }
+
+  useEffect(() => {
+    setGraphData(addedColorLinkGraphData)
+    setGraphConstantsData(addedColorLinkGraphData)
+  }, [])
 
   useEffect(() => {
     setIsClient(true)
@@ -127,6 +103,38 @@ const IndexPage = () => {
   }, [])
 
   console.log(canvas)
+
+  const handleFilterThemeChange = (themeFilters) => {
+    console.log(themeFilters)
+    if (themeFilters.length === 0) {
+      setGraphData(graphConstantsData)
+      return
+    }
+    const newNodes = graphConstantsData.nodes.filter(
+      (node) => {
+        if(node.group === 'object'){
+          return true
+        }
+
+        return themeFilters.some(themeFilter => {
+          return themeFilter === getThemeFromGroup(node.group)
+        })
+      }
+    )
+    const newLinks = graphConstantsData.links.filter(
+      (link) => {
+        return newNodes.some(newNode => {
+          if (newNode.group === 'object') {
+            return false
+          }
+
+          return link.source.id === newNode.id || link.target.id === newNode.id
+        })
+      }
+    )
+    const newGraphData = { nodes: newNodes, links: newLinks }
+    setGraphData(newGraphData)
+  }
 
   const nodeDrawerStyle = nodeDrawerVisible
     ? {
@@ -267,6 +275,36 @@ const IndexPage = () => {
     )
   }
 
+  const tagRender = (props) => {
+    const { label, value, closable, onClose } = props;
+
+    const color = {
+      [theme.HISTORICAL_INQUIRY]: colorTheme.ONE,
+      [theme.THRESHOLD]: colorTheme.TWO,
+      [theme.MEANING_MAKING_SENSE_MAKING]: colorTheme.THREE,
+      [theme.WORLD_BUILDING] : colorTheme.FOUR,
+      [theme.GAME_PLAY_CULTURE]: colorTheme.FIVE,
+      [theme.OBJECT_AND_ITS_CONTEXTS]: colorTheme.SIX,
+      [theme.UNCLASSIFIED]: colorTheme.SEVEN
+    }[value]
+  
+    return (
+      <Tag color={color} closable={closable} onClose={onClose} style={{ marginRight: 3 }}>
+        {label}
+      </Tag>
+    );
+  }
+
+  const options = [
+    { value: theme.HISTORICAL_INQUIRY },
+    { value: theme.THRESHOLD },
+    { value: theme.MEANING_MAKING_SENSE_MAKING },
+    { value: theme.WORLD_BUILDING },
+    { value: theme.GAME_PLAY_CULTURE },
+    { value: theme.OBJECT_AND_ITS_CONTEXTS },
+    { value: theme.UNCLASSIFIED }
+  ]
+
   return (
     <React.Fragment key={isClient}>
       <Helmet>
@@ -282,6 +320,21 @@ const IndexPage = () => {
       </Helmet>
       <main style={pageStyles}>
         <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
+        <div style={{
+          position: 'absolute',
+          top: '10px',
+          left: '20px',
+          zIndex: '999'
+        }}>
+          <Select
+            mode="multiple"
+            showArrow
+            tagRender={tagRender}
+            style={{ width: '200px' }}
+            options={options}
+            onChange={handleFilterThemeChange}
+          />
+        </div>
         {renderNodeDrawer()}
         {statementDrawer()}
         <div style={{
@@ -290,16 +343,15 @@ const IndexPage = () => {
           left: '20px',
           zIndex: '999'
         }}>
-          <TextLink onClick={handleClickStatement}>Statement</TextLink>
+          <TextLink onClick={handleClickStatement}>About this project</TextLink>
         </div>
         {
           typeof window !== 'undefined' && (
             <ForceGraph2D
-              warmupTicks={10}
               ref={canvasRef}
               onNodeClick={handleClickNode}
               nodeRelSize={isMobile ? 5 : 15 }
-              graphData={addedColorLinkGraphData}
+              graphData={graphData}
               onNodeDragEnd={(node) => {
                 node.fx = node.x
                 node.fy = node.y
@@ -312,11 +364,11 @@ const IndexPage = () => {
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                 ctx.shadowColor = node.color
                 ctx.shadowBlur = 15
-                if (node.image) {
-                  const img = new Image()
-                  img.src = `/thumbnail/${node.image}`
-                  ctx.drawImage(img, 10 - node.x, 10 - node.y, 30, 30)
-                } else {
+                // if (node.image) {
+                //   const img = new Image()
+                //   img.src = `/thumbnail/${node.image}`
+                //   ctx.drawImage(img, node.x, node.y, 30, 30)
+                // } else {
                   ctx.fillStyle = node.color
                   ctx.fillRect(
                     node.x - bckgDimensions[0] / 2,
@@ -328,7 +380,7 @@ const IndexPage = () => {
                   ctx.textBaseline = 'middle'
                   ctx.fillStyle = 'rgba(255, 255, 255, 1)'
                   ctx.fillText(label, node.x, node.y)
-                }
+                // }
               }}
             />
           )
