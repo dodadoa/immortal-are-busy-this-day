@@ -82,11 +82,11 @@ const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rg
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
 const groupedColorWithObjectImagesNode = data.nodes.map((node) => 
   {
-    const img = new Image();
-    img.src = `/thumbnail/${node.image}`
+    // const img = new Image();
+    // img.src = `/thumbnail/${node.image}`
     return { 
       ...node, 
-      img: img,
+      // img: img,
       color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
     }
   }
