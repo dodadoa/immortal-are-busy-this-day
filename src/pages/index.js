@@ -125,7 +125,6 @@ const IndexPage = () => {
   console.log(canvas)
 
   const handleFilterThemeChange = (themeFilters) => {
-    console.log(themeFilters)
     if (themeFilters.length === 0) {
       setGraphData(graphConstantsData)
       return
@@ -152,7 +151,25 @@ const IndexPage = () => {
         })
       }
     )
-    const newGraphData = { nodes: newNodes, links: newLinks }
+    const newNewNodes = newNodes.filter(
+      (node) => {
+        if (node.group === 'object') {
+          return newLinks.some((newLink) => node.id === newLink.target.id)
+        }
+        return newLinks.some((newLink) => (node.id === newLink.target.id || node.id === newLink.source.id))
+      }
+    )
+    const newNewLinks = newLinks.filter(
+      (link) => {
+        return newNewNodes.some(newNewNode => {
+          if (newNewNode.group === 'object') {
+            return false
+          }
+          return link.source.id === newNewNode.id
+        })
+      }
+    )
+    const newGraphData = { nodes: newNewNodes, links: newNewLinks }
     setGraphData(newGraphData)
   }
 
