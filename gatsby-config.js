@@ -18,5 +18,13 @@ module.exports = {
         icon: `src/images/favicon.jpeg`,
       },
     },
+    {
+      resolve: `gatsby-plugin-force-file-loader`,
+      options: {
+        rules: [
+          'images', /* Matches Gatsby default rules for images */
+        ],
+      },
+    }
   ],
 }

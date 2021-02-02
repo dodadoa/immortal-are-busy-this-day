@@ -14,7 +14,7 @@ import { isMobile } from 'react-device-detect'
 import theme from '../constants/theme'
 import colorTheme from '../constants/colorTheme'
 import { getThemeFromGroup, getColorFromGroup } from '../utils/utils'
-
+import thumbnails from '../images/thumbnails'
 
 const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
@@ -80,17 +80,23 @@ const TreeFrameLeft = styled.div`
 const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
-const groupedColorWithObjectImagesNode = data.nodes.map((node) => 
-  {
-    // const img = new Image();
-    // img.src = `/thumbnail/${node.image}`
+const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
+  if (node.group === 'object') {
+    const img = new Image();
+    const foundIndex = thumbnails.findIndex(thumbnail => thumbnail.includes(`/${nIndex + 1}-`))
+    img.src = thumbnails[foundIndex]
+    console.log(`transformLevel ${foundIndex}, ${nIndex}, ${node.id}`, img)
     return { 
       ...node, 
-      // img: img,
+      img: img,
       color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
     }
   }
-)
+  return { 
+    ...node, 
+    color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+  }
+})
 
 const addedColorLinkGraphData = {
   nodes: groupedColorWithObjectImagesNode,
@@ -121,8 +127,6 @@ const IndexPage = () => {
     const currentCanvas = canvasRef.current
     setCanvas(currentCanvas)
   }, [])
-
-  console.log(canvas)
 
   const handleFilterThemeChange = (themeFilters) => {
     if (themeFilters.length === 0) {
@@ -417,9 +421,9 @@ const IndexPage = () => {
                 const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                 ctx.shadowColor = node.color
                 ctx.shadowBlur = 15
-                // if (node.image) {
-                //   ctx.drawImage(node.img, node.x, node.y, 30, 30)
-                // } else {
+                if (node.img) {
+                  ctx.drawImage(node.img, node.x - 10, node.y - 12, 30, 45)
+                } else {
                   ctx.fillStyle = node.color
                   ctx.fillRect(
                     node.x - bckgDimensions[0] / 2,
@@ -431,7 +435,7 @@ const IndexPage = () => {
                   ctx.textBaseline = 'middle'
                   ctx.fillStyle = 'rgba(255, 255, 255, 1)'
                   ctx.fillText(label, node.x, node.y)
-                // }
+                }
               }}
             />
           )
