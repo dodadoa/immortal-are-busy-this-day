@@ -136,6 +136,9 @@ const IndexPage = () => {
         }
 
         return themeFilters.some(themeFilter => {
+          if (node.altGroup) {
+            return themeFilter === getThemeFromGroup(node.altGroup)
+          }
           return themeFilter === getThemeFromGroup(node.group)
         })
       }

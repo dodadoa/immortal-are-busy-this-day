@@ -1422,7 +1422,7 @@
       "title": "Materialising matters",
       "title-th":"",
       "group": "1-Light",
-
+      "altGroup": "4-Med",
       "childLinks": [
         "Object 123",
         "Object 102",
@@ -1440,7 +1440,7 @@
       "title": "Ancientness and market availability ",
       "title-th":"",
       "group": "1-Light",
-
+      "altGroup": "6-Light",
       "childLinks": ["Object 59", "Object 43", "Object 42"]
     },
     {
@@ -1590,7 +1590,7 @@
       "title": "Ability to recount history as beyond the virtual/physical binary",
       "title-th":"",
       "group": "1-Light",
-
+      "altGroup": "4-Med",
       "childLinks": ["Object 48"]
     },
     {
