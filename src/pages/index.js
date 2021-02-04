@@ -416,15 +416,34 @@ const IndexPage = () => {
               }}
               nodeCanvasObject={(node, ctx, globalScale) => {
                 const label = node.title ? node.title : node.id
-                const fontSize = 16 / globalScale
-                ctx.font = `${fontSize}px ${fontMonoFamily}`
                 const textWidth = ctx.measureText(label).width
-                const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
-                ctx.shadowColor = node.color
-                ctx.shadowBlur = 15
                 if (node.img) {
+                  const fontSize = 16 / globalScale
+                  ctx.font = `${fontSize}px ${fontMonoFamily}`
+                  const MOVING_TXT_Y = 37
+                  const MOVING_TXT_X = 5
+                  const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                   ctx.drawImage(node.img, node.x - 10, node.y - 12, 30, 45)
+                  ctx.beginPath()
+                  ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'
+                  ctx.arc(node.x + 5, node.y, 5, 0, Math.PI * 2, true)
+                  ctx.fill()
+                  ctx.fillStyle = node.color
+                  ctx.fillRect(
+                    node.x - bckgDimensions[0] / 2 + MOVING_TXT_X,
+                    node.y - bckgDimensions[1] / 2 + MOVING_TXT_Y,
+                    ...bckgDimensions,
+                  )
+                  ctx.textAlign = 'center'
+                  ctx.textBaseline = 'middle'
+                  ctx.fillStyle = 'rgba(255, 255, 255, 1)'
+                  ctx.fillText(label, node.x + MOVING_TXT_X, node.y + MOVING_TXT_Y)
                 } else {
+                  const fontSize = 17 / globalScale
+                  ctx.font = `${fontSize}px ${fontMonoFamily}`
+                  const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
+                  ctx.shadowColor = node.color
+                  ctx.shadowBlur = 15
                   ctx.fillStyle = node.color
                   ctx.fillRect(
                     node.x - bckgDimensions[0] / 2,
