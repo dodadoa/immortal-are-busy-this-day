@@ -441,6 +441,9 @@ const IndexPage = () => {
                 } else {
                   const fontSize = 17 / globalScale
                   ctx.font = `${fontSize}px ${fontMonoFamily}`
+                  if (node.group.includes('Dark')) {
+                    ctx.font = `bold ${25 / globalScale}px ${fontMonoFamily}`
+                  }
                   const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                   ctx.shadowColor = node.color
                   ctx.shadowBlur = 15
@@ -450,6 +453,14 @@ const IndexPage = () => {
                     node.y - bckgDimensions[1] / 2,
                     ...bckgDimensions,
                   )
+                  if (node.group.includes('Dark')) {
+                    const extraBckgDimensions = [textWidth * 1.6, fontSize].map((n) => n + fontSize * 0.5)
+                    ctx.fillRect(
+                      node.x - bckgDimensions[0] / 1.3,
+                      node.y - bckgDimensions[1] / 2,
+                      ...extraBckgDimensions,
+                    )
+                  }
                   ctx.shadowBlur = 0
                   ctx.textAlign = 'center'
                   ctx.textBaseline = 'middle'
