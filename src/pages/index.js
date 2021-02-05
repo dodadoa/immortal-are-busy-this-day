@@ -323,7 +323,29 @@ const IndexPage = () => {
           }}>
             {dataNode.title ? dataNode.title : dataNode.id}
           </p>
-          <div>
+          {dataNode.titleTH && <p style={{
+            fontSize: '16px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontThaiFamily,
+            fontWeight: '400',
+            letterSpacing: '0.5px',
+            marginTop: '15px'
+          }}>
+            {dataNode.titleTH}
+          </p>}
+          {dataNode.constellationDescription && <p style={{
+            fontSize: '18px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontMonoFamily,
+            lineHeight: '35px',
+            letterSpacing: '0.5px',
+            marginTop: '30px'
+          }}>
+            {dataNode.constellationDescription}
+          </p>}
+          <div style={{ marginTop: '30px' }}>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
               const childNode = data.nodes.find((d) => d.id === link)
               return childNode
