@@ -103,7 +103,7 @@ const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
   if (node.group.includes('Med')) {
     return { 
       ...node,
-      title: '🌱' + node.title + '🌱',
+      title: '🌿' + node.title + '🌿',
       color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
     }
   }
@@ -468,7 +468,7 @@ const IndexPage = () => {
                   }
                   const bckgDimensions = [textWidth, fontSize].map((n) => n + fontSize * 0.5)
                   ctx.shadowColor = node.color
-                  ctx.shadowBlur = 15
+                  ctx.shadowBlur = 0
                   ctx.fillStyle = node.color
                   ctx.fillRect(
                     node.x - bckgDimensions[0] / 2,
