@@ -414,7 +414,8 @@ const IndexPage = () => {
             marginTop: '50px',
             marginBottom: '50px',
             textAlign: 'center',
-            fontFamily: fontMonoFamily
+            fontFamily: fontMonoFamily,
+            fontSize: '18px'
           }}>{'🌳  ►  🌿  ►  🍂 ► [!]'}</p>
           <h2
             style={{
