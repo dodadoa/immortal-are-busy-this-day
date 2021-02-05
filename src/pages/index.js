@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Drawer, Image as PreviewableImage, Select, Tag } from 'antd'
-import { CloseOutlined } from '@ant-design/icons'
+import { CloseOutlined, ArrowLeftOutlined } from '@ant-design/icons'
 import ForceGraph2D from 'react-force-graph-2d'
 import 'antd/dist/antd.css'
 import data from '../dataset/Graph_theme_4.json'
@@ -78,7 +78,18 @@ const TreeFrameLeft = styled.div`
   background-size: contain;
 `
 
-const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
+const BackIconWrapper = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  &:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
+  }
+`
+
+const WhiteClosedOutline = <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
+const WhiteBackOutline = <ArrowLeftOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'}}/>
 
 const addedColorLinks = data.links.map((link) => ({ ...link, color: 'white', opacity: 0.5 }))
 const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
@@ -137,6 +148,7 @@ const IndexPage = () => {
   const [canvas, setCanvas] = useState(null)
   const [graphData, setGraphData] = useState(addedColorLinkGraphData)
   const [graphConstantsData, setGraphConstantsData] = useState(addedColorLinkGraphData)
+  const [historyNodeVisit, setHistoryNodeVisit] = useState([])
 
   useEffect(() => {
     setGraphData(addedColorLinkGraphData)
@@ -222,23 +234,39 @@ const IndexPage = () => {
       display: 'none',
     }
 
-  const handleClickNode = (x) => {
+  const handleClickNode = (node) => {
     setStatementDrawerVisible(false)
     setNodeDrawerVisible(true)
-    setDataNode(x)
+    setDataNode(node)
+    setHistoryNodeVisit([node])
   }
   const handleClickStatement = () => {
     setNodeDrawerVisible(false)
     setStatementDrawerVisible(true)
   }
 
-  const handleCloseNodeDrawer = () => setNodeDrawerVisible(false)
+  const handleCloseNodeDrawer = () => {
+    setNodeDrawerVisible(false)
+    setHistoryNodeVisit([])
+  }
   const handleCloseStatementDrawer = () => setStatementDrawerVisible(false)
 
   const handleClickTitleToGenerateNewNode = (node) => {
     setNodeDrawerVisible(false)
     setNodeDrawerVisible(true)
     setDataNode(node)
+    setHistoryNodeVisit([
+      node,
+      ...historyNodeVisit,
+    ])
+  }
+
+  const handleClickBack = () => {
+    const [latest, previous, ...rest] = historyNodeVisit
+    setHistoryNodeVisit([previous, ...rest])
+    setNodeDrawerVisible(false)
+    setNodeDrawerVisible(true)
+    setDataNode(previous)
   }
 
   const renderNodeDrawer = () => {
@@ -253,6 +281,7 @@ const IndexPage = () => {
         drawerStyle={drawerStyle}
         bodyStyle={drawerBodyStyle}
       >
+        {historyNodeVisit.length > 1 && <BackIconWrapper onClick={handleClickBack}>{WhiteBackOutline}</BackIconWrapper>}
         <div style={drawerContentContainerStyle}>
           {
             dataNode.image && 
