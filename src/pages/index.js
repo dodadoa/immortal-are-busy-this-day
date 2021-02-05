@@ -86,10 +86,32 @@ const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
     const img = new Image();
     const foundIndex = thumbnails.findIndex(thumbnail => thumbnail.includes(`/${nIndex + 1}-`))
     img.src = thumbnails[foundIndex]
-    console.log(`transformLevel ${foundIndex}, ${nIndex}, ${node.id}`, img)
     return { 
       ...node, 
       img: img,
+      color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+    }
+  }
+  if (node.group.includes('Dark')) {
+    return { 
+      ...node,
+      title: '🌳' + node.title.toUpperCase() + '🌳',
+      color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+    }
+  }
+
+  if (node.group.includes('Med')) {
+    return { 
+      ...node,
+      title: '🌱' + node.title + '🌱',
+      color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
+    }
+  }
+
+  if (node.group.includes('Light')) {
+    return { 
+      ...node,
+      title: '🍂' + node.title + '🍂',
       color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
     }
   }
