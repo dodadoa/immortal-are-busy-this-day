@@ -23,7 +23,7 @@ const fontMenuOrEngText = 'Manrope'
 
 const pageStyles = {
   color: '#232129',
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
+  fontFamily: `${fontMonoFamily}, -apple-system, Roboto, sans-serif, serif`,
   padding: 0,
   margin: 0,
   background: `url(${bg})`,
@@ -73,8 +73,9 @@ const TreeFrameLeft = styled.div`
   height: 100%;
   left: -20px;
   top: 0px;
-  background-repeat: repeat;
-  background: url("${treeframeImage}");
+  z-index: 999;
+  background: url(${treeframeImage});
+  background-size: contain;
 `
 
 const WhiteClosedOutline =  <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
@@ -410,7 +411,7 @@ const IndexPage = () => {
             showArrow
             placeholder="Filter themes"
             tagRender={tagRender}
-            style={{ width: '200px' }}
+            style={{ width: isMobile ? '200px' : '350px' }}
             options={options}
             onChange={handleFilterThemeChange}
           />
