@@ -239,7 +239,7 @@ const IndexPage = () => {
 
   const nodeDrawerStyle = nodeDrawerVisible
     ? {
-      maxWidth: '400px',
+      width: '400px',
     }
     : {
       display: 'none',
@@ -247,7 +247,7 @@ const IndexPage = () => {
 
   const statementDrawerStyle = statementDrawerVisible
     ? {
-      maxWidth: '400px',
+      width: '400px',
     }
     : {
       display: 'none',
