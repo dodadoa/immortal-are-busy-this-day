@@ -420,14 +420,14 @@ const IndexPage = () => {
           <h2
             style={{
               fontFamily: fontMonoFamily,
-              fontSize: '22px',
+              fontSize: '18px',
               color: 'white',
               textAlign: 'right',
               textDecoration: 'underline',
               letterSpacing: '1.5px'
             }}
           >
-            {'How are objects ‘managed’?'}
+            How are objects <br/> ‘managed’?
           </h2>
           <EngParagraphAbout style={{ marginTop: '30px', marginLeft: '15px', textAlign: 'left' }}>
             {'This project takes its starting point from qualitative research procedures in the social sciences. As one of the key epistemo-methodological principles in Sociology, Constructivist Grounded Theory has consistently been employed as a tool for meditating the research act. Central to its logic is the practice of semi-inductive and reiterative qualitative coding, by which textual materials are compartmentalised, assigned meanings, and eventually reassembled to carve out narratives that have been buried beneath piles of data all along. Methodical and straightforward as it sounds, the procedure is inherently mediated through the researcher’s own subjectivity and the context in which the research act takes place - not necessarily a bad thing. A ‘social scientist’ by training, I seek to displace and relocate my own practice from the sphere of the verbal and the tangible, and attempt to situate it within Nawin’s object inventory. This network is the result of that attempt.'}
