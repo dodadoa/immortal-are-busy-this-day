@@ -1202,18 +1202,17 @@
     {
       "id": "1",
       "title": "[1] Historical Inquiry",
-      "title-th":"",
-      "Constellation Description": "",
+      "title-th":"[1] การไถ่ถามประวัติศาสตร์",
+      "constellation-description": "An overview of Nawin’s attempts at understanding what history encompasses, how history could be approached, and how one might recognise 'the historical' as embodied in objects.",
       "group": "1-Dark",
-
       "childLinks": ["1.1", "1.2", "1.3", "1.4", "1.5"]
     },
     {
       "id": "1.1",
       "title": "Modes of Inquiry",
-      "title-th":"",
+      "title-th":"รูปแบบการไถ่ถาม",
       "group": "1-Med",
-
+      "constellation-description": "Historical engagement is not necessarily bound to History as a discipline. Nawin develops a myriad of strategies to interact what he perceives to be ‘historical’, ranging from reading around and about history to highlighting his own affective engagement with in-game self-proclaimed artefacts.",
       "childLinks": [
         "1.1.1",
         "1.1.2",
@@ -1237,9 +1236,9 @@
     {
       "id": "1.2",
       "title": "Locating the Ancient",
-      "title-th":"",
+      "title-th":"หาที่ทางของความโบราณ",
       "group": "1-Med",
-
+      "constellation-description": "Ancientness emerges as one of Nawin's key preoccupations. Exactly what 'ancient' is, however, is not limited to the passing of time. Ancient artefacts are ubiquitous. Ancient artefacts are now mass produced. What exactly does ‘ancientness’ constitute, and how has it been redefined?",
       "childLinks": [
         "1.2.1",
         "1.2.2",
@@ -1256,9 +1255,9 @@
     {
       "id": "1.3",
       "title": "Manifestations of the Historical",
-      "title-th":"",
+      "title-th":"การปรากฏของความเป็นประวัติศาสตร์",
       "group": "1-Med",
-
+      "constellation-description": "How does history make its presence known in our time? Experientially, it seems. That is, history manifests itself in one’s experiencing of ‘the historical’. For Nawin, experience is mediated through how the past - which was never dead, and never buried to begin with - is exhumed and put on display.",
       "childLinks": [
         "1.3.1",
         "1.3.2",
@@ -1274,31 +1273,30 @@
     {
       "id": "1.4",
       "title": "Talking to Trees",
-      "title-th":"",
+      "title-th":"คุยกับต้นไม้",
       "group": "1-Med",
-
+      "constellation-description": "Trees are many things. For Nawin, it doesn’t seem to matter what exactly these ‘things’ are, but rather how history is absorbed into the very vessels that run through each. Furthermore, these absorptions transcend the different realms in which trees could inhabit. Trees as portals. Trees as the upholder of moralities. History, it seems, is what they are willing to tell.",
       "childLinks": ["1.4.1", "1.4.2", "1.4.3", "1.4.4", "1.4.5", "1.1.6"]
     },
     {
       "id": "1.5",
       "title": "Defining History",
-      "title-th":"",
+      "title-th":"ให้นิยามประวัติศาสตร์",
       "group": "1-Med",
-
+      "constellation-description": "History is not mere retelling of the past. Rather, Nawin engages with history as an act of sense-making that is accessed through artefacts, and mediated through all things historical. His entry to history is facilitated through his own definitions of ‘historical’. History is thus plural and spontaneous.",
       "childLinks": ["1.1.1", "1.5.1", "1.5.2", "1.5.3", "1.5.4"]
     },
     {
       "id": "1.1.1",
       "title": "Sensing history in everyday objects",
-      "title-th":"",
+      "title-th":"สัมผัสประวัติศาสตร์ในสามัญวัตถุ",
       "group": "1-Light",
-
       "childLinks": ["Object 2", "Object 20", "Object 60"]
     },
     {
       "id": "1.1.2",
       "title": "Framing oneself as an explorer",
-      "title-th":"",
+      "title-th":"วางกรอบตัวเองว่าเป็นนักสำรวจ",
       "group": "1-Light",
 
       "childLinks": ["Object 72"]
@@ -1306,7 +1304,7 @@
     {
       "id": "1.1.3",
       "title": "Cultural history of science",
-      "title-th":"",
+      "title-th":"ประวัติศาสตร์วัฒนธรรมของวิทยาศาสตร์",
       "group": "1-Light",
 
       "childLinks": ["Object 80"]
@@ -1314,7 +1312,7 @@
     {
       "id": "1.1.4",
       "title": "Perceived characteristics of archaeology",
-      "title-th":"",
+      "title-th":"ลักษณะที่มองว่าเป็นของโบราณคดี ",
       "group": "1-Light",
 
       "childLinks": ["Object 73", "Object 3"]
@@ -1322,14 +1320,14 @@
     {
       "id": "1.1.5",
       "title": "Contrasting characters in history",
-      "title-th":"",
+      "title-th":" เปรียบเทียบตัวละครในประวัติศาสตร์",
       "group": "1-Light",
       "childlinks": ["Object 2"]
     },
     {
       "id": "1.1.6",
       "title": "Testimonies from trees",
-      "title-th":"",
+      "title-th":"คำให้การจากต้นไม้",
       "group": "1-Light",
 
       "childLinks": ["Object 71", "Object 48"]
@@ -1337,7 +1335,7 @@
     {
       "id": "1.1.7",
       "title": "Knowledge seeking",
-      "title-th":"",
+      "title-th":"การแสวงหาความรู้",
       "group": "1-Light",
 
       "childLinks": ["Object 3", "Object 2"]
@@ -1345,7 +1343,7 @@
     {
       "id": "1.1.8",
       "title": "Renewed interest in history through games",
-      "title-th":"",
+      "title-th":"ปลุกความสนใจในประวัติศาสตร์ผ่านเกม",
       "group": "1-Light",
 
       "childLinks": ["Object 14"]
@@ -1353,7 +1351,7 @@
     {
       "id": "1.1.9",
       "title": "Comprehensibility is not an issue",
-      "title-th":"",
+      "title-th":"ความเข้าใจไม่ใช่ประเด็น",
       "group": "1-Light",
 
       "childLinks": ["Object 73"]
@@ -1361,7 +1359,7 @@
     {
       "id": "1.1.10",
       "title": "Recreating canonical artworks",
-      "title-th":"",
+      "title-th":"จำลองงานศิลป์ในขนบ",
       "group": "1-Light",
 
       "childLinks": ["Object 79"]
@@ -1369,7 +1367,7 @@
     {
       "id": "1.1.11",
       "title": "Tracing game characters in history",
-      "title-th":"",
+      "title-th":"หาร่องรอยของตัวละครเกมในประวัติศาสตร์",
       "group": "1-Light",
 
       "childLinks": ["Object 84"]
@@ -1377,7 +1375,7 @@
     {
       "id": "1.1.13",
       "title": "Not expecting much",
-      "title-th":"",
+      "title-th":"ไม่คาดหวังอะไรมาก",
       "group": "1-Light",
 
       "childLinks": ["Object 39"]
@@ -1385,7 +1383,7 @@
     {
       "id": "1.1.14",
       "title": "Personal affinity",
-      "title-th":"",
+      "title-th":"ความดึงดูดส่วนตัว",
       "group": "1-Light",
 
       "childLinks": ["Object 22"]
@@ -1393,7 +1391,7 @@
     {
       "id": "1.1.15",
       "title": "Employing historical figures",
-      "title-th":"",
+      "title-th":"ใช้ฟิกเกอร์จากประวัติศาสตร์",
       "group": "1-Light",
 
       "childLinks": ["Object 20"]
@@ -1401,7 +1399,7 @@
     {
       "id": "1.1.16",
       "title": "Feeling 'the historical'",
-      "title-th":"",
+      "title-th":"รู้สึกถึง 'ความเป็นประวัติศาสตร์'",
       "group": "1-Light",
 
       "childLinks": ["Object 20"]
@@ -1409,7 +1407,7 @@
     {
       "id": "1.1.17",
       "title": "Excavation",
-      "title-th":"",
+      "title-th":"การขุดค้น",
       "group": "1-Light",
 
       "childLinks": ["Object 2"]
@@ -1417,7 +1415,7 @@
     {
       "id": "1.2.1",
       "title": "Meanings of Gold",
-      "title-th":"",
+      "title-th":"ความหมายของ (สี) ทอง",
       "group": "1-Light",
 
       "childLinks": ["Object 146"]
@@ -1425,7 +1423,7 @@
     {
       "id": "1.2.2",
       "title": "Materialising matters",
-      "title-th":"",
+      "title-th":"สร้างเรือนร่างของสสาร",
       "group": "1-Light",
       "altGroup": "4-Med",
       "childLinks": [
@@ -1443,7 +1441,7 @@
     {
       "id": "1.2.3",
       "title": "Ancientness and market availability ",
-      "title-th":"",
+      "title-th":"ความโบราณและการเข้าถึงได้ในตลาด",
       "group": "1-Light",
       "altGroup": "6-Light",
       "childLinks": ["Object 59", "Object 43", "Object 42"]
@@ -1451,7 +1449,7 @@
     {
       "id": "1.2.4",
       "title": "Sacred ancient objects",
-      "title-th":"",
+      "title-th":"วัตถุโบราณศักดิ์สิทธิ์",
       "group": "1-Light",
 
       "childLinks": ["Object 75", "Object 44"]
@@ -1459,7 +1457,7 @@
     {
       "id": "1.2.5",
       "title": "Replicas of ancient objects",
-      "title-th":"",
+      "title-th":"รูปจำลองของวัตถุโบราณ",
       "group": "1-Light",
 
       "childLinks": ["Object 41"]
@@ -1467,7 +1465,7 @@
     {
       "id": "1.2.7",
       "title": "Circulation of ancient figures and myths in games",
-      "title-th":"",
+      "title-th":"การไหลเวียนของฟิกเกอร์และตำนานโบราณในเกม",
       "group": "1-Light",
 
       "childLinks": ["Object 141", "Object 132", "Object 19", "Object 111"]
@@ -1475,7 +1473,7 @@
     {
       "id": "1.2.8",
       "title": "Visual markers of ancientness in games",
-      "title-th":"",
+      "title-th":"เครื่องบ่งชี้ทางสายตาของความโบราณในเกม",
       "group": "1-Light",
 
       "childLinks": ["Object 12"]
@@ -1483,7 +1481,7 @@
     {
       "id": "1.2.9",
       "title": "Ancientness is technologically contingent",
-      "title-th":"",
+      "title-th":"ความโบราณขึ้นอยู่กับเทคโนโลยี",
       "group": "1-Light",
 
       "childLinks": ["Object 59", "Object 43", "Object 42"]
@@ -1491,7 +1489,7 @@
     {
       "id": "1.2.10",
       "title": "Manufacturing sacred objects",
-      "title-th":"",
+      "title-th":"ผลิตวัตถุศักดิ์สิทธิ์",
       "group": "1-Light",
 
       "childLinks": ["Object 75"]
@@ -1499,7 +1497,7 @@
     {
       "id": "1.2.11",
       "title": "Looking for the ancient in internet data ",
-      "title-th":"",
+      "title-th":"ตามหาความโบราณในข้อมูลอินเตอร์เน็ต",
       "group": "1-Light",
 
       "childLinks": ["Object 123"]
@@ -1507,7 +1505,7 @@
     {
       "id": "1.3.1",
       "title": "Fictionalised historical artefacts",
-      "title-th":"",
+      "title-th":"วัตถุโบราณทางประวัติศาสตร์ที่แต่งขึ้น",
       "group": "1-Light",
       "altGroup": "3-Light",
       "childLinks": ["Object 75", "Object 74", "Object 5"]
@@ -1515,7 +1513,7 @@
     {
       "id": "1.3.2",
       "title": "Reenactments of historical scenes",
-      "title-th":"",
+      "title-th":"การจำลองฉากในประวัติศาสตร์",
       "group": "1-Light",
 
       "childLinks": [
@@ -1531,7 +1529,7 @@
     {
       "id": "1.3.3",
       "title": "Displaying objects sacredly",
-      "title-th":"",
+      "title-th":"การจัดแสดงวัตถุอย่างศักดิ์สิทธิ์",
       "group": "1-Light",
 
       "childLinks": ["Object 44"]
@@ -1539,7 +1537,7 @@
     {
       "id": "1.3.4",
       "title": "Freezing historical narratives",
-      "title-th":"",
+      "title-th":"แช่แข็งเส้นเรื่องประวัติศาสตร์",
       "group": "1-Light",
 
       "childLinks": [
@@ -1554,7 +1552,7 @@
     {
       "id": "1.3.5",
       "title": "Internet blogs",
-      "title-th":"",
+      "title-th":"บล็อกอินเตอร์เน็ต",
       "group": "1-Light",
 
       "childLinks": ["Object 137"]
@@ -1562,7 +1560,7 @@
     {
       "id": "1.3.6",
       "title": "History as reimagined in games",
-      "title-th":"",
+      "title-th": "ประวัตศาสตร์ตามที่จินตนาการใหม่ในเกม",
       "group": "1-Light",
 
       "childLinks": ["Object 110"]
@@ -1570,7 +1568,7 @@
     {
       "id": "1.3.7",
       "title": "Fictional historical figures",
-      "title-th":"",
+      "title-th":"ฟิกเกอร์ประวัติศาสตร์ที่แต่งขึ้นมา",
       "group": "1-Light",
 
       "childLinks": ["Object 127"]
@@ -1578,7 +1576,7 @@
     {
       "id": "1.3.8",
       "title": "Reconstructing history in games",
-      "title-th":"",
+      "title-th":"สร้างประวัติศาสตร์ใหม่ในเกมส์",
       "group": "1-Light",
 
       "childLinks": ["Object 122", "Object 23", "Object 19"]
@@ -1586,7 +1584,7 @@
     {
       "id": "1.4.1",
       "title": "Trees as portal",
-      "title-th":"",
+      "title-th":"ต้นไม้ในฐานะประตูมิติ",
       "group": "1-Light",
 
       "childLinks": ["Object 71", "Object 61"]
@@ -1594,7 +1592,7 @@
     {
       "id": "1.4.2",
       "title": "Ability to recount history as beyond the virtual/physical binary",
-      "title-th":"",
+      "title-th":"ความสามารถในการเล่าประวัติศาสตร์อยู่เหนือขั้วตรงข้ามระหว่างความเสมือนจริงและกายภาพ",
       "group": "1-Light",
       "altGroup": "4-Med",
       "childLinks": ["Object 48"]
@@ -1602,7 +1600,7 @@
     {
       "id": "1.4.3",
       "title": "How history is absorbed by trees",
-      "title-th":"",
+      "title-th":"ประวัติศาสตร์ถูกดูดซึมด้วยต้นไม้อย่างไร",
       "group": "1-Light",
 
       "childLinks": ["Object 71", "Object 51", "Object 50", "Object 49"]
@@ -1610,7 +1608,7 @@
     {
       "id": "1.4.4",
       "title": "Moral patch updates",
-      "title-th":"",
+      "title-th":"อัพเดทแพทช์ศีลธรรม",
       "group": "1-Light",
 
       "childLinks": ["Object 71"]
@@ -1618,7 +1616,7 @@
     {
       "id": "1.4.5",
       "title": "Interacting with in-game threes",
-      "title-th":"",
+      "title-th":"ม่ีปฏิสัมพันธ์กับต้นไม้ในเกม",
       "group": "1-Light",
 
       "childLinks": ["Object 78"]
@@ -1626,7 +1624,7 @@
     {
       "id": "1.5.1",
       "title": "Historical/Disciplinary practice",
-      "title-th":"",
+      "title-th":"หลักปฏิบัติของสายวิชา/หลักปฏิบัติประวัติศาสตร์",
       "group": "1-Light",
 
       "childLinks": ["Object 39"]
@@ -1634,7 +1632,7 @@
     {
       "id": "1.5.2",
       "title": "Semantic plurality",
-      "title-th":"",
+      "title-th":"พหูพจน์ของความหมาย",
       "group": "1-Light",
 
       "childLinks": ["Object 58"]
@@ -1642,7 +1640,7 @@
     {
       "id": "1.5.3",
       "title": "History is spontaneous",
-      "title-th":"",
+      "title-th":"ประวัติศาสตร์เกิดขึ้นโดยฉับพลัน",
       "group": "1-Light",
 
       "childLinks": ["Object 39"]
@@ -1650,7 +1648,7 @@
     {
       "id": "1.5.4",
       "title": "History is inseparable from fables",
-      "title-th":"",
+      "title-th":"ประวัติศาสตร์แยกไม่ออกจากนิทาน",
       "group": "1-Light",
 
       "childLinks": ["Object 70", "Object 71"]
@@ -1658,16 +1656,17 @@
     {
       "id": "2",
       "title": "[2] Threshold",
-      "title-th":"",
+      "title-th":"เทรชโชวด์",
       "group": "2-Dark",
-
+      "constellation-description": "An overview of Nawin’s attempts at conceptualising what he calls ‘Threshold’. Of all the artefacts featured in this exhibition, some are thresholds in themselves - or at the very least behave as such. Others offer a place for thresholds to inhabit.",
       "childLinks": ["2.1", "2.2"]
     },
     {
       "id": "2.1",
       "title": "Traits of Threshold",
-      "title-th":"",
+      "title-th":"ลักษณะของเทรชโชวด์",
       "group": "2-Med",
+      "constellation-description": "Nawin uses the term ‘Threshold’ as a fluid category. No archetype or overarching framework encapsulates the totality of how Thresholds behave, what they look like, and how to identify them. Therefore, Thresholds are perhaps better understood as a collection of traits that are not always complimentary. What is more definite, however, is that Nawin interfaces with these Thresholds from the perspective of the user.",
       "childLinks": [
         "2.1.1",
         "2.1.2",
@@ -1692,7 +1691,7 @@
     {
       "id": "2.1.1",
       "title": "Dimension Species",
-      "title-th":"",
+      "title-th":"สายพันธุ์แห่งมิติ",
       "group": "2-Light",
 
       "childLinks": ["Object 149"]
@@ -1700,7 +1699,7 @@
     {
       "id": "2.1.2",
       "title": "Embracing semantic tradition",
-      "title-th":"",
+      "title-th":"โอบรับขนบของความหมาย",
       "group": "2-Light",
 
       "childLinks": ["Object 146"]
@@ -1708,7 +1707,7 @@
     {
       "id": "2.1.3",
       "title": "Pop-up windows",
-      "title-th":"",
+      "title-th":"หน้าต่างป็อปอัพ",
       "group": "2-Light",
 
       "childLinks": ["Object 142"]
@@ -1716,7 +1715,7 @@
     {
       "id": "2.1.4",
       "title": "Material replacement",
-      "title-th":"",
+      "title-th":"การแทนที่สสาร",
       "group": "2-Light",
 
       "childLinks": ["Object 106"]
@@ -1724,7 +1723,7 @@
     {
       "id": "2.1.5",
       "title": "Life simulation",
-      "title-th":"",
+      "title-th":"การจำลองชีวิต",
       "group": "2-Light",
 
       "childLinks": ["Object 103"]
@@ -1732,7 +1731,7 @@
     {
       "id": "2.1.6",
       "title": "One-way relationship",
-      "title-th":"",
+      "title-th":"ความสัมพันธ์ข้่างเดียว",
       "group": "2-Light",
 
       "childLinks": ["Object 100"]
@@ -1740,7 +1739,7 @@
     {
       "id": "2.1.7",
       "title": "Gamified marketplace",
-      "title-th":"",
+      "title-th":"มาร์เก็ตเพลสแบบเกมส์",
       "group": "2-Light",
 
       "childLinks": ["Object 97"]
@@ -1748,7 +1747,7 @@
     {
       "id": "2.1.8",
       "title": "Evidence fabrication",
-      "title-th":"",
+      "title-th":"การปรุงแต่งหลักฐาน",
       "group": "2-Light",
 
       "childLinks": ["Object 94"]
@@ -1756,7 +1755,7 @@
     {
       "id": "2.1.9",
       "title": "Evidence of manipulation",
-      "title-th":"",
+      "title-th":"หลักฐานของการแต่งเติม",
       "group": "2-Light",
 
       "childLinks": ["Object 142", "Object 94", "Object 11"]
@@ -1764,7 +1763,7 @@
     {
       "id": "2.1.10",
       "title": "Visual differentiation",
-      "title-th":"",
+      "title-th":"การสร้างความแตกต่างทางภาพ",
       "group": "2-Light",
 
       "childLinks": ["Object 136", "Object 92", "Object 91", "Object 85"]
@@ -1772,7 +1771,7 @@
     {
       "id": "2.1.11",
       "title": "Signage between games and players",
-      "title-th":"",
+      "title-th":"การบอกทางระหว่างเกมและผู้เล่น",
       "group": "2-Light",
 
       "childLinks": ["Object 85"]
@@ -1780,7 +1779,7 @@
     {
       "id": "2.1.12",
       "title": "Explanatory tendency",
-      "title-th":"",
+      "title-th":"สัญชาตญาณที่จะอธิบาย",
       "group": "2-Light",
 
       "childLinks": ["Object 77"]
@@ -1788,7 +1787,7 @@
     {
       "id": "2.1.13",
       "title": "Space before entering the digital",
-      "title-th":"",
+      "title-th":"พื้นที่ก่อนเข้าความดิจิตอล",
       "group": "2-Light",
 
       "childLinks": ["Object 63"]
@@ -1796,7 +1795,7 @@
     {
       "id": "2.1.14",
       "title": "Visible to whom?",
-      "title-th":"",
+      "title-th":"มองเห็นโดยใคร ",
       "group": "2-Light",
 
       "childLinks": ["Object 92", "Object 91", "Object 46"]
@@ -1804,7 +1803,7 @@
     {
       "id": "2.1.15",
       "title": "Space before entering gameplay",
-      "title-th":"",
+      "title-th":"พื้นที่ก่อนเข้าการเล่นเกม",
       "group": "2-Light",
 
       "childLinks": ["Object 46"]
@@ -1812,7 +1811,7 @@
     {
       "id": "2.1.16",
       "title": "Console simulation in manuals",
-      "title-th":"",
+      "title-th": "การจำลองคอนโซลในคู่มือ",
       "group": "2-Light",
 
       "childLinks": ["Object 46"]
@@ -1820,7 +1819,7 @@
     {
       "id": "2.1.17",
       "title": "Conditions of convergence",
-      "title-th":"",
+      "title-th":" ปัจจัยของการรวมร่าง",
       "group": "2-Light",
 
       "childLinks": ["Object 13"]
@@ -1828,7 +1827,7 @@
     {
       "id": "2.1.18",
       "title": "Trapped digital files",
-      "title-th":"",
+      "title-th":"ไฟล์ดิจิทัลที่ติดแหง็ก",
       "group": "2-Light",
 
       "childLinks": ["Object 1"]
@@ -1836,15 +1835,15 @@
     {
       "id": "2.2",
       "title": "Threshold Containers",
-      "title-th":"",
+      "title-th":"บรรจุภัณฑ์เทรชโชวด์",
       "group": "2-Med",
-
+      "constellation-description": "Thresholds may appear beyond the virtual in such containers.",
       "childLinks": ["2.2.1"]
     },
     {
       "id": "2.2.1",
       "title": "Game manuals",
-      "title-th":"",
+      "title-th":"คู่มือเกม",
       "group": "2-Light",
 
       "childLinks": ["Object 77"]
@@ -1852,17 +1851,17 @@
     {
       "id": "3",
       "title": "[3] Meaning Making, Sense Making",
-      "title-th":"",
+      "title-th":"สร้างความหมาย สร้างความเข้าใจ",
       "group": "3-Dark",
-
+      "constellation-description": "How meanings are made, how comprehension operates. An overview of Nawin’s different epistemological frameworks, and how they inform his engagement with artifacts and what they embody.",
       "childLinks": ["3.1", "3.2", "3.3", "3.4", "3.5", "1.2.1"]
     },
     {
       "id": "3.1",
       "title": "Making Sense of History",
-      "title-th":"",
+      "title-th":"เข้าใจประวัติศาสตร์",
       "group": "3-Med",
-
+      "constellation-description": "Artifacts and its surrounding contexts equip Nawin with the ability to interact with history. From co-existing with objects that somehow elicit the sense of the ‘historical’ to sensing imprints of past politics in objects, Nawin makes sense of history at the intersection between existing socio-cultural narratives and his own sensorial experience.",
       "childLinks": [
         "3.1.1",
         "3.1.2",
@@ -1883,9 +1882,9 @@
     {
       "id": "3.2",
       "title": "Making Sense of Games",
-      "title-th":"",
+      "title-th":"เข้าใจเกม",
       "group": "3-Med",
-
+      "constellation-description": "Games are not limited to the screen. Through packaging.",
       "childLinks": [
         "3.2.1",
         "3.2.2",
@@ -1899,31 +1898,31 @@
     {
       "id": "3.3",
       "title": "Making Sense of Threshold",
-      "title-th":"",
+      "title-th":"เข้าใจเทรชโชวด์",
       "group": "3-Med",
-
+      "constellation-description": "Utilizing film language and visual cues Nawin reads and interfaces through and with thresholds. Reading between the frames of animation and drawing analogies through comic tropes and traditions. Thresholds manifest like leading lines and speech bubbles which infers traces for Nawin to act upon.",
       "childLinks": ["3.3.1", "3.3.2", "3.3.3"]
     },
     {
       "id": "3.4",
       "title": "Making Sense of Virtuality",
-      "title-th":"",
+      "title-th":"เข้าใจโลกเสมือน",
       "group": "3-Med",
-
+      "constellation-description": "Nawin senses the virtual in its own context. With aesthetics as a gateway and holding up available tools in its own world, Nawin ventures into virtuality through whichever principles are at work there.",
       "childLinks": ["3.4.1", "3.4.2", "3.4.3"]
     },
     {
       "id": "3.5",
       "title": "Making Sense of Trees",
-      "title-th":"",
+      "title-th":"เข้าใจต้นไม้",
       "group": "3-Med",
-
+      "constellation-description": "For Nawin, the staticity and rigidity of trees and its associated meanings is altered through his experience with the placement of trees in the virtual.",
       "childLinks": ["3.5.1"]
     },
     {
       "id": "3.1.1",
       "title": "Fictional reconstruction of the historical",
-      "title-th":"",
+      "title-th":"การปะติดปะต่อความเป็นประวัติศาสตร์",
       "group": "3-Light",
 
       "childLinks": ["Object 14", "Object 5"]
@@ -1931,7 +1930,7 @@
     {
       "id": "3.1.2",
       "title": "Presence of artefacts",
-      "title-th":"",
+      "title-th":"การปรากฎของวัตถุ",
       "group": "3-Light",
 
       "childLinks": ["Object 73"]
@@ -1939,7 +1938,7 @@
     {
       "id": "3.1.3",
       "title": "Co-existing with historical objects",
-      "title-th":"",
+      "title-th":"อยู่ร่วมกันกับวัตถุประวัติศาสตร์",
       "group": "3-Light",
 
       "childLinks": ["Object 60"]
@@ -1947,7 +1946,7 @@
     {
       "id": "3.1.4",
       "title": "Collecting second-hand objects",
-      "title-th":"",
+      "title-th":"สะสมของมือสอง",
       "group": "3-Light",
 
       "childLinks": ["Object 58"]
@@ -1955,7 +1954,7 @@
     {
       "id": "3.1.5",
       "title": "Through game development ",
-      "title-th":"",
+      "title-th":"ผ่านการพัฒนาเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 45", "Object 40"]
@@ -1963,7 +1962,7 @@
     {
       "id": "3.1.6",
       "title": "Through game design",
-      "title-th":"",
+      "title-th":"ผ่านการออกแบบเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 40"]
@@ -1971,7 +1970,7 @@
     {
       "id": "3.1.7",
       "title": "Through gameplay",
-      "title-th":"",
+      "title-th":"ผ่านการเล่นเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 39"]
@@ -1979,7 +1978,7 @@
     {
       "id": "3.1.8",
       "title": "Experience with game packaging ",
-      "title-th":"",
+      "title-th":"ประสบการณ์กับบรรจุภัณฑ์ของเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 27"]
@@ -1987,7 +1986,7 @@
     {
       "id": "3.1.9",
       "title": "History of Science",
-      "title-th":"",
+      "title-th":"ประวัติศาสตร์ของวิทยาศาสตร์",
       "group": "3-Light",
 
       "childLinks": ["Object 80"]
@@ -1995,7 +1994,7 @@
     {
       "id": "3.1.10",
       "title": "Visual clues for the supposedly ancient",
-      "title-th":"",
+      "title-th":"ภาพคำใบ้ของสิ่งที่ว่ากันว่าโบราณ",
       "group": "3-Light",
 
       "childLinks": ["Object 105"]
@@ -2003,7 +2002,7 @@
     {
       "id": "3.1.11",
       "title": "Game controversies",
-      "title-th":"",
+      "title-th":"ข่้อโต้เถียงเกี่ยวกับเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 119"]
@@ -2011,7 +2010,7 @@
     {
       "id": "3.1.12",
       "title": "Playing historical games",
-      "title-th":"",
+      "title-th":"เล่นเกมประวัติศาสตร์",
       "group": "3-Light",
 
       "childLinks": ["Object 110", "Object 118"]
@@ -2019,7 +2018,7 @@
     {
       "id": "3.1.13",
       "title": "Through Thai Literature",
-      "title-th":"",
+      "title-th":"ผ่านวรรณคดีไทย",
       "group": "3-Light",
 
       "childLinks": ["Object 71", "Object 70", "1.3.1"]
@@ -2027,7 +2026,7 @@
     {
       "id": "3.1.14",
       "title": "Through traces of technology",
-      "title-th":"",
+      "title-th":"ผ่านร่องรอยของเทคโนโลยี",
       "group": "3-Light",
 
       "childLinks": ["Object 36", "Object 35"]
@@ -2035,7 +2034,7 @@
     {
       "id": "3.2.1",
       "title": " Intertextual reading",
-      "title-th":"",
+      "title-th":"การอ่านข้ามตัวบท",
       "group": "3-Light",
 
       "childLinks": ["Object 37"]
@@ -2043,7 +2042,7 @@
     {
       "id": "3.2.2",
       "title": "Loading screen description",
-      "title-th":"",
+      "title-th":"คำอธิบายในหน้าจอโหลดดิ้ง",
       "group": "3-Light",
 
       "childLinks": ["Object 120"]
@@ -2051,7 +2050,7 @@
     {
       "id": "3.2.3",
       "title": "Significance of packaging",
-      "title-th":"",
+      "title-th":"ความสำคัญของบรรจุภัณฑ์",
       "group": "3-Light",
 
       "childLinks": ["Object 30", "Object 28", "Object 27"]
@@ -2059,7 +2058,7 @@
     {
       "id": "3.2.4",
       "title": "Situating game characters in game texts",
-      "title-th":"",
+      "title-th":"หาที่ทางของตัวละครเกมในตัวบทเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 7"]
@@ -2067,7 +2066,7 @@
     {
       "id": "3.2.5",
       "title": "Through traces of production",
-      "title-th":"",
+      "title-th":"ผ่านร่องรอยของการผลิต",
       "group": "3-Light",
 
       "childLinks": ["Object 45"]
@@ -2075,7 +2074,7 @@
     {
       "id": "3.2.6",
       "title": "Through game characters",
-      "title-th":"",
+      "title-th":"ผ่านตัวละครเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 83", "Object 82"]
@@ -2083,7 +2082,7 @@
     {
       "id": "3.2.7",
       "title": "Through visual communication",
-      "title-th":"",
+      "title-th":"ผ่านการสื่อสารด้วยภาพ ",
       "group": "3-Light",
 
       "childLinks": ["Object 126"]
@@ -2091,7 +2090,7 @@
     {
       "id": "3.3.1",
       "title": "Comic culture",
-      "title-th":"",
+      "title-th":"วัฒนธรรมหนังสือการ์ตูน",
       "group": "3-Light",
 
       "childLinks": ["Object 94"]
@@ -2099,7 +2098,7 @@
     {
       "id": "3.3.2",
       "title": "Referring to manuals",
-      "title-th":"",
+      "title-th":"อ้างถึงคู่มือ",
       "group": "3-Light",
 
       "childLinks": ["Object 77"]
@@ -2107,7 +2106,7 @@
     {
       "id": "3.3.3",
       "title": "Visualisation",
-      "title-th":"",
+      "title-th": "การสร้างมโนภาพ",
       "group": "3-Light",
 
       "childLinks": ["Object 94"]
@@ -2115,7 +2114,7 @@
     {
       "id": "3.4.1",
       "title": "Animation principles",
-      "title-th":"",
+      "title-th":"หลักการของภาพเคลื่อนไหว",
       "group": "3-Light",
 
       "childLinks": ["Object 131"]
@@ -2123,7 +2122,7 @@
     {
       "id": "3.4.2",
       "title": "Engaging with in-game tools",
-      "title-th":"",
+      "title-th":"ใช้เครื่องมือในเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 129"]
@@ -2131,7 +2130,7 @@
     {
       "id": "3.4.3",
       "title": "Aesthetic appreciation",
-      "title-th":"",
+      "title-th":"การชื่นชมสุนทรียะ",
       "group": "3-Light",
 
       "childLinks": ["Object 99", "Object 90"]
@@ -2139,7 +2138,7 @@
     {
       "id": "3.5.1",
       "title": "Gaming experience",
-      "title-th":"",
+      "title-th":"ประสบการณ์การเล่นเกม",
       "group": "3-Light",
 
       "childLinks": ["Object 78"]
@@ -2147,7 +2146,7 @@
     {
       "id": "4",
       "title": "[4] World-Building",
-      "title-th":"",
+      "title-th":"World-Building",
       "group": "4-Dark",
 
       "childLinks": ["4.1", "4.2", "4.3", "4.4"]
@@ -2155,9 +2154,9 @@
     {
       "id": "4.1",
       "title": "World Navigation",
-      "title-th":"",
+      "title-th":"เครื่องนำทางในโลก",
       "group": "4-Med",
-
+      "constellation-description": "The tool which Nawin employs to navigate the virtual? A leap of faith into it without regards for instructions and guidelines. Nawin sometimes teases out the lore through visual effects in cutscenes, and picks apart the discrepancies between the manual and the gameplay.",
       "childLinks": [
         "4.1.1",
         "4.1.2",
@@ -2173,9 +2172,9 @@
     {
       "id": "4.2",
       "title": "Replica and its Counterpart",
-      "title-th":"",
+      "title-th":"ของจำลองและของควบคู่",
       "group": "4-Med",
-
+      "constellation-description": "What exactly constitutes 3D and 2D? The very heart of this question cuts across the binary of authenticity for history does not make the distinction between the virtual and the physical. An object and its counterpart performs a double fiction, telling different tales in their manifestations.",
       "childLinks": [
         "4.2.1",
         "4.2.2",
@@ -2190,9 +2189,9 @@
     {
       "id": "4.3",
       "title": "(Dis)embodied Materiality",
-      "title-th":"",
+      "title-th":"วัตถุสภาพไร้เรือนร่าง",
       "group": "4-Med",
-
+      "constellation-description": "Nawin dissects the anatomy of the virtual through methodologies commonly practiced in the physical and vice versa. The fundamentals of materiality here transcends what the artifacts are made of, dimensions are mere pretense. A mesh is conjured through a 2D plane to manifest a complete virtual object able to be reskinned and re-assigned a variety of materials. The physical could much so follows a similar protocol as wood is able to be reskinned into marble. Materials oscillate between states across realms.",
       "childLinks": [
         "4.3.1",
         "4.3.2",
@@ -2207,9 +2206,9 @@
     {
       "id": "4.4",
       "title": "Establishing World Physics",
-      "title-th":"",
+      "title-th":"กำหนดฟิสิกส์ของโลก",
       "group": "4-Med",
-
+      "constellation-description": "Laying down the physics is an act of ontological classification. A physics in a game is simultaneously autonomous in its operations yet tangled in a web of relations outside of its own dimension. Virtual artifacts thus are not divorced from the epistemological frames which classify physical artifacts but perversely acts upon the forces of each other.",
       "childLinks": [
         "4.4.1",
         "4.4.2",
@@ -2223,7 +2222,7 @@
     {
       "id": "4.1.1",
       "title": "Software toys",
-      "title-th":"",
+      "title-th":"ซอฟแวร์ทอย",
       "group": "4-Light",
 
       "childLinks": ["Object 36", "Object 35"]
@@ -2231,7 +2230,7 @@
     {
       "id": "4.1.2",
       "title": "Communicative visual effects",
-      "title-th":"",
+      "title-th":"การสื่อสารวิชวลเอฟเฟค",
       "group": "4-Light",
 
       "childLinks": ["Object 76", "Object 99", "Object 100"]
@@ -2239,7 +2238,7 @@
     {
       "id": "4.1.3",
       "title": "Frames",
-      "title-th":"",
+      "title-th":"กรอบ",
       "group": "4-Light",
 
       "childLinks": ["Object 87"]
@@ -2247,7 +2246,7 @@
     {
       "id": "4.1.4",
       "title": "Engaging with secondary objects",
-      "title-th":"",
+      "title-th":"มีปฏิสัมพันธ์กับวัตถุทุติยภูมิ ",
       "group": "4-Light",
 
       "childLinks": ["Object 74", "Object 75"]
@@ -2255,7 +2254,7 @@
     {
       "id": "4.1.5",
       "title": "Discrepancy between game manual and gameplay",
-      "title-th":"",
+      "title-th":"ช่องว่างระหว่างคู่มือเกมและการเล่นเกม",
       "group": "4-Light",
 
       "childLinks": ["Object 63"]
@@ -2263,7 +2262,7 @@
     {
       "id": "4.1.6",
       "title": "How to enter the digital",
-      "title-th":"",
+      "title-th":"วิธีการเข้าความดิจิทัล",
       "group": "4-Light",
 
       "childLinks": ["Object 63"]
@@ -2271,7 +2270,7 @@
     {
       "id": "4.1.7",
       "title": "Discarding instructions",
-      "title-th":"",
+      "title-th":"ปฏิเสธคำสั่ง",
       "group": "4-Light",
 
       "childLinks": ["Object 29"]
@@ -2279,7 +2278,7 @@
     {
       "id": "4.1.8",
       "title": "Manual for gameplay",
-      "title-th":"",
+      "title-th":"คู่มือการเล่นเกม",
       "group": "4-Light",
 
       "childLinks": ["Object 29", "Object 39", "Object 46"]
@@ -2287,7 +2286,7 @@
     {
       "id": "4.1.9",
       "title": "Manual for navigating game physics",
-      "title-th":"",
+      "title-th":"คู่มือนำทางฟิสิกส์ของเกม",
       "group": "4-Light",
 
       "childLinks": ["Object 29", "Object 39"]
@@ -2295,7 +2294,7 @@
     {
       "id": "4.2.1",
       "title": "Manifestation of the technologically contingent",
-      "title-th":"",
+      "title-th":"การปรากฎของการขึ้นอยู่กับเทคโนโลยี",
       "group": "4-Light",
 
       "childLinks": ["Object 11", "Object 23", "Object 90", "Object 101"]
@@ -2303,7 +2302,7 @@
     {
       "id": "4.2.2",
       "title": "Materialisation of the technologically contingent",
-      "title-th":"",
+      "title-th":"การสร้างเรือนร่างของการขึ้นอยู่กับเทคโนโลยี",
       "group": "4-Light",
 
       "childLinks": ["Object 26", "Object 31"]
@@ -2311,7 +2310,7 @@
     {
       "id": "4.2.3",
       "title": "Authentication",
-      "title-th":"",
+      "title-th":"การตรวจสอบความจริง",
       "group": "4-Light",
 
       "childLinks": [
@@ -2328,7 +2327,7 @@
     {
       "id": "4.2.4",
       "title": "Brand new secondhand objects",
-      "title-th":"",
+      "title-th":"ของมือสองผลิตใหม่",
       "group": "4-Light",
 
       "childLinks": ["Object 139"]
@@ -2336,7 +2335,7 @@
     {
       "id": "4.2.5",
       "title": "Perfect 3D, Perfect reconstruction of the physical?",
-      "title-th":"",
+      "title-th":"3D ที่สมบูรณ์แบบ, การปะติดปะต่อความเป็นกายภาพที่สมบูรณ์แบบ",
       "group": "4-Light",
 
       "childLinks": ["Object 95"]
@@ -2344,7 +2343,7 @@
     {
       "id": "4.2.6",
       "title": "Double Fiction",
-      "title-th":"",
+      "title-th":"เรื่องแต่งซ้ำสอง",
       "group": "4-Light",
 
       "childLinks": ["Object 128"]
@@ -2352,7 +2351,7 @@
     {
       "id": "4.2.7",
       "title": "Tangible Thainess",
-      "title-th":"",
+      "title-th":"ความเป็นไทยที่จับต้องได้",
       "group": "4-Light",
 
       "childLinks": ["Object 74", "Object 75"]
@@ -2360,7 +2359,7 @@
     {
       "id": "4.3.1",
       "title": "2D acting like 3D",
-      "title-th":"",
+      "title-th":"2D ที่ทำเหมือนเป็น 3D",
       "group": "4-Light",
 
       "childLinks": ["Object 88", "Object 90"]
@@ -2368,7 +2367,7 @@
     {
       "id": "4.3.2",
       "title": "Anatomy of virtual objects",
-      "title-th":"",
+      "title-th":"กายวิภาคของวัตถุเสมือนจริง",
       "group": "4-Light",
 
       "childLinks": ["Object 15", "Object 95", "Object 144"]
@@ -2376,7 +2375,7 @@
     {
       "id": "4.3.3",
       "title": "Materiality of virtual plants",
-      "title-th":"",
+      "title-th":"สสารของพืชพรรณเสมือนจริง",
       "group": "4-Light",
 
       "childLinks": ["Object 90", "Object 95"]
@@ -2384,7 +2383,7 @@
     {
       "id": "4.3.4",
       "title": "Material essence",
-      "title-th":"",
+      "title-th":"สารัถตะของสสาร",
       "group": "4-Light",
 
       "childLinks": ["Object 74", "Object 75"]
@@ -2392,7 +2391,7 @@
     {
       "id": "4.3.5",
       "title": "Hardwares",
-      "title-th":"",
+      "title-th":"ฮาร์ดแวร์",
       "group": "4-Light",
 
       "childLinks": ["Object 33", "Object 34"]
@@ -2400,7 +2399,7 @@
     {
       "id": "4.3.6",
       "title": "How 3D functions",
-      "title-th":"",
+      "title-th":"3D ทำงานอย่างไร",
       "group": "4-Light",
 
       "childLinks": ["Object 144"]
@@ -2408,7 +2407,7 @@
     {
       "id": "4.4.1",
       "title": "Ontological classification",
-      "title-th":"",
+      "title-th":"การจัดแบ่งภววิทยา",
       "group": "4-Light",
 
       "childLinks": ["Object 103", "Object 110", "Object 148"]
@@ -2416,7 +2415,7 @@
     {
       "id": "4.4.2",
       "title": "Setting Up Game Physics",
-      "title-th":"",
+      "title-th":"การจัดตั้งฟิสิกส์ของเกม",
       "group": "4-Light",
 
       "childLinks": [
@@ -2430,7 +2429,7 @@
     {
       "id": "4.4.3",
       "title": "Culturally-mediated physics",
-      "title-th":"",
+      "title-th":"ฟิสิกส์ผ่านวัฒนธรรม",
       "group": "4-Light",
 
       "childLinks": [
@@ -2444,7 +2443,7 @@
     {
       "id": "4.4.4",
       "title": "Negotiating market demand",
-      "title-th":"",
+      "title-th":"ต่อรองความต้องการของตลาด",
       "group": "4-Light",
 
       "childLinks": ["Object 103"]
@@ -2452,7 +2451,7 @@
     {
       "id": "4.4.5",
       "title": "Learning physics",
-      "title-th":"",
+      "title-th":"เรียนรู้ฟิสิกส์",
       "group": "4-Light",
 
       "childLinks": ["Object 131"]
@@ -2460,7 +2459,7 @@
     {
       "id": "4.4.6",
       "title": "Incorporation of topical issues",
-      "title-th":"",
+      "title-th":"การนำเข้าเหตุการณ์ปัจจุบัน",
       "group": "4-Light",
 
       "childLinks": ["Object 143"]
@@ -2468,7 +2467,7 @@
     {
       "id": "4.4.7",
       "title": "WorldEdit",
-      "title-th":"",
+      "title-th":"WorldEdit",
       "group": "4-Light",
 
       "childLinks": [
@@ -2486,9 +2485,9 @@
     {
       "id": "5",
       "title": "[5] Game/Play Culture",
-      "title-th":"",
+      "title-th":"วัฒนธรรมการเล่น/เกม",
       "group": "5-Dark",
-
+      "constellation-description": "Cultural practices that permeate gaming experience and trajectory.",
       "childLinks": [
         "5.1",
         "5.2",
@@ -2503,71 +2502,71 @@
     {
       "id": "5.1",
       "title": "Significance of Books",
-      "title-th":"",
+      "title-th":"ความสำคัญของหนังสือ",
       "group": "5-Med",
-
+      "constellation-description": "Books here are to be equipped for +10 INT. Books often appear not as books proper but rather a designator of qualities to be attributed to those which wield them. Nawin mines these books not for the contents within but for what they infer through their associations with intelligence and ancient wisdom.",
       "childLinks": ["5.1.1", "5.1.2", "5.1.3"]
     },
     {
       "id": "5.2",
       "title": "References",
-      "title-th":"",
+      "title-th":"การอ้างอิง",
       "group": "5-Med",
-
+      "constellation-description": "Gaming Culture reanimates the perceptions of the exotic and ancient. These references imbue them with the aura of the fantastical and the mystical.",
       "childLinks": ["5.2.1"]
     },
     {
       "id": "5.3",
       "title": "Player Engagement",
-      "title-th":"",
+      "title-th":"การมีส่วนร่วมของผู้เล่น",
       "group": "5-Med",
-
+      "constellation-description": "A force of mutual attraction, games act upon the player through the potential of being the writer of history, of which constitutes the very content of the games themselves. From skin customization to manipulation of geographies and grand narratives the player is positioned to engage with History itself.",
       "childLinks": ["5.3.1", "5.3.2", "5.3.3", "5.3.4", "5.3.5"]
     },
     {
       "id": "5.5",
       "title": "Local/Global",
-      "title-th":"",
+      "title-th":"ท้องถิ่น/โลก",
       "group": "5-Med",
-
+      "constellation-description": "Game Culture lies in the conjunction between different transnational forces. Nawin’s interest is this colliding of cultural references cross pollinating from specific cultures yet not faithful to them. Localized communities emerge in the international virtual as attempts to locate themselves, to inflate and deflate the globe.",
       "childLinks": ["5.5.1", "5.5.2", "5.5.3"]
     },
     {
       "id": "5.6",
       "title": "Bits and Bobs",
-      "title-th":"",
+      "title-th":"นู่นและนี่",
       "group": "5-Med",
-
+      "constellation-description": "The stuff of which at first glance appears insignificant yet is a linchpin which enables the whole scenario.",
       "childLinks": ["5.6.1", "5.6.2"]
     },
     {
       "id": "5.7",
       "title": "Spreading the Gospel",
-      "title-th":"",
+      "title-th":"เผยแพร่พระวจนะ",
       "group": "5-Med",
-
+      "constellation-description": "Christianity finds itself the next apostle in game culture. Game and play culture becomes the locale for the dissemination of religious beliefs. The subject of the player creates and performs in his own image.",
       "childLinks": ["5.7.1"]
     },
     {
       "id": "5.8",
       "title": "Social Processes",
-      "title-th":"",
+      "title-th":"กระบวนการทางสังคม",
       "group": "5-Med",
-
+      "constellation-description": "Game Culture could be framed as a cultural process whereby different sociocultural and political forces inform and are informed by the game, its developers and the communities that inhabit them. Map-making becomes a collective activity as players acquire the ability to create a world of their choosing.",
       "childLinks": ["5.8.1", "5.8.2", "5.8.3", "5.8.4", "5.8.5"]
     },
     {
       "id": "5.9",
       "title": "Collective Knowledge, Collective Action",
-      "title-th":"",
+      "title-th":"ความรู้ร่วม, การลงมือทำร่วม",
       "group": "5-Med",
-
+      "constellation-description": "A feedback loop of knowledge, its production and dissemination. The gaming community carves a space in which knowledge is negotiated outside of the canon of the game which later then gets adopted into the game itself.",
       "childLinks": ["5.9.1", "5.9.2", "5.9.3", "5.9.4", "5.9.5"]
     },
     {
       "id": "5.1.1",
       "title": "Book as signifying wisdom",
-      "title-th":"",
+      "title-th":"หนังสือเป็นสัญลักษณ์ของปัญญา",
       "group": "5-Light",
 
       "childLinks": ["Object 73", "Object 93", "Object 130", "Object 140"]
@@ -2575,7 +2574,7 @@
     {
       "id": "5.1.2",
       "title": "Defining 'book'",
-      "title-th":"",
+      "title-th":"นิยาม ‘หนังสือ’ ",
       "group": "5-Light",
 
       "childLinks": ["Object 12", "Object 74", "Object 75"]
@@ -2583,7 +2582,7 @@
     {
       "id": "5.1.3",
       "title": "Book as signage for skills improvement",
-      "title-th":"",
+      "title-th":"หนังสือเป็นป้ายบอกการพัฒนาสกิล",
       "group": "5-Light",
 
       "childLinks": ["Object 6", "Object 130"]
@@ -2591,7 +2590,7 @@
     {
       "id": "5.2.1",
       "title": "Reanimating perceptions of the exotic ancient",
-      "title-th":"",
+      "title-th":"ฟื้นชีวิตให้กับทัศนคติที่มีต่อความโบราณเอ็กซอติก",
       "group": "5-Light",
 
       "childLinks": ["Object 110"]
@@ -2599,7 +2598,7 @@
     {
       "id": "5.3.1",
       "title": "Role-playing",
-      "title-th":"",
+      "title-th":"การสวมบทบาท",
       "group": "5-Light",
 
       "childLinks": ["Object 3"]
@@ -2607,7 +2606,7 @@
     {
       "id": "5.3.2",
       "title": "Customising Christian stories",
-      "title-th":"",
+      "title-th":"ปรับแต่งเรื่องเล่าคริสเตียน",
       "group": "5-Light",
 
       "childLinks": ["Object 52", "Object 53", "Object 54", "Object 55"]
@@ -2615,7 +2614,7 @@
     {
       "id": "5.3.3",
       "title": "Mapmaking",
-      "title-th":"",
+      "title-th":"การสร้างแผนที่",
       "group": "5-Light",
 
       "childLinks": ["Object 23", "Object 117"]
@@ -2623,7 +2622,7 @@
     {
       "id": "5.3.4",
       "title": "Skin customisation",
-      "title-th":"",
+      "title-th":"การปรับแต่งสกิน",
       "group": "5-Light",
 
       "childLinks": ["Object 8", "Object 24", "Object 104"]
@@ -2631,7 +2630,7 @@
     {
       "id": "5.3.5",
       "title": "Player customisation",
-      "title-th":"",
+      "title-th":"การปรับแต่งของผู้เล่น",
       "group": "5-Light",
 
       "childLinks": [
@@ -2648,7 +2647,7 @@
     {
       "id": "5.5.1",
       "title": "Localised products",
-      "title-th":"",
+      "title-th":"ผลิตภัณฑ์ปรับตามท้องถิ่น",
       "group": "5-Light",
 
       "childLinks": [
@@ -2662,7 +2661,7 @@
     {
       "id": "5.5.2",
       "title": "Glocalised Thainess",
-      "title-th":"",
+      "title-th":"ความเป็นไทยแบบท้องถิ่นสากล",
       "group": "5-Light",
 
       "childLinks": ["Object 70", "Object 71", "Object 122", "Object 134"]
@@ -2670,7 +2669,7 @@
     {
       "id": "5.5.3",
       "title": "Japanese game culture",
-      "title-th":"",
+      "title-th":"วัฒนธรรมเกมญี่ปุ่น",
       "group": "5-Light",
 
       "childLinks": ["Object 19", "Object 47", "Object 62", "Object 64", "Object 114"]
@@ -2678,7 +2677,7 @@
     {
       "id": "5.6.1",
       "title": "Pop icon",
-      "title-th":"",
+      "title-th":"ป็อปไอคอน",
       "group": "5-Light",
 
       "childLinks": ["Object 109"]
@@ -2686,7 +2685,7 @@
     {
       "id": "5.6.2",
       "title": "Function of supporting role",
-      "title-th":"",
+      "title-th":"หน้าที่ของตัวรอง",
       "group": "5-Light",
 
       "childLinks": ["Object 4"]
@@ -2694,7 +2693,7 @@
     {
       "id": "5.7.1",
       "title": "Gamified Christianity",
-      "title-th":"",
+      "title-th":"ศาสนาคริสต์แบบเกม",
       "group": "5-Light",
 
       "childLinks": ["Object 65", "Object 66", "Object 67", "Object 68"]
@@ -2702,7 +2701,7 @@
     {
       "id": "5.8.1",
       "title": "Intergenerational Gap",
-      "title-th":"",
+      "title-th":"ช่องห่างระหว่างวัย",
       "group": "5-Light",
 
       "childLinks": ["Object 29"]
@@ -2710,7 +2709,7 @@
     {
       "id": "5.8.2",
       "title": "God-like status acquisition",
-      "title-th":"",
+      "title-th":"การได้มาซึ่งสถานะเมพขิง",
       "group": "5-Light",
 
       "childLinks": ["Object 31"]
@@ -2718,7 +2717,7 @@
     {
       "id": "5.8.3",
       "title": "Market influence on niche products",
-      "title-th":"",
+      "title-th":"ผลของตลาดต่อผลิตภัณฑ์เฉพาะกลุ่ม",
       "group": "5-Light",
 
       "childLinks": ["Object 37", "Object 66"]
@@ -2726,7 +2725,7 @@
     {
       "id": "5.8.4",
       "title": "The aftermath of WW2 and character design",
-      "title-th":"",
+      "title-th":"ผลพวงของสงครามโลกครั้งที่สองและการออกแบบตัวละคร",
       "group": "5-Light",
 
       "childLinks": ["Object 62"]
@@ -2734,7 +2733,7 @@
     {
       "id": "5.8.5",
       "title": "Mapmaking as social activity",
-      "title-th":"",
+      "title-th":"การสร้างแผนที่ในฐานะกิจกรรมทางสังคม ",
       "group": "5-Light",
 
       "childLinks": ["Object 125"]
@@ -2742,7 +2741,7 @@
     {
       "id": "5.9.1",
       "title": "Community influence on game development",
-      "title-th":"",
+      "title-th":"อิทธิพลของชุมชนต่อการพัฒนาเกม",
       "group": "5-Light",
 
       "childLinks": ["Object 32"]
@@ -2750,7 +2749,7 @@
     {
       "id": "5.9.2",
       "title": "Magazine community",
-      "title-th":"",
+      "title-th":"ชุมชนนิตยสาร",
       "group": "5-Light",
 
       "childLinks": ["Object 25", "Object 32"]
@@ -2758,7 +2757,7 @@
     {
       "id": "5.9.3",
       "title": "Fan Art",
-      "title-th":"",
+      "title-th":"แฟนอาร์ท",
       "group": "5-Light",
 
       "childLinks": ["Object 122", "Object 135", "Object 121"]
@@ -2766,7 +2765,7 @@
     {
       "id": "5.9.4",
       "title": "Knowledge community",
-      "title-th":"",
+      "title-th":"ชุมชนความรู้",
       "group": "5-Light",
 
       "childLinks": ["Object 9"]
@@ -2774,7 +2773,7 @@
     {
       "id": "5.9.5",
       "title": "Politicised memes",
-      "title-th":"",
+      "title-th":"มีมการเมือง",
       "group": "5-Light",
 
       "childLinks": ["Object 89", "Object 119"]
@@ -2782,54 +2781,54 @@
     {
       "id": "6",
       "title": "[6] Object and its contexts",
-      "title-th":"",
+      "title-th":"วัตถุและบริบท",
       "group": "6-Dark",
-
+      "constellation-description": "How objects are necessary enmeshed in networks, in politics, in contexts.",
       "childLinks": ["6.1", "6.2", "6.3", "6.4"]
     },
     {
       "id": "6.1",
       "title": "Engaging with Objects ",
-      "title-th":"",
+      "title-th":"ปฏิสัมพันธ์กับวัตถุ",
       "group": "6-Med",
-
+      "constellation-description": "Nawin relation to objects are based on the practice of collective media files, and second hand objects. Backyard archeologist in which sources are indistinguishable from the physical and the virtual, and trying to make sense of all of them.",
       "childLinks": ["6.1.1", "6.1.2", "6.1.3", "6.1.4", "6.1.5"]
     },
     {
       "id": "6.2",
       "title": "Encountering Objects",
-      "title-th":"",
+      "title-th":"พอเจอวัตถุ",
       "group": "6-Med",
-
+      "constellation-description": "The contexts in which Nawin stumbles upon objects. IN which the very act of stumbling upon them entails their journey in the world. From where, through whom , to him",
       "childLinks": ["Object 3", "Object 21", "Object 28"]
     },
     {
       "id": "6.3",
       "title": "Context of Production",
-      "title-th":"",
+      "title-th":"บริบทการผลิต",
       "group": "6-Med",
-
+      "constellation-description": "How objects shift their meanings and significance through each iteration of production. The object both lose and regains their new meaning. Shifting states and being mass produced, another layer of history possesses them. Collectively all these forces which are the cause for their production ultimately transform the trajectory of the object and meaning.",
       "childLinks": ["6.3.1", "6.3.2", "6.3.3", "6.3.4", "6.3.5", "6.3.6"]
     },
     {
       "id": "6.4",
       "title": "Object Circulation",
-      "title-th":"",
+      "title-th":"การไหลเวียนของวัตถุ",
       "group": "6-Med",
-
+      "constellation-description": "The journey in which eac artifact takes to end up in this exhibition, From trash and throwaways in a developed world to a warehouse of desires in a developing country. Directed through market forces.",
       "childLinks": ["6.4.1", "6.4.2", "6.4.3", "6.4.4", "1.2.3"]
     },
     {
       "id": "6.1.1",
       "title": "Internet trash",
-      "title-th":"",
+      "title-th":"ขยะอินเตอร์เน็ต",
       "group": "6-Light",
       "childLinks": ["Object 145"]
     },
     {
       "id": "6.1.2",
       "title": "Collecting media files",
-      "title-th":"",
+      "title-th":"สะสมไฟล์สื่อ",
       "group": "6-Light",
 
       "childLinks": [
@@ -2848,7 +2847,7 @@
     {
       "id": "6.1.3",
       "title": "Collectibles",
-      "title-th":"",
+      "title-th":"ของสะสม",
       "group": "6-Light",
 
       "childLinks": [
@@ -2863,7 +2862,7 @@
     {
       "id": "6.1.4",
       "title": "Proxy objects",
-      "title-th":"",
+      "title-th":"วัตถุตัวแทน",
       "group": "6-Light",
 
       "childLinks": ["Object 74", "Object 75", "Object 113"]
@@ -2871,7 +2870,7 @@
     {
       "id": "6.1.5",
       "title": "Collecting second hand objects",
-      "title-th":"",
+      "title-th":"สะสมของมือสอง",
       "group": "6-Light",
 
       "childLinks": ["Object 21", "Object 27", "Object 38", "Object 58"]
@@ -2879,7 +2878,7 @@
     {
       "id": "6.3.1",
       "title": "Mass Production",
-      "title-th":"",
+      "title-th":"การผลิตเชิงอุสาหกรรม ",
       "group": "6-Light",
 
       "childLinks": ["Object 3", "Object 16", "Object 18", "Object 41"]
@@ -2887,7 +2886,7 @@
     {
       "id": "6.3.2",
       "title": "Lost Meanings, Newfound Meanings",
-      "title-th":"",
+      "title-th":"ความหมายที่หาย,ความหมายที่พบใหม่",
       "group": "6-Light",
 
       "childLinks": ["Object 3", "Object 19"]
@@ -2895,7 +2894,7 @@
     {
       "id": "6.3.3",
       "title": "Production politics",
-      "title-th":"",
+      "title-th":"การเมืองของการผลิต",
       "group": "6-Light",
 
       "childLinks": ["Object 30"]
@@ -2903,7 +2902,7 @@
     {
       "id": "6.3.4",
       "title": "Transnational logistics",
-      "title-th":"",
+      "title-th":"โลจิสติคส์ข้ามชาติ",
       "group": "6-Light",
 
       "childLinks": ["Object 38"]
@@ -2911,7 +2910,7 @@
     {
       "id": "6.3.5",
       "title": "Altered materials",
-      "title-th":"",
+      "title-th":"สสารที่ถูกเปลี่ยนแปลง",
       "group": "6-Light",
 
       "childLinks": ["Object 5", "Object 41"]
@@ -2919,7 +2918,7 @@
     {
       "id": "6.3.6",
       "title": "Traces of production",
-      "title-th":"",
+      "title-th":"ร่องรอยของการผลิต",
       "group": "6-Light",
 
       "childLinks": [
@@ -2933,7 +2932,7 @@
     {
       "id": "6.4.1",
       "title": "Marketing tactics",
-      "title-th":"",
+      "title-th":"ยุทธวิธีการตลาด",
       "group": "6-Light",
 
       "childLinks": ["Object 25", "Object 113"]
@@ -2941,7 +2940,7 @@
     {
       "id": "6.4.2",
       "title": "Thinking about circulation through games",
-      "title-th":"",
+      "title-th":"คิดเรื่องการไหวเวียนผ่านเกม",
       "group": "6-Light",
 
       "childLinks": ["Object 132"]
@@ -2949,7 +2948,7 @@
     {
       "id": "6.4.3",
       "title": "Imported trash",
-      "title-th":"",
+      "title-th":"ขยะนำเข้า",
       "group": "6-Light",
 
       "childLinks": ["Object 3", "Object 11"]
@@ -2957,7 +2956,7 @@
     {
       "id": "6.4.4",
       "title": "Object journey",
-      "title-th":"",
+      "title-th":"การเดินทางของวัตถุ",
       "group": "6-Light",
 
       "childLinks": ["Object 3", "Object 21", "Object 38", "Object 139"]
@@ -2965,9 +2964,9 @@
     {
       "id": "7",
       "title": "[7] Unclassified ",
-      "title-th":"",
+      "title-th":"ไม่จัดหมวดหมู่",
       "group": "7-Dark",
-
+      "constellation-description": "Traces of data analysis",
       "childLinks": [
         "7.1",
         "7.2",
@@ -2983,7 +2982,7 @@
     {
       "id": "7.1",
       "title": "Sidekick",
-      "title-th":"",
+      "title-th":"เพื่อนซี้ ",
       "group": "7-Med",
 
       "childLinks": ["Object 4"]
@@ -2991,7 +2990,7 @@
     {
       "id": "7.2",
       "title": "Previous Work",
-      "title-th":"",
+      "title-th":"งานก่อนหน้า",
       "group": "7-Med",
 
       "childLinks": ["Object 2", "Object 20", "Object 22", "Object 98"]
@@ -2999,7 +2998,7 @@
     {
       "id": "7.3",
       "title": "Detaching oneself",
-      "title-th":"",
+      "title-th":"การแยกตัวเองออกมา",
       "group": "7-Med",
 
       "childLinks": ["Object 6"]
@@ -3007,7 +3006,7 @@
     {
       "id": "7.4",
       "title": "Function of statue",
-      "title-th":"",
+      "title-th":"หน้าที่ของรูปปั้น",
       "group": "7-Med",
 
       "childLinks": ["Object 10"]
@@ -3015,7 +3014,7 @@
     {
       "id": "7.5",
       "title": "Personal objects",
-      "title-th":"",
+      "title-th":"วัตถุส่วนตัว",
       "group": "7-Med",
 
       "childLinks": [
@@ -3030,28 +3029,28 @@
     {
       "id": "7.6",
       "title": "Personal journey",
-      "title-th":"",
+      "title-th":"การเดินทางส่วนตัว",
       "group": "7-Med",
       "childLinks": ["Object 22"]
     },
     {
       "id": "7.7",
       "title": "Embodiment of the artist's self",
-      "title-th":"",
+      "title-th":"การร่วมร่างของตัวตนศิลปิน",
       "group": "7-Med",
       "childLinks": ["Object 72"]
     },
     {
       "id": "7.8",
       "title": "Blank NPCs",
-      "title-th":"",
+      "title-th":"NPC ตัวเปล่า",
       "group": "7-Med",
       "childLinks": ["Object 138", "Object 81", "Object 150", "Object 86"]
     },
     {
       "id": "7.9",
       "title": "Approach to sketching",
-      "title-th":"",
+      "title-th":"แนวทางการสเก็ตช์",
       "group": "7-Med",
       "childLinks": ["Object 79"]
     }

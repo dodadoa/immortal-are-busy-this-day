@@ -49,9 +49,10 @@ const drawerStyle = {
 }
 
 const TextLink = styled.p`
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   font-family: ${fontMonoFamily};
+  font-weight: 800;
   &:hover {
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
@@ -63,7 +64,7 @@ const TitleTextLink = styled.p`
   color: white;
   font-family: ${fontHeader};
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   &:hover {
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
@@ -485,7 +486,7 @@ const IndexPage = () => {
             <li>Web Design: Nawin Nuthong</li>
             <li>Developer and technical assistant: Wasawat Somno</li>
             <li>Interviewer: Suparada Fuangfu</li>
-            <li>Special thank</li>
+            <li>Special thank:</li>
             <li>Unchalee Anantawat</li>
             <li>Poop Press</li>
           </ul>
@@ -630,7 +631,7 @@ const IndexPage = () => {
           left: '20px',
           zIndex: '999'
         }}>
-          <TextLink onClick={handleClickStatement}>About this project</TextLink>
+          <TextLink onClick={handleClickStatement}>ABOUT THIS PROJECT</TextLink>
         </div>
         {
           typeof window !== 'undefined' && (
