@@ -21,7 +21,6 @@ import thumbnails from '../images/thumbnails'
 const fontHeader = 'Cinzel'
 const fontThaiFamily = 'Maitree'
 const fontMonoFamily = 'JetBrains Mono'
-const fontMenuOrEngText = 'Manrope'
 
 const pageStyles = {
   color: '#232129',
@@ -40,7 +39,9 @@ const drawerBodyStyle = {
   color: 'black',
   idth: '400px',
   backgroundColor: 'rgba(0, 0, 0, 0.8)',
-  background: 'linear-gradient(0deg, rgba(10,10,10,0.9) 0%, rgba(100,100,100,0.8) 100%)',
+  background: isMobile
+    ? 'linear-gradient(0deg, rgba(10, 10, 10, 1) 0%, rgba(82,82,82,0.9) 100%)'
+    : 'linear-gradient(0deg, rgba(10,10,10,0.9) 0%, rgba(100,100,100,0.8) 100%)',
 }
 const drawerStyle = {
   backgroundColor: 'rgba(255,255,255,0)',
@@ -50,7 +51,7 @@ const drawerStyle = {
 const TextLink = styled.p`
   font-size: 20px;
   color: white;
-  font-family: ${fontMenuOrEngText};
+  font-family: ${fontMonoFamily};
   &:hover {
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
@@ -62,7 +63,7 @@ const TitleTextLink = styled.p`
   color: white;
   font-family: ${fontHeader};
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 800;
   &:hover {
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
@@ -238,7 +239,7 @@ const IndexPage = () => {
 
   const nodeDrawerStyle = nodeDrawerVisible
     ? {
-      width: '400px',
+      maxWidth: '400px',
     }
     : {
       display: 'none',
@@ -246,7 +247,7 @@ const IndexPage = () => {
 
   const statementDrawerStyle = statementDrawerVisible
     ? {
-      width: '400px',
+      maxWidth: '400px',
     }
     : {
       display: 'none',
@@ -377,7 +378,7 @@ const IndexPage = () => {
           <TreeFrameLeft />
           <h1 style={{
             fontFamily: fontHeader,
-            fontSize: '30px',
+            fontSize: '24px',
             lineHeight: '40px',
             color: 'white',
             letterSpacing: '2px',
@@ -392,12 +393,12 @@ const IndexPage = () => {
           <h2
             style={{
               fontFamily: fontMonoFamily,
-              fontSize: '22px',
+              fontSize: '18px',
               color: 'white',
               textAlign: 'right',
               textDecoration: 'underline',
               letterSpacing: '1.5px',
-              marginTop: '30px'
+              marginBottom: '20px'
             }}
           >
             {'About this project'}
@@ -427,7 +428,7 @@ const IndexPage = () => {
           >
             {'How are objects ‘managed’?'}
           </h2>
-          <EngParagraphAbout style={{ marginTop: '30px', marginLefft: '15px', textAlign: 'left' }}>
+          <EngParagraphAbout style={{ marginTop: '30px', marginLeft: '15px', textAlign: 'left' }}>
             {'This project takes its starting point from qualitative research procedures in the social sciences. As one of the key epistemo-methodological principles in Sociology, Constructivist Grounded Theory has consistently been employed as a tool for meditating the research act. Central to its logic is the practice of semi-inductive and reiterative qualitative coding, by which textual materials are compartmentalised, assigned meanings, and eventually reassembled to carve out narratives that have been buried beneath piles of data all along. Methodical and straightforward as it sounds, the procedure is inherently mediated through the researcher’s own subjectivity and the context in which the research act takes place - not necessarily a bad thing. A ‘social scientist’ by training, I seek to displace and relocate my own practice from the sphere of the verbal and the tangible, and attempt to situate it within Nawin’s object inventory. This network is the result of that attempt.'}
           </EngParagraphAbout>
           <p style={{
@@ -439,7 +440,7 @@ const IndexPage = () => {
           }}>
             {'Pretty K'}
           </p>
-          <ThaiParagraphAbout style={{ marginTop: '60px', marginLefft: '15px', textAlign: 'left' }}>
+          <ThaiParagraphAbout style={{ marginTop: '60px', marginLeft: '15px', textAlign: 'left' }}>
             {'โปรเจคนี้มีจุดตั้งต้นมาจากกระบวนการวิจัยเชิงคุณภาพในสังคมศาสตร์ Constructivist Grounded Theory เป็นหนึ่งในหลักคิดทางญาณวิทยาและระเบียบวิธีวิจัยที่สำคัญในสังคมวิทยา และได้ถูกนำมาใช้เป็นเครื่องมือในการประสาน ‘การกระทำวิจัย’ มาโดยตลอดอย่างต่อเนื่อง หัวใจสำคัญของแนวคิดนี้คือการ coding เชิงคุณภาพในวิถีกึ่งอุปนัยและการทำซ้ำ ในวิถีนี้ วัตถุที่เป็นอักษรถูกนำมาจัดแบ่ง ถูกให้ความหมาย และถูกรวมร่างใหม่อีกครั้งเพื่อเล่าเรื่องของสิ่งที่ถูกฝังอยู่ใต้ข้อมูลกองพะเนินมาตั้งแต่ต้น แม้ว่ากระบวนการนี้จะฟังดูตรงไปตรงมาและมีระเบียบแบบแผน กระบวนการโดยตัวมันเองแล้วก็ดำเนินผ่านอัตวิสัยของผู้วิจัยเองและบริบทที่รายล้อมการกระจำวิจัย ซึ่งก็ไม่ใช่เรื่องแย่อะไร ในฐานะที่ถูกฝึกมาให้เป็น ’นักวิทยาศาสตร์สังคม’ เรามุ่งที่จะเคลื่อนการทำงานของตัวเองออกจากมณฑลของคำพูดและสิ่งที่จับได้ไปสู่สิ่งอื่น และพยายามที่จะหาที่ทางให้การทำงานท่ามกลางคลังสิ่งของของนวิน โครงข่ายในงานนี้คือผลของความพยายามนั้น  '}
           </ThaiParagraphAbout>
           <p style={{
