@@ -9,6 +9,7 @@ import '../styles.css'
 import styled from '@emotion/styled'
 import { Helmet } from 'react-helmet'
 import facebookSharePic from '../images/for-share.png'
+import bangkokCityCityLogo from '../images/bangkok-city-logo.png'
 import treeframeImage from '../images/treeframe/4x/4x.png'
 import { isMobile } from 'react-device-detect'
 import theme from '../constants/theme'
@@ -86,6 +87,22 @@ const BackIconWrapper = styled.div`
     cursor: pointer;
     text-shadow: 1px 1px 18px rgba(255, 255, 255, 1);
   }
+`
+
+const ThaiParagraphAbout = styled.p`
+  font-size: 14px;
+  color: white;
+  text-align: right;
+  font-family: ${fontThaiFamily};
+  letter-spacing: 1px;
+`
+
+const EngParagraphAbout = styled.p`
+  font-size: 13px;
+  color: white;
+  text-align: right;
+  font-family: ${fontMonoFamily};
+  letter-spacing: 1px;
 `
 
 const WhiteClosedOutline = <CloseOutlined style={{ fontSize: '20px', color: 'rgba(255,255,255, 0.7)'  }}/>
@@ -357,7 +374,7 @@ const IndexPage = () => {
       >
         <div style={drawerContentContainerStyle}>
           <TreeFrameLeft />
-          <p style={{
+          <h1 style={{
             fontFamily: fontHeader,
             fontSize: '30px',
             lineHeight: '40px',
@@ -368,17 +385,146 @@ const IndexPage = () => {
             wordBreak: 'break-word',
             textShadow: '1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1), 1px 1px 18px rgba(255, 255, 255, 1)'
           }}>
-            {'CONTENT OF ARTIFACT [IN] THE IMMORTALS ARE QUITE BUSY THESE DAYS'}
-          </p>
+            {'BUSY IMMORTAL OBJECT MANAGEMENT'}
+          </h1>
+          <h2
+            style={{
+              fontFamily: fontMonoFamily,
+              fontSize: '22px',
+              color: 'white',
+              textAlign: 'right',
+              textDecoration: 'underline',
+              letterSpacing: '1.5px'
+            }}
+          >
+            {'About this project'}
+          </h2>
+          <EngParagraphAbout>
+            {'Object Management is an overview of selected artifacts featured in THE IMMORTALS ARE QUITE BUSY THESE DAYS - a solo exhibition by Nawin Nuthong, BANGKOK CITYCITY GALLERY,. It claims neither comprehensiveness nor clarity. Instead, what it contains is the act of looking for comprehension, of looking for clarity. Anything is data, and everything can be analysed, or so they say. Key to this is classification, through which associations are sometimes forged and connections at times lost. Think of this overview as an overrated guide book. Think of it as a rigid and uninspiring how-to book. The content itself might not lead to much, but we encourage you to engage with how said content is arranged, how things are classified, how certain things are so blatantly discarded. So that perhaps everything is data after all.'}
+          </EngParagraphAbout>
+          <ThaiParagraphAbout>
+            {'Object Management คือภาพรวมของวัตถุส่วนหนึ่งที่ปรากฎในนิทรรศการ THE IMMORTALS ARE QUITE BUSY THESE DAYS โดย นวิน หนูทอง บางกอก ซิตี้ซิตี้ แกลเลอรี่ Object Management ไม่แอบอ้างว่าสามารถให้ทั้งความครอบคลุมหรือความกระจ่างได้ แต่สิ่งที่ Object Management ให้แทนได้คือรูปแบบการหาความเข้าใจและรูปแบบการหาความกระจ่างนั้น ว่ากันว่าอะไรๆ ก็เป็นข้อมูลได้ และทุกสิ่งทุกอย่างสามารถวิเคราะห์ได้ หัวใจสำคัญของความเชื่อนี้คือการจัดจำแนก การจัดจำแนกที่บางครั้งก็สร้างความเชื่อมโยงใหม่ให้เกิดขึ้น แต่ครั้งอื่นๆ ก็ปล่อยความสัมพันธ์เดิมให้สูญหายไป คิดซะว่างานนี้คือหนังสือนำเที่ยวที่เห็นไม่เห็นสมคำร่ำลือขนาดนั้น คิดซะว่านี่เป็นหนังสือ how-to ที่แข็งทื่อและไม่สร้างแรงบันดาลใจ เนื้อหาในตัวงานเองอาจไม่ได้นำไปสู่อะไรที่ยิ่งใหญ่ได้ แต่เรายังอยากเชิญชวนให้คุณลองมีปฏิสัมพันธ์กับวิธีที่เนื้อหาในงานถูกจัดเรียง กับวิธีที่สิ่งต่างๆ ถูกจัดประภท กับวิธีที่บางสิ่งบางอย่างก็ถูกทิ้งไปอย่างโจ่งแจ้ง เผื่อว่าเอาเข้าจริงๆ แล้ว ทุกอย่างอาจจะเป็นข้อมูลตามที่เค้าว่ากันก็ได้'}
+          </ThaiParagraphAbout>
+          <h2
+            style={{
+              fontFamily: fontMonoFamily,
+              fontSize: '22px',
+              color: 'white',
+              textAlign: 'right',
+              textDecoration: 'underline',
+              letterSpacing: '1.5px'
+            }}
+          >
+            {'How are objects ‘managed’?'}
+          </h2>
+          <EngParagraphAbout>
+            {'This project takes its starting point from qualitative research procedures in the social sciences. As one of the key epistemo-methodological principles in Sociology, Constructivist Grounded Theory has consistently been employed as a tool for meditating the research act. Central to its logic is the practice of semi-inductive and reiterative qualitative coding, by which textual materials are compartmentalised, assigned meanings, and eventually reassembled to carve out narratives that have been buried beneath piles of data all along. Methodical and straightforward as it sounds, the procedure is inherently mediated through the researcher’s own subjectivity and the context in which the research act takes place - not necessarily a bad thing. A ‘social scientist’ by training, I seek to displace and relocate my own practice from the sphere of the verbal and the tangible, and attempt to situate it within Nawin’s object inventory. This network is the result of that attempt.'}
+          </EngParagraphAbout>
+          <ThaiParagraphAbout>
+            {'โปรเจคนี้มีจุดตั้งต้นมาจากกระบวนการวิจัยเชิงคุณภาพในสังคมศาสตร์ Constructivist Grounded Theory เป็นหนึ่งในหลักคิดทางญาณวิทยาและระเบียบวิธีวิจัยที่สำคัญในสังคมวิทยา และได้ถูกนำมาใช้เป็นเครื่องมือในการประสาน ‘การกระทำวิจัย’ มาโดยตลอดอย่างต่อเนื่อง หัวใจสำคัญของแนวคิดนี้คือการ coding เชิงคุณภาพในวิถีกึ่งอุปนัยและการทำซ้ำ ในวิถีนี้ วัตถุที่เป็นอักษรถูกนำมาจัดแบ่ง ถูกให้ความหมาย และถูกรวมร่างใหม่อีกครั้งเพื่อเล่าเรื่องของสิ่งที่ถูกฝังอยู่ใต้ข้อมูลกองพะเนินมาตั้งแต่ต้น แม้ว่ากระบวนการนี้จะฟังดูตรงไปตรงมาและมีระเบียบแบบแผน กระบวนการโดยตัวมันเองแล้วก็ดำเนินผ่านอัตวิสัยของผู้วิจัยเองและบริบทที่รายล้อมการกระจำวิจัย ซึ่งก็ไม่ใช่เรื่องแย่อะไร ในฐานะที่ถูกฝึกมาให้เป็น ’นักวิทยาศาสตร์สังคม’ เรามุ่งที่จะเคลื่อนการทำงานของตัวเองออกจากมณฑลของคำพูดและสิ่งที่จับได้ไปสู่สิ่งอื่น และพยายามที่จะหาที่ทางให้การทำงานท่ามกลางคลังสิ่งของของนวิน โครงข่ายในงานนี้คือผลของความพยายามนั้น  '}
+          </ThaiParagraphAbout>
+          <h2
+            style={{
+              fontFamily: fontMonoFamily,
+              fontSize: '22px',
+              color: 'white',
+              textAlign: 'left',
+              letterSpacing: '1.5px',
+              fontWeight: '800',
+              marginLeft: '15px',
+              marginTop: '50px'
+            }}
+          >
+            {'Credits'}
+          </h2>
+          <ul
+            style={{
+              color: 'white',
+              textAlign: 'left',
+              listStyleType: 'none',
+              padding: '0',
+              marginLeft: '15px',
+              fontSize: '13px',
+              fontFamily: fontMonoFamily,
+            }}
+          >
+            <li>Concept: Nawin Nuthong, Kritti Tantasith</li>
+            <li>Analyst / Interviewer: Kritti Tantasith</li>
+            <li>Advisor: Pongsakorn Yananissorn</li>
+            <li>Web Design: Nawin Nuthong</li>
+            <li>Developer and technical assistant: Wasawat Somno</li>
+            <li>Interviewer: Suparada Fuangfu</li>
+            <li>Special thank</li>
+            <li>Unchalee Anantawat</li>
+            <li>Poop Press</li>
+          </ul>
+          <ul
+            style={{
+              color: 'white',
+              textAlign: 'left',
+              listStyleType: 'none',
+              padding: '0',
+              marginLeft: '15px',
+              marginTop: '30px',
+              fontSize: '14px',
+              fontFamily: fontThaiFamily
+            }}
+          >
+            <li>แนวคิด: นวิน หนูทอง, กฤตธี ตัณฑสิทธิ์</li>
+            <li>วิเคราะห์ / สัมภาษณ์เก็บข้อมูล: กฤตธี ตัณฑสิทธิ์</li>
+            <li>ที่ปรึกษา: พงศกรณ์ ญาณะณิสสร</li>
+            <li>ออกแบบเว็บไซต์: นวิน หนูทอง</li>
+            <li>พัฒนาโปรแกรมและให้คำปรึกษาทางเทคนิค: <br /> วสวัตติ์ สมโน</li>
+            <li>สัมภาษณ์เก็บข้อมูล: ศุภรดา เฟื่องฟู</li>
+            <li>ขอขอบคุณ:</li>
+            <li>อัญชลี อนันตวัฒน์</li>
+            <li>พู๊พเพรส</li>
+          </ul>
           <p style={{
-            fontSize: '18px',
+            fontSize: '12px',
             color: 'white',
             textAlign: 'right',
-            fontFamily: fontMenuOrEngText,
-            letterSpacing: '1px'
+            fontFamily: fontMonoFamily,
+            letterSpacing: '1px',
+            marginTop: '30px',
           }}>
-            {'Object Management is a visual overview of selected artefacts featured in The Immortals Are Quite Busy These Days. It claims neither comprehensiveness nor clarity. Instead, what it contains is the act of looking for comprehension, of looking for clarity. Anything is data, and everything can be analysed, or so they say. Key to this is classification, which in itself is a form of violence. Think of this overview as an overrated guide book. Think of it as a rigid and uninspiring how-to book. The content itself might not lead to much, but we encourage you to engage with how content is arranged, how things are classified, how certain things are so blatantly discarded. So that perhaps everything is data after all.'}
+            {'THE IMMORTALS ARE QUITE BUSY THESE DAYS'}
           </p>
+          <p style={{
+            fontSize: '12px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontMonoFamily,
+            letterSpacing: '1px',
+          }}>
+            {'NAWIN NUTHONG'}
+          </p>
+          <p style={{
+            fontSize: '12px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontMonoFamily,
+            letterSpacing: '1px',
+          }}>
+            {'January 30 - 21 March, 2021'}
+          </p>
+          <p style={{
+            fontSize: '12px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontMonoFamily,
+            letterSpacing: '1px',
+          }}>
+            More info visit: <a href="https://bangkokcitycity.com/activity/the-immortals-are-quite-busy-these-days/" style={{ textDecoration: 'none' }}>https://bangkokcitycity.com/activity/the-immortals-are-quite-busy-these-days/</a>
+          </p>
+          <img src={bangkokCityCityLogo} style={{ width: '100%', height: '160px'}}/>
+          <p style={{
+            fontSize: '14px',
+            color: 'white',
+            textAlign: 'center',
+            fontFamily: fontMonoFamily,
+            marginTop: '30px'
+          }}>{'© 2021 Nawin Nuthong'}</p>
         </div>
       </Drawer>
     )
