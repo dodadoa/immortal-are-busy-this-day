@@ -115,7 +115,7 @@ const groupedColorWithObjectImagesNode = data.nodes.map((node, nIndex) => {
   if (node.group.includes('Med')) {
     return { 
       ...node,
-      title: '🌿' + node.title + '🌿',
+      title: '🌿' + node.title.toUpperCase() + '🌿',
       color: node.group && typeof (node.group) === 'string' && getColorFromGroup(node.group)
     }
   }
