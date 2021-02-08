@@ -7,8 +7,6 @@ import data from '../dataset/Graph_theme_4.json'
 import bg from '../images/bg.jpg'
 import '../styles.css'
 import styled from '@emotion/styled'
-import { Helmet } from 'react-helmet'
-import facebookSharePic from '../images/for-share.png'
 import bangkokCityCityLogo from '../images/bangkok-city-logo.png'
 import busyIntroImage from '../images/busy-immortal-intro-img.png'
 import treeframeImage from '../images/treeframe/4x/4x.png'
@@ -612,16 +610,6 @@ const IndexPage = () => {
 
   return (
     <React.Fragment key={isClient}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
-        <link rel="canonical" href="https://busyimmortal.com/" />
-        <meta property="og:url" content="https://busyimmortal.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="THE IMMORTALS ARE QUITE BUSY THESE DAYS" />
-        <meta property="og:description" content="NAWIN NUTHONG - THE IMMORTALS ARE QUITE BUSY THESE DAYS - 30.01 - 21.03.2021" />
-        <meta property="og:image" content={facebookSharePic} />
-      </Helmet>
       <main style={pageStyles}>
         <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
         <div style={{

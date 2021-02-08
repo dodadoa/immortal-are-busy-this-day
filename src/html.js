@@ -1,5 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Helmet } from 'react-helmet'
+import facebookSharePic from './images/for-share.png'
 
 export default function HTML(props) {
   return (
@@ -11,6 +13,17 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
+          <link rel="canonical" href="https://busyimmortal.com/" />
+          <meta property="og:url" content="https://busyimmortal.com/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="THE IMMORTALS ARE QUITE BUSY THESE DAYS" />
+          <meta property="og:description" content="NAWIN NUTHONG - THE IMMORTALS ARE QUITE BUSY THESE DAYS - 30.01 - 21.03.2021" />
+          <meta property="og:image" content={facebookSharePic} />
+        </Helmet>
+        {props.headComponents}
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -19,7 +32,6 @@ export default function HTML(props) {
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
-        {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
