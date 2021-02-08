@@ -615,7 +615,6 @@ const IndexPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>THE IMMORTALS ARE QUITE BUSY THESE DAYS</title>
-        <meta name="description" content="NAWIN NUTHONG - THE IMMORTALS ARE QUITE BUSY THESE DAYS - 30.01 - 21.03.2021"/>
         <link rel="canonical" href="https://busyimmortal.com/" />
         <meta property="og:url" content="https://busyimmortal.com/" />
         <meta property="og:type" content="website" />
