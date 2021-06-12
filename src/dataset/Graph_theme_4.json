@@ -1213,6 +1213,7 @@
       "titleTH":"รูปแบบการไถ่ถาม",
       "group": "1-Med",
       "constellationDescription": "Historical engagement is not necessarily bound to History as a discipline. Nawin develops a myriad of strategies to interact what he perceives to be ‘historical’, ranging from reading around and about history to highlighting his own affective engagement with in-game self-proclaimed artefacts.",
+      "constellationDescriptionTH": "การมีปฏิสัมพันธ์กับประวัติศาสตร์ไม่จำเป็นต้องผูกติดกับวิชาประวัติศาสตร์เสมอไป นวินพัฒนาวิธีการที่หลากหลายในการมีปฏิสัมพันธ์กับสิ่งที่เขาเห็นว่าเป็น ‘ประวัติศาสตร์’ ตั้งแต่การอ่านเกี่ยวกับประวัติศาสตร์และการอ่านระหว่างบรรทัด ไปจนถึงการเน้นย้ำความสัมพันธ์เชิงผัสสะที่เขามีต่อวัตถุในเกมที่อ้างตัวเองว่าเป็นโบราณวัตถุ",
       "childLinks": [
         "1.1.1",
         "1.1.2",
@@ -1239,6 +1240,7 @@
       "titleTH":"หาที่ทางของความโบราณ",
       "group": "1-Med",
       "constellationDescription": "Ancientness emerges as one of Nawin's key preoccupations. Exactly what 'ancient' is, however, is not limited to the passing of time. Ancient artefacts are ubiquitous. Ancient artefacts are now mass produced. What exactly does ‘ancientness’ constitute, and how has it been redefined?",
+      "constellationDescriptionTH": "ความโบราณเผยตัวว่าเป็นหนึ่งในความสนใจหลักของนวิน หากแต่คำว่า ‘โบราณ’ นี้มีความหมายที่กว้างกว่าการล่วงเลยไปของกาลเวลา โบราณวัตถุมีอยู่ทุกหนทุกแห่ง โบราณวัตถุตอนนี้ถูกผลิตเป็นจำนวนมาก ตกลงแล้วคำว่า ‘โบราณ’ ครอบคลุมอะไรได้บ้างและถูกให้นิยามใหม่มาอย่างไร",
       "childLinks": [
         "1.2.1",
         "1.2.2",
@@ -1258,6 +1260,7 @@
       "titleTH":"การปรากฏของความเป็นประวัติศาสตร์",
       "group": "1-Med",
       "constellationDescription": "How does history make its presence known in our time? Experientially, it seems. That is, history manifests itself in one’s experiencing of ‘the historical’. For Nawin, experience is mediated through how the past - which was never dead, and never buried to begin with - is exhumed and put on display.",
+      "constellationDescriptionTH": "ประวัติศาสตร์ทำให้เรารับรู้ถึงตัวตนของมันในช่วงเวลาปัจจุบันได้อย่างไร ดูเหมือนว่าจะเป็นการรับรู้ผ่านประสบการณ์ นั่นคือประวัติศาสตร์สำแดงตัวเองออกมาผ่านประสบการณ์ที่คนคนหนึ่งมีกับ “ความเป็นประวัติศาสตร์’ สำหรับนวินแล้ว ประสบการณ์มีสื่อกลางเป็นการที่อดีตถูกขุดร่างขึ้นมาจัดแสดง อดีตซึ่งแท้ที่จริงไม่เคยสิ้นอายุและไม่เคยถูกฝังร่างมาตั้งแต่แรกอยู่แล้ว",
       "childLinks": [
         "1.3.1",
         "1.3.2",
@@ -1276,6 +1279,7 @@
       "titleTH":"คุยกับต้นไม้",
       "group": "1-Med",
       "constellationDescription": "Trees are many things. For Nawin, it doesn’t seem to matter what exactly these ‘things’ are, but rather how history is absorbed into the very vessels that run through each. Furthermore, these absorptions transcend the different realms in which trees could inhabit. Trees as portals. Trees as the upholder of moralities. History, it seems, is what they are willing to tell.",
+      "constellationDescriptionTH": "ต้นไม้เป็นอะไรได้หลายสิ่ง สำหรับนวิน ดูเหมือนจะไม่สำคัญเท่าไหร่ว่า ‘สิ่ง’ ที่ว่ามาข้างต้นคืออะไรกันแน่ หากแต่ที่สำคัญคือประวัติศาสตร์นี้ถูกดูดซึมผ่านท่อลำเลียงที่อยู่ในสิ่งแต่ละสิ่งอย่างไร นอกไปจากนี้ การดูดซึมนี้ยังอยู่นอกเหนือดินแดนต่างๆ ที่ต้นไม้พำนักได้ ต้นไม้ในฐานะประตู ต้นไม้ในฐานะผู้ค้ำจุนศีลธรรม ดูเหมือนว่าประวัติศาสตร์คือสิ่งที่ต้นไม้ยินยอมจะเล่าให้ฟัง",
       "childLinks": ["1.4.1", "1.4.2", "1.4.3", "1.4.4", "1.4.5", "1.1.6"]
     },
     {
@@ -1284,6 +1288,7 @@
       "titleTH":"ให้นิยามประวัติศาสตร์",
       "group": "1-Med",
       "constellationDescription": "History is not mere retelling of the past. Rather, Nawin engages with history as an act of sense-making that is accessed through artefacts, and mediated through all things historical. His entry to history is facilitated through his own definitions of ‘historical’. History is thus plural and spontaneous.",
+      "constellationDescriptionTH": "ประวัติศาสตร์ไม่เพียงการเล่าเรื่องอดีตซ้ำ หากแต่นวินมีปฏิสัมพันธ์กับประวัติศาสตร์ในฐานะที่เป็นการทำความเข้าใจผ่านวัตถุ โดยมีสื่อกลางเป็นสิ่งใดๆ ก็ตามที่มีความเป็นประวัติศาสตร์ นวินเข้าถึงประวัติศาสตร์ผ่านนิยามที่เขาเป็นผู้กำหนดเองว่า ‘ความเป็นประวัติศาสตร์’ หมายถึงอะไร ดังนั้นแล้ว ประวัติศาสตร์จึงเป็นพหูพจน์และฉับพลัน",
       "childLinks": ["1.1.1", "1.5.1", "1.5.2", "1.5.3", "1.5.4"]
     },
     {
@@ -1659,6 +1664,7 @@
       "titleTH":"เทรชโชวด์",
       "group": "2-Dark",
       "constellationDescription": "An overview of Nawin’s attempts at conceptualising what he calls ‘Threshold’. Of all the artefacts featured in this exhibition, some are thresholds in themselves - or at the very least behave as such. Others offer a place for thresholds to inhabit.",
+      "constellationDescriptionTH": "ภาพรวมความพยายามของนวินในการสร้างกรอบคิดให้กับสิ่งที่เขาเรียกว่า ‘เทรชโชวด์’ จากวัตถุทั้งหมดที่ถูกรวบรวมในนิทรรศการนี้ บางชิ้นก็เป็นเทรชโชวด์ในตัวมันเอง หรืออย่างน้อยที่สุดก็มีพฤติกรรมเช่นนั้น ในขณะที่วัตถุชิ้นที่เหลือเป็นที่ทางให้เทรชโชวด์ได้มีที่พำนัก",
       "childLinks": ["2.1", "2.2"]
     },
     {
@@ -1666,7 +1672,8 @@
       "title": "Traits of Threshold",
       "titleTH":"ลักษณะของเทรชโชวด์",
       "group": "2-Med",
-      "constellationDescription": "Nawin uses the term ‘Threshold’ as a fluid category. No archetype or overarching framework encapsulates the totality of how Thresholds behave, what they look like, and how to identify them. Therefore, Thresholds are perhaps better understood as a collection of traits that are not always complimentary. What is more definite, however, is that Nawin interfaces with these Thresholds from the perspective of the user.",
+      "constellationDescription": "Nawin uses the term ‘Threshold’ as a fluid category. No archetype or overarching framework encapsulates the totality of how Thresholds behave, what they look like, and how to identify them. Therefore, Thresholds are perhaps better understood as a collection of traits that are not always complementary. What is more definite, however, is that Nawin interfaces with these Thresholds from the perspective of the user.",
+      "constellationDescriptionTH": "นวินใช้คำว่าเทรชโชวด์อย่างเป็นหมวดหมู่ที่ลื่นไหล ไม่มีแม่แบบหรือร่มความคิดใหญ่ใดที่สามารถครอบคลุมองคาพยพของเทรชโชวด์ได้หมด ว่าเทรชโชวด์นั้นมีพฤติกรรมอย่างไร มีรูปร่างหน้าตาอย่างไร และจะระบุตัวมันได้อย่างไร ดังนั้นแล้ว อาจจะดีกว่าถ้าจะเข้าใจว่าเทรชโชวด์คือกลุ่มของคุณสมบัติต่างๆ ที่ไม่เกื้อหนุนกันเสมอไป อย่างไรก็ตาม สิ่งที่แน่นอนกว่าก็คือนวินต่อประสานกับเทรชโชวด์จากมุมมองของผู้ใช้งาน",
       "childLinks": [
         "2.1.1",
         "2.1.2",
@@ -1838,6 +1845,7 @@
       "titleTH":"บรรจุภัณฑ์เทรชโชวด์",
       "group": "2-Med",
       "constellationDescription": "Thresholds may appear beyond the virtual in such containers.",
+      "constellationDescriptionTH": "เทรชโชวด์อาจปรากฏนอกเหนือจากโลกเสมือนเมื่ออยู่ในบรรจุภัณฑ์นี้",
       "childLinks": ["2.2.1"]
     },
     {
@@ -1854,6 +1862,7 @@
       "titleTH":"สร้างความหมาย สร้างความเข้าใจ",
       "group": "3-Dark",
       "constellationDescription": "How meanings are made, how comprehension operates. An overview of Nawin’s different epistemological frameworks, and how they inform his engagement with artifacts and what they embody.",
+      "constellationDescriptionTH": "ความหมายถูกสร้างขึ้นอย่างไร ความเข้าใจทำงานอย่างไร ภาพรวมกรอบคิดทางญาณวิทยาต่างๆ ของนวิน และวิธีที่กรอบคิดเหล่านี้ส่งผลต่อปฏิสัมพันธ์ที่เขามีกับวัตถุ และความเข้าใจว่าวัตถุนั้นๆ ก่อร่างจากอะไร",
       "childLinks": ["3.1", "3.2", "3.3", "3.4", "3.5", "1.2.1"]
     },
     {
@@ -1862,6 +1871,7 @@
       "titleTH":"เข้าใจประวัติศาสตร์",
       "group": "3-Med",
       "constellationDescription": "Artifacts and its surrounding contexts equip Nawin with the ability to interact with history. From co-existing with objects that somehow elicit the sense of the ‘historical’ to sensing imprints of past politics in objects, Nawin makes sense of history at the intersection between existing socio-cultural narratives and his own sensorial experience.",
+      "constellationDescriptionTH": "วัตถุและบริบทแวดล้อมทำให้นวินสามารถมีปฏิสัมพันธ์กับประวัติศาสตร์ได้ จากการอยู่ร่วมกับวัตถุที่ด้วยเหตุผลบางประการทำให้รู้สึกถึง ‘ความเป็นประวัติศาสตร์’ ไปจนถึงการสัมผัสถึงร่องรอยของการเมืองจากอดีตที่ปรากฏอยู่ในวัตถุ นวินทำความเข้าใจประวัติศาสตร์ในพื้นที่ทับซ้อนระหว่างเรื่องเล่าทางสังคมวัฒนธรรมที่มีอยู่และประสบการณ์ทางความรู้สึกของตัวเอง",
       "childLinks": [
         "3.1.1",
         "3.1.2",
@@ -1885,6 +1895,7 @@
       "titleTH":"เข้าใจเกม",
       "group": "3-Med",
       "constellationDescription": "Games are not limited to the screen. Through packaging.",
+      "constellationDescriptionTH": "เกมไม่ได้ถูกจำกัดอยู่กับหน้าจอฉันใด มุมมองของผู้เล่นก็ไม่ได้ถูกจำกัดอยู่กับการเล่นเกมฉันนั้น นวินมีปฏิสัมพันธ์กับเกมในองค์ประกอบทั้งหมดทั้งมวล ตั้งแต่บรรจุภัณฑ์ที่เสนอเกมให้ผู้บริโภค ไปจนถึงการอ้างอิงกันระหว่างความแตกต่างที่ปรากฏในแต่ละแพลตฟอร์มของเกมเดียวกัน",
       "childLinks": [
         "3.2.1",
         "3.2.2",
@@ -1901,6 +1912,7 @@
       "titleTH":"เข้าใจเทรชโชวด์",
       "group": "3-Med",
       "constellationDescription": "Utilizing film language and visual cues Nawin reads and interfaces through and with thresholds. Reading between the frames of animation and drawing analogies through comic tropes and traditions. Thresholds manifest like leading lines and speech bubbles which infers traces for Nawin to act upon.",
+      "constellationDescriptionTH": "นวินอ่านและต่อประสานผ่านและกับเทรชโชวด์ด้วยการภาษาของภาพยนตร์และนัยยะจากภาพที่เห็น นวินอ่านระหว่างเฟรมของภาพเคลื่อนไหว และดึงเอาอุปมาจากรูปแบบและขนบของการ์ตูนมาใช้ เทรชโชวด์แสดงตัวเสมือนเส้นนำสายตาและกล่องคำพูดที่ร่างแนวทางให้นวินว่าจะปฏิบัติอย่างไรต่อ",
       "childLinks": ["3.3.1", "3.3.2", "3.3.3"]
     },
     {
@@ -1909,6 +1921,7 @@
       "titleTH":"เข้าใจโลกเสมือน",
       "group": "3-Med",
       "constellationDescription": "Nawin senses the virtual in its own context. With aesthetics as a gateway and holding up available tools in its own world, Nawin ventures into virtuality through whichever principles are at work there.",
+      "constellationDescriptionTH": "นวินสัมผัสโลกเสมือนในบริบทของมันเอง ด้วยสุนทรีศาสตร์ที่ทำหน้าที่เป็นทางเข้าออกและเป็นรากฐานให้กับเครื่องมือที่มีในโลกของตัวเอง นวินผจญภัยเข้าไปโลกเสมือนด้วยหลักการอะไรก็ตามที่ทำงานในโลกนั้นๆ",
       "childLinks": ["3.4.1", "3.4.2", "3.4.3"]
     },
     {
@@ -1917,6 +1930,7 @@
       "titleTH":"เข้าใจต้นไม้",
       "group": "3-Med",
       "constellationDescription": "For Nawin, the staticity and rigidity of trees and its associated meanings is altered through his experience with the placement of trees in the virtual.",
+      "constellationDescriptionTH": "ความคงที่และความตายตัวของต้นไม้ พร้อมทั้งความหมายที่เกิดจากคุณสมบัตินี้ ถูกเปลี่ยนแปลงผ่านประสบการณ์ความรู้สึกที่นวินที่กับการจัดวางต้นไม้ในโลกเสมือน",
       "childLinks": ["3.5.1"]
     },
     {
@@ -2156,7 +2170,8 @@
       "title": "World Navigation",
       "titleTH":"เครื่องนำทางในโลก",
       "group": "4-Med",
-      "constellationDescription": "The tool which Nawin employs to navigate the virtual? A leap of faith into it without regards for instructions and guidelines. Nawin sometimes teases out the lore through visual effects in cutscenes, and picks apart the discrepancies between the manual and the gameplay.",
+      "constellationDescription": "The tool which Nawin employs to navigate the virtual? A leap of faith into it without regard for instructions and guidelines. Nawin sometimes teases out the lore through visual effects in cutscenes, and picks apart the discrepancies between the manual and the gameplay.",
+      "constellationDescriptionTH": "หรือจะคือเครื่องมือที่นวินใช้นำทางในโลกเสมือน? การกระโจนเข้าไปสู่โลกนั้นด้วยความศรัทธาโดยไม่สนใจคำอธิบายวิธีการหรือคำแนะนำใดๆ ในบางครั้ง นวินเฟ้นหาความรู้ปรัมปราจากวิชวลเอฟเฟคที่ปรากฏในคัทซีนและเสาะหาช่องว่างระหว่างการเล่นเกมและคู่มือการเล่น",
       "childLinks": [
         "4.1.1",
         "4.1.2",
@@ -2175,6 +2190,7 @@
       "titleTH":"ของจำลองและของควบคู่",
       "group": "4-Med",
       "constellationDescription": "What exactly constitutes 3D and 2D? The very heart of this question cuts across the binary of authenticity for history does not make the distinction between the virtual and the physical. An object and its counterpart performs a double fiction, telling different tales in their manifestations.",
+      "constellationDescriptionTH": "3D และ 2D มีอะไรเป็นองค์ประกอบกันแน่ ใจความสำคัญของคำถามนี้ตัดผ่านแนวคิดขั้วตรงข้ามเรื่องความแท้ความเทียมเพราะประวัติศาสตร์ไม่แบ่งโลกเสมือนและโลกกายภาพออกจากกัน วัตถุและสิ่งที่ควบคู่จึงเป็นเรื่องเล่าซ้ำสองที่คอยเล่านิทานเรื่องแตกต่างกันในแต่ละการปรากฏตัว",
       "childLinks": [
         "4.2.1",
         "4.2.2",
@@ -2192,6 +2208,7 @@
       "titleTH":"วัตถุสภาพไร้เรือนร่าง",
       "group": "4-Med",
       "constellationDescription": "Nawin dissects the anatomy of the virtual through methodologies commonly practiced in the physical and vice versa. The fundamentals of materiality here transcends what the artifacts are made of, dimensions are mere pretense. A mesh is conjured through a 2D plane to manifest a complete virtual object able to be reskinned and re-assigned a variety of materials. The physical could much so follows a similar protocol as wood is able to be reskinned into marble. Materials oscillate between states across realms.",
+      "constellationDescriptionTH": "นวินชำแหละเรือนร่างของโลกเสมือนผ่านวิธีที่โดยปกติทำกันในโลกกายภาพ และก็กระทำเช่นเดิมในทางกลับกัน หลักสำคัญของวัตถุสภาพในที่นี้อยู่เหนือองค์ประกอบของวัตถุและมิติต่างๆ ก็แค่ภาพลวง แบบจำลองเมชถูกเสกขึ้นจากระนาบ 2D ให้ปรากฏเป็นวัตถุเสมือนที่สมบูรณ์ สามารถใส่สกินและกำหนดวัสดุให้ใหม่ได้ โลกกายภาพเองก็ทำตามกฎระเบียบนี้เพราะไม้ก็สามารถเปลี่ยนสกินให้เป็นหินอ่อนได้ วัสดุจึงสลับกลับไปกลับมาระหว่างดินแดนต่างๆ",
       "childLinks": [
         "4.3.1",
         "4.3.2",
@@ -2208,7 +2225,8 @@
       "title": "Establishing World Physics",
       "titleTH":"กำหนดฟิสิกส์ของโลก",
       "group": "4-Med",
-      "constellationDescription": "Laying down the physics is an act of ontological classification. A physics in a game is simultaneously autonomous in its operations yet tangled in a web of relations outside of its own dimension. Virtual artifacts thus are not divorced from the epistemological frames which classify physical artifacts but perversely acts upon the forces of each other.",
+      "constellationDescription": "Laying down the physics is an act of ontological classification. A physics in a game is simultaneously autonomous in its operations yet tangled in a web of relations outside of its own dimension. Virtual artifacts thus are not divorced from the epistemological frames which classify physical artifacts but perversely act upon the forces of each other.",
+      "constellationDescriptionTH": "การกำหนดฟิสิกส์เป็นการจัดประเภททางภววิทยา ฟิสิกส์ในเกมเป็นทำงานอย่างเป็นอิสระ แต่ในเวลาเดียวกันก็โยงใยไปกับเครือข่ายความสัมพันธ์ที่อยู่นอกมิติของตน ดังนั้นแล้ว วัตถุเสมือนจึงไม่ได้แยกออกจากกรอบทางญาณวิทยาที่จัดประเภทวัตถุทางกายภาพ หากแต่มีผลในทางตรงกันข้ามกับพลังของแต่ละโลก",
       "childLinks": [
         "4.4.1",
         "4.4.2",
@@ -2488,6 +2506,7 @@
       "titleTH":"วัฒนธรรมการเล่น/เกม",
       "group": "5-Dark",
       "constellationDescription": "Cultural practices that permeate gaming experience and trajectory.",
+      "constellationDescriptionTH": "ระเบียบปฏิบัติทางวัฒนธรรมที่แทรกซึมไปสู่ประสบการณ์และทิศทางของการเล่นเกม",
       "childLinks": [
         "5.1",
         "5.2",
@@ -2505,6 +2524,7 @@
       "titleTH":"ความสำคัญของหนังสือ",
       "group": "5-Med",
       "constellationDescription": "Books here are to be equipped for +10 INT. Books often appear not as books proper but rather a designator of qualities to be attributed to those which wield them. Nawin mines these books not for the contents within but for what they infer through their associations with intelligence and ancient wisdom.",
+      "constellationDescriptionTH": "หนังสือในที่นี้มีพลัง +10 INT หนังสือไม่ได้ปรากฏเป็นหนังสือตามความเข้าใจสามัญ หากแต่เป็นตัวกำหนดว่าจะให้คุณลักษณะประการใดกับผู้ใช้ นวินขุดหาหนังสือเหล่านี้ไม่ใช้เพื่อเนื้อหาที่อยู่ในเล่ม แต่เพื่อสิ่งที่หนังสือระบุถึงในความเกี่ยวข้องที่ตนมีกับความเฉลียวฉลาดและปัญญาจากยุคโบราณ",
       "childLinks": ["5.1.1", "5.1.2", "5.1.3"]
     },
     {
@@ -2513,6 +2533,7 @@
       "titleTH":"การอ้างอิง",
       "group": "5-Med",
       "constellationDescription": "Gaming Culture reanimates the perceptions of the exotic and ancient. These references imbue them with the aura of the fantastical and the mystical.",
+      "constellationDescriptionTH": "วัฒนธรรมการเล่นเกมทำให้มุมมองเกี่ยวกับสิ่งจากแดนไกลและความโบราณฟื้นคืนชีพอีกครั้ง การอ้างอิงทำให้มุมมองเหล่านี้มีรัศมีแห่งความวิเศษและลึกลับ แต่ทำไมกันนะ",
       "childLinks": ["5.2.1"]
     },
     {
@@ -2521,6 +2542,7 @@
       "titleTH":"การมีส่วนร่วมของผู้เล่น",
       "group": "5-Med",
       "constellationDescription": "A force of mutual attraction, games act upon the player through the potential of being the writer of history, of which constitutes the very content of the games themselves. From skin customization to manipulation of geographies and grand narratives the player is positioned to engage with History itself.",
+      "constellationDescriptionTH": "ในลักษณะการดึงดูดร่วมกัน เกมส่งผลต่อผู้เล่นผ่านศักยภาพที่จะสวมบทบาทการเป็นผู้เขียนประวัติศาสตร์ ซึ่งในทางกลับกันก็เป็นองค์ประกอบหลักของเนื้อหาเกมเช่นกัน ตั้งแต่การปรับแต่งสกินไปจนถึงการควบคุมภูมิศาสตร์และเรื่องเล่าหลัก ผู้เล่นอยู่ถูกจัดวางให้มีปฏิสัมพันธ์กับประวัติศาสตร์",
       "childLinks": ["5.3.1", "5.3.2", "5.3.3", "5.3.4", "5.3.5"]
     },
     {
@@ -2529,6 +2551,7 @@
       "titleTH":"ท้องถิ่น/โลก",
       "group": "5-Med",
       "constellationDescription": "Game Culture lies in the conjunction between different transnational forces. Nawin’s interest is this colliding of cultural references cross pollinating from specific cultures yet not faithful to them. Localized communities emerge in the international virtual as attempts to locate themselves, to inflate and deflate the globe.",
+      "constellationDescriptionTH": "วัฒนธรรมเกมอยู่ที่จุดตัดระหว่างอำนาจข้ามชาติต่างๆ ความสนใจของนวินคือการปะทะกันระหว่างการอ้างถึงประวัติศาสตร์ต่างๆ ที่แพร่พันธุ์มาจากวัฒนธรรมเฉพาะ แต่ก็ไม่ได้ซื่อตรงกับแหล่งที่มานั้น ชุมชนท้องถิ่นปรากฏขึ้นในโลกเสมือนระดับสากล เป็นความพยายามที่จะหาที่ทางให้ตนเอง ย่อและขยายโลกไปในเวลาเดียวกัน",
       "childLinks": ["5.5.1", "5.5.2", "5.5.3"]
     },
     {
@@ -2537,6 +2560,7 @@
       "titleTH":"นู่นและนี่",
       "group": "5-Med",
       "constellationDescription": "The stuff of which at first glance appears insignificant yet is a linchpin which enables the whole scenario.",
+      "constellationDescriptionTH": "สิ่งที่เมื่อมองเผินๆ ดูไม่สลักสำคัญอะไร แต่ความจริงแล้วเป็นฟันเฟืองที่ขับเคลื่อนให้ฉากทั้งฉากเกิดขึ้นได้",
       "childLinks": ["5.6.1", "5.6.2"]
     },
     {
@@ -2545,6 +2569,7 @@
       "titleTH":"เผยแพร่พระวจนะ",
       "group": "5-Med",
       "constellationDescription": "Christianity finds itself the next apostle in game culture. Game and play culture becomes the locale for the dissemination of religious beliefs. The subject of the player creates and performs in his own image.",
+      "constellationDescriptionTH": "ศาสนาคริสต์ค้นพบพระศาสดาองค์ต่อไปในวัฒนธรรมเกม วัฒนธรรมเกมและวัฒนธรรมการเล่นกลายเป็นพื้นที่ในการเผยแพร่ความเชื่อทางศาสนา องค์ร่างของผู้เล่นสร้างและแสดงพระฉายาของตน",
       "childLinks": ["5.7.1"]
     },
     {
@@ -2553,6 +2578,7 @@
       "titleTH":"กระบวนการทางสังคม",
       "group": "5-Med",
       "constellationDescription": "Game Culture could be framed as a cultural process whereby different sociocultural and political forces inform and are informed by the game, its developers and the communities that inhabit them. Map-making becomes a collective activity as players acquire the ability to create a world of their choosing.",
+      "constellationDescriptionTH": "วัฒนธรรมเกมสามารถมองได้ว่าเป็นกระบวนการทางวัฒนธรรมที่พลังทางสังคมวัฒนธรรมและการเมืองทั้งส่งผลต่อและได้รับผลจากตัวเกม ผู้พัฒนาเกม และชุมชนที่พำนักอยู่ในวัฒนธรรมนี้ การสร้างแผนที่กลายเป็นกิจกรรมร่วมเมื่อผู้เล่นสามารถสรรค์สร้างโลกตามต้องการได้",
       "childLinks": ["5.8.1", "5.8.2", "5.8.3", "5.8.4", "5.8.5"]
     },
     {
@@ -2561,6 +2587,7 @@
       "titleTH":"ความรู้ร่วม, การลงมือทำร่วม",
       "group": "5-Med",
       "constellationDescription": "A feedback loop of knowledge, its production and dissemination. The gaming community carves a space in which knowledge is negotiated outside of the canon of the game which later then gets adopted into the game itself.",
+      "constellationDescriptionTH": "วงจรสะท้อนกลับขององค์ความรู้ การผลิตความรู้ แล้วการเผยแพร่ความรู้ ชุมชนเกมสร้างพื้นที่ต่อรองกับความรู้นอกขนบของเกม ซึ่งภายหลักถูกควบรวมไปเป็นส่วนหนึ่งของตัวเกมเอง",
       "childLinks": ["5.9.1", "5.9.2", "5.9.3", "5.9.4", "5.9.5"]
     },
     {
@@ -2784,6 +2811,7 @@
       "titleTH":"วัตถุและบริบท",
       "group": "6-Dark",
       "constellationDescription": "How objects are necessary enmeshed in networks, in politics, in contexts.",
+      "constellationDescriptionTH": "วัตถุเป็นส่วนหนึ่งในโครงข่าย การเมือง และบริบทโดยหลีกเลี่ยงไม่ได้อย่างไร",
       "childLinks": ["6.1", "6.2", "6.3", "6.4"]
     },
     {
@@ -2792,14 +2820,16 @@
       "titleTH":"ปฏิสัมพันธ์กับวัตถุ",
       "group": "6-Med",
       "constellationDescription": "Nawin relation to objects are based on the practice of collective media files, and second hand objects. Backyard archeologist in which sources are indistinguishable from the physical and the virtual, and trying to make sense of all of them.",
+      "constellationDescriptionTH": "นวินมีความสัมพันธ์กับวัตถุผ่านการสะสมไฟล์สื่อและสิ่งของมือสอง นักโบราณคดีมือสมัครเล่นที่มองไม่เห็นว่าแหล่งที่มาแตกต่างจากโลกกายภาพและโลกเสมือนอย่างไร และพยายามจะทำความเข้าใจสิ่งทั้งหมดนี้",
       "childLinks": ["6.1.1", "6.1.2", "6.1.3", "6.1.4", "6.1.5"]
     },
     {
       "id": "6.2",
       "title": "Encountering Objects",
-      "titleTH":"พอเจอวัตถุ",
+      "titleTH":"พบเจอวัตถุ",
       "group": "6-Med",
       "constellationDescription": "The contexts in which Nawin stumbles upon objects. IN which the very act of stumbling upon them entails their journey in the world. From where, through whom , to him",
+      "constellationDescriptionTH": "บริบทการบังเอิญเจอวัตถุต่างๆ ของนวิน การพบเจอเหล่านี้นำไปสู่คำถามว่าวัตถุเดินทางมาถึงที่ที่เจอได้อย่างไร มาจากไหน ผ่านมือใคร และมีราคาอะไรที่ต้องจ่าย",
       "childLinks": ["Object 3", "Object 21", "Object 28"]
     },
     {
@@ -2808,6 +2838,7 @@
       "titleTH":"บริบทการผลิต",
       "group": "6-Med",
       "constellationDescription": "How objects shift their meanings and significance through each iteration of production. The object both lose and regains their new meaning. Shifting states and being mass produced, another layer of history possesses them. Collectively all these forces which are the cause for their production ultimately transform the trajectory of the object and meaning.",
+      "constellationDescriptionTH": "วิธีที่วัตถุเปลี่ยนความหมายและความสำคัญผ่านการผลิตซ้ำในแต่ละครั้ง วัตถุเสียความหมายเดิมและได้รับความหมายใหม่ในเวลาเดียวกัน จากการแปรสภาพและการผลิตเป็นจำนวนมาก มิติของประวัติศาสตร์อีกหนึ่งมิติเข้าแทรกซึมในวัตถุ อำนาจเหล่านี้ซึ่งส่งผลให้วัตถุถูกผลิตขึ้น เมื่อรวมกันแล้วย่อมแปรเปลี่ยนทิศทางของวัตถุและความหมายที่มี",
       "childLinks": ["6.3.1", "6.3.2", "6.3.3", "6.3.4", "6.3.5", "6.3.6"]
     },
     {
@@ -2816,6 +2847,7 @@
       "titleTH":"การไหลเวียนของวัตถุ",
       "group": "6-Med",
       "constellationDescription": "The journey in which eac artifact takes to end up in this exhibition, From trash and throwaways in a developed world to a warehouse of desires in a developing country. Directed through market forces.",
+      "constellationDescriptionTH": "การเดินทางของวัตถุแต่ละชิ้นก่อนจะมาอยู่ในนิทรรศการนี้ จากขยะและของที่ถูกทิ้งในประเทศ ‘ที่พัฒนาแล้ว’ มาสู่โกดังที่น่าถวิลหาในประเทศ ‘ที่กำลังพัฒนา’ ผ่านทิศทางที่กำหนดโดยอำนาจตลาด ซึ่งแยกไม่ออกจากความปรารถนาที่เรามองว่าเป็นเรื่องส่วนตัว",
       "childLinks": ["6.4.1", "6.4.2", "6.4.3", "6.4.4", "1.2.3"]
     },
     {
@@ -2967,6 +2999,7 @@
       "titleTH":"ไม่จัดหมวดหมู่",
       "group": "7-Dark",
       "constellationDescription": "Traces of data analysis",
+      "constellationDescriptionTH": "ร่องรอยของการวิเคราะห์ข้อมูล อาจจะบอกอะไรได้มากกว่าธีมอื่นๆ",
       "childLinks": [
         "7.1",
         "7.2",

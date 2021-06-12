@@ -341,7 +341,18 @@ const IndexPage = () => {
             letterSpacing: '0.5px',
             marginTop: '30px'
           }}>
-            {dataNode.constellationDescription}
+            "{dataNode.constellationDescription}"
+          </p>}
+          {dataNode.constellationDescriptionTH && <p style={{
+            fontSize: '18px',
+            color: 'white',
+            textAlign: 'right',
+            fontFamily: fontMonoFamily,
+            lineHeight: '35px',
+            letterSpacing: '0.5px',
+            marginTop: '30px'
+          }}>
+            "{dataNode.constellationDescriptionTH}"
           </p>}
           <div style={{ marginTop: '30px' }}>
             {dataNode.childLinks && dataNode.childLinks.map(link => {
