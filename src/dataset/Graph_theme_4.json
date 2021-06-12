@@ -1204,6 +1204,7 @@
       "title": "[1] Historical Inquiry",
       "titleTH":"การไถ่ถามประวัติศาสตร์",
       "constellationDescription": "An overview of Nawin’s attempts at understanding what history encompasses, how history could be approached, and how one might recognise 'the historical' as embodied in objects.",
+      "constellationDescriptionTH": "ภาพรวมความพยายามของนวินในการทำเข้าใจประวัติศาสตร์ว่าประกอบไปด้วยอะไรบ้าง สามารถเข้าถึงได้อย่างไร และเราสามารถตระหนักถึง ‘ความเป็นประวัติศาสตร์’ ที่สถิตย์อยู่ในวัตถุได้อย่างไร",
       "group": "1-Dark",
       "childLinks": ["1.1", "1.2", "1.3", "1.4", "1.5"]
     },
