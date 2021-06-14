@@ -365,6 +365,7 @@ const IndexPage = () => {
                     >
                       #{childNode.title}
                     </TitleTextLink>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!childNode.contentEN && childNode.contentEN}</p>
                     <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!childNode.content && childNode.content}</p>
                     {
                       childNode.image && (
