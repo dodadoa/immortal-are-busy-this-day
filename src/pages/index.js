@@ -365,8 +365,8 @@ const IndexPage = () => {
                     >
                       #{childNode.title}
                     </TitleTextLink>
-                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!childNode.contentEN && childNode.contentEN}</p>
-                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>{!!childNode.content && childNode.content}</p>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>"{!!childNode.contentEN && childNode.contentEN}"</p>
+                    <p style={{ textAlign: 'right', color: 'white', fontFamily: fontThaiFamily, fontSize: 16 }}>"{!!childNode.content && childNode.content}"</p>
                     {
                       childNode.image && (
                       <div style={{ margin: '20px' }}>
@@ -388,7 +388,16 @@ const IndexPage = () => {
             textAlign: 'right',
             letterSpacing: '0.5px'
           }}>
-            {dataNode.content}
+            "{dataNode.contentEN}"
+          </p>
+          <p style={{
+            fontFamily: fontThaiFamily,
+            fontSize: '18px',
+            color: 'white',
+            textAlign: 'right',
+            letterSpacing: '0.5px'
+          }}>
+            "{dataNode.content}"
           </p>
         </div>
       </Drawer>
